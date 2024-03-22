@@ -3,6 +3,7 @@
 1	I	O	-	-
 2	like	O	-	-
 3	argentinian	O	-	-
-
-# sent_id = transformed-0002
-# text = where: B-PER
+4	,	O	-	-
+5	I	O	-	-
+6	to	O	-	-
+7	anothers	O	-	-
