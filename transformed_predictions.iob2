@@ -1,0 +1,8 @@
+# sent_id = transformed-0001
+# text = where can I get morcillas in tampa bay
+1	I	O	-	-
+2	like	O	-	-
+3	argentinian	O	-	-
+
+# sent_id = transformed-0002
+# text = where: B-PER
