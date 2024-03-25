@@ -1,0 +1,1 @@
+##### Download the 50-dimensional Wikipedia embeddings from https://nlp.stanford.edu/projects/glove/ and put them here, filename should be glove.6B.50d.txt
