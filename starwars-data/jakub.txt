@@ -1,4 +1,3 @@
-Blind Alley techniques were a form of hand-to-hand combat used on Nar Kanji.
 Blind B-LOC
 Alley I-LOC
 techniques O
@@ -14,7 +13,6 @@ Nar B-LOC
 Kanji I-LOC
 . O
 
-Elements of that system were integrated into the hybrid martial arts practiced by Supreme Leader Snoke's Elite Praetorian Guard.
 Elements O
 of O
 that O
@@ -37,7 +35,6 @@ Praetorian I-ORG
 Guard I-ORG
 . O
 
-The Blinder 4B2 jamming array was a type of sensor jammer manufactured by Irilliad and was commonly installed on the RZ-2 A-wing interceptor.
 The B-MISC
 Blinder I-MISC
 4B2 I-MISC
@@ -63,7 +60,6 @@ A-wing I-MISC
 interceptor O
 . O
 
-It worked in conjunction with an advanced CloakEye sensor jammer that broadcast data bursts to disrupt enemy sensors and impede detection.
 It O
 worked O
 in O
@@ -87,7 +83,6 @@ impede O
 detection O
 . O
 
-Blissex-head bit-drivers were a type of Pilex bit driver which could be used for scavenging.
 Blissex-head O
 bit-drivers O
 were O
@@ -105,7 +100,6 @@ for O
 scavenging O
 . O
 
-Around thirty years after the Battle of Endor, the scavenger Rey carried a set of Pilex bit drivers including both Blissex-head and Wessex-head bit-drivers in her satchel of tools while she lived on the planet Jakku.
 Around O
 thirty O
 years O
@@ -145,7 +139,6 @@ planet O
 Jakku B-LOC
 . O
 
-She at some point wrote about these and her other tools in her survival guide.
 She O
 at O
 some O
@@ -163,7 +156,6 @@ survival O
 guide O
 . O
 
-After she fled Jakku with the former First Order stormtrooper Finn and the BB unit BB-8 on the YT-1300 light freighter known as the Millennium Falcon, Rey discovered that the starship's motivator needed repair.
 After O
 she O
 fled O
@@ -202,7 +194,6 @@ needed O
 repair O
 . O
 
-While fixing it she had Finn pass her a Pilex driver.
 While O
 fixing O
 it O
@@ -216,7 +207,6 @@ Pilex O
 driver O
 . O
 
-Bunker Buster shells were missiles used by both Armored Assault Tanks of the Separatist Droid Army and TX-130 Saber-class fighter tanks of the Grand Army of the Republic.
 Bunker B-MISC
 Buster I-MISC
 shells O
@@ -247,7 +237,6 @@ the I-ORG
 Republic I-ORG
 . O
 
-At one point, an AAT used these shells against phase II clone troopers.
 At O
 one O
 point O
@@ -264,7 +253,6 @@ clone O
 troopers O
 . O
 
-The Changeling Mark 71NB was a type of racing starfighter.
 The O
 Changeling B-MISC
 Mark I-MISC
@@ -277,7 +265,6 @@ racing O
 starfighter O
 . O
 
-Ace Squadron pilot Bo Keevil flew one, the Yellow Ace, during the New Republic Era.
 Ace B-ORG
 Squadron I-ORG
 pilot O
@@ -297,7 +284,6 @@ Republic I-MISC
 Era I-MISC
 . O
 
-The community junk yard of Mos Eisley, Tatooine, was situated directly in front of the entrance to Chalmun's Cantina.
 The O
 community O
 junk O
@@ -322,7 +308,6 @@ Chalmun B-LOC
 Cantina I-LOC
 . O
 
-The Crosshairs 98j precision holo-targeter was a targeting system manufactured by Pallas that was used in the RZ-2 A-wing interceptor.
 The O
 Crosshairs B-MISC
 98j I-MISC
@@ -345,7 +330,6 @@ A-wing I-MISC
 interceptor O
 . O
 
-The Defender deflector shield projector was a device produced by Chepat.
 The O
 Defender B-MISC
 deflector O
@@ -359,7 +343,6 @@ by O
 Chepat B-ORG
 . O
 
-Combined with a deflector shield generator, it was an essential component in a BTL-A4 Y-wing assault starfighter/bomber and T-65B X-wing starfighter's shielding system.
 Combined O
 with O
 a O
@@ -389,7 +372,6 @@ shielding O
 system O
 . O
 
-The Firecaller light flame projector was a type of flamethrower manufactured by Merr-Sonn Munitions, Inc. that was banned throughout most of civilized space.
 The O
 Firecaller B-MISC
 light O
@@ -416,7 +398,6 @@ civilized O
 space O
 . O
 
-Such weapons had a very limited fuel supply, but the Firecaller relied on accelerite, an unstable starship fuel ingredient that burned hotter and longer than most substances.
 Such O
 weapons O
 had O
@@ -448,7 +429,6 @@ most O
 substances O
 . O
 
-However, this substance was easily acquired around shipyards and fuel depots.
 However O
 , O
 this O
@@ -463,7 +443,6 @@ fuel O
 depots O
 . O
 
-Accelerite enabled the weapon to spray far less fuel than most projectors per burst, as the flames quickly ignited surrounding materials.
 Accelerite B-MISC
 enabled O
 the O
@@ -488,7 +467,6 @@ surrounding O
 materials O
 . O
 
-Favored by the vilest of beings, the Firecaller generated intense heat that caused terrible pain and horrible disfigurements for those who survive.
 Favored O
 by O
 the O
@@ -514,7 +492,6 @@ who O
 survive O
 . O
 
-The Gundark scav-suit was a creation by an Arkanian engineer, made to support salvagers in assessing lost technology.
 The O
 Gundark B-MISC
 scav-suit O
@@ -536,7 +513,6 @@ lost O
 technology O
 . O
 
-The Huttsplitter blaster rifle was the hand-crafted personal weapon of Tasu Leech, leader of the criminal gang Kanjiklub.
 The O
 Huttsplitter B-MISC
 blaster O
@@ -558,7 +534,6 @@ gang O
 Kanjiklub B-ORG
 . O
 
-Leech brought it with him while trying to reclaim money owed to him by Han Solo, owner of the Baleen-class heavy freighter Eravana.
 Leech B-PER
 brought O
 it O
@@ -585,7 +560,6 @@ freighter O
 Eravana B-MISC
 . O
 
-He then used the weapon to defend himself from rathtars that attacked him and his men onboard Solo's vessel.
 He O
 then O
 used O
@@ -608,7 +582,6 @@ Solo B-PER
 vessel O
 . O
 
-A Jakku Night Special blaster rifle was a type of blaster rifle owned by the arms dealer Sarco Plank, who operated on the planet Jakku.
 A O
 Jakku B-MISC
 Night I-MISC
@@ -637,7 +610,6 @@ planet O
 Jakku B-LOC
 . O
 
-The Multi Imager dedicated energy receptor was a device produced by Melihat.
 The O
 Multi B-MISC
 Imager I-MISC
@@ -652,7 +624,6 @@ by O
 Melihat B-ORG
 . O
 
-It was used along with a Fabritech ANs-5d lock track full-spectrum transceiver and a Tana Ire electro-photo receptor to comprise a T-65B X-wing starfighters sensor system.
 It O
 was O
 used O
@@ -681,7 +652,6 @@ sensor O
 system O
 . O
 
-Reb Squadron was a Resistance squadron of V-4X-D ski speeders that fought against the First Order during the Battle of Crait.
 Reb B-ORG
 Squadron I-ORG
 was O
@@ -705,7 +675,6 @@ of I-MISC
 Crait I-MISC
 . O
 
-Confronted by the armed forces of the First Order after taking shelter in an abandoned Rebel Alliance outpost, the Resistance attempted to delay the attack by destroying the enemy's superlaser siege cannon.
 Confronted O
 by O
 the O
@@ -742,7 +711,6 @@ siege O
 cannon O
 . O
 
-Captain Poe Dameron led the makeshift sortie against the besiegers, but his squadron ultimately failed to destroy the cannon.
 Captain O
 Poe B-PER
 Dameron I-PER
@@ -765,7 +733,6 @@ the O
 cannon O
 . O
 
-Despite the loss of Nodin Chavdri and Pammich Nerro Goode, the rest of the squadron was evacuated on the Millennium Falcon with help from the Jedi Rey.
 Despite O
 the O
 loss O
@@ -796,7 +763,6 @@ Jedi B-PER
 Rey I-PER
 . O
 
-The Renegade heavy blaster pistol was a type of heavy blaster pistol manufactured by SoroSuub Corporation.
 The O
 Renegade B-MISC
 heavy O
@@ -815,7 +781,6 @@ SoroSuub B-ORG
 Corporation I-ORG
 . O
 
-It occupied a niche similar in design to that of the T-6 Thunderer of BlasTech Industries and the C-10 Dragoneye Reaper of Czerka Arms, and it featured the highest energy output of any SoroSuub blaster pistol model.
 It O
 occupied O
 a O
@@ -856,7 +821,6 @@ pistol O
 model O
 . O
 
-More lightweight and better priced than its competition, the Renegade dominated the super-heavy blaster pistol market, however, most enthusiasts eschewed the mass-market weapon due to its poor beam cohesion and awkwardly angeled grip, and preferred pricier but higher-quality options.
 More O
 lightweight O
 and O
@@ -902,7 +866,6 @@ higher-quality O
 options O
 . O
 
-The Screamer sensor jammer was a sensor jammer manufactured by Bertriak and was commonly installed on the T-65 X-wing starfighter.
 The O
 Screamer B-MISC
 sensor O
@@ -925,7 +888,6 @@ X-wing I-MISC
 starfighter O
 . O
 
-It created noise on the electromagnetic spectrum that could confuse the tracking systems of TIE Fighters or seeker missiles.
 It O
 created O
 noise O
@@ -947,7 +909,6 @@ seeker O
 missiles O
 . O
 
-The snubble special pistol, also known as just the snubble, was a black-colored model of double-snub nosed blaster pistol.
 The O
 snubble O
 special O
@@ -971,7 +932,6 @@ blaster O
 pistol O
 . O
 
-The blaster had limited ammunition but packed a powerful punch and included a stun setting.
 The O
 blaster O
 had O
@@ -989,7 +949,6 @@ stun O
 setting O
 . O
 
-The Grindalid Moloch, a lieutenant of the White Worms gang, favored using a snubble that was equipped with a scope with built in luma-compensators.
 The O
 Grindalid B-PER
 Moloch I-PER
@@ -1018,7 +977,6 @@ in O
 luma-compensators O
 . O
 
-He also disabled the stun setting on his pistol to ensure he always used lethal force.
 He O
 also O
 disabled O
@@ -1037,7 +995,6 @@ lethal O
 force O
 . O
 
-The Subduer-9 Riot Blaster was a type of long-ranged scatterblaster manufactured by SoroSuub Corporation, and was one of the most common law enforcement scatterblasters in the galaxy.
 The B-MISC
 Subduer-9 I-MISC
 Riot I-MISC
@@ -1068,7 +1025,6 @@ the O
 galaxy O
 . O
 
-Although it was heavier at six kilograms and not as manageable as standard blaster rifles, riot blasters could subdue large groups of civilians.
 Although O
 it O
 was O
@@ -1095,7 +1051,6 @@ of O
 civilians O
 . O
 
-The Subduer-9 could emit a wide cone of stun blasts, which rendered targets unconscious and made it easy to place them in binders and awaken in prison cells hours later.
 The O
 Subduer-9 B-MISC
 could O
@@ -1129,7 +1084,6 @@ hours O
 later O
 . O
 
-The cost of the Subduer-9 was 1,250 credits.
 The O
 cost O
 of O
@@ -1140,7 +1094,6 @@ was O
 credits O
 . O
 
-An award colloquially known as the belt was presented to champions in Naval Corps Boxing , a combat sport practiced by Imperial naval cadets.
 An O
 award O
 colloquially O
@@ -1167,7 +1120,6 @@ naval O
 cadets O
 . O
 
-The Wasp blaster rifle was the name Razoo Qin-Fee gave to his customized blaster rifle.
 The O
 Wasp B-MISC
 blaster O
@@ -1185,7 +1137,6 @@ blaster O
 rifle O
 . O
 
-It was black with an external accelerator barrel cage crudely painted in yellow and used a pump action gas compressor to reload.
 It O
 was O
 black O
@@ -1210,7 +1161,6 @@ to O
 reload O
 . O
 
-Wessex-head bit-drivers were a type of Pilex bit driver which could be used for scavenging.
 Wessex-head O
 bit-drivers O
 were O
@@ -1228,7 +1178,6 @@ for O
 scavenging O
 . O
 
-Many years later, Triple-Zero discovered his memories, and was disgusted by the circumstances in which he was created.
 Many O
 years O
 later O
@@ -1250,7 +1199,6 @@ was O
 created O
 . O
 
-Shortly afterward, Laxo was killed in an Imperial raid brought down by Spanjaf.
 Shortly O
 afterward O
 , O
