@@ -33,20 +33,17 @@ def save_predictions_IOB2(sentences, pred_labels):
             for j in range(len(sentences[i])):
                 f.write(f"{j+1}\t{sentences[i][j]}\t{pred_labels[i][j]}\t-\t-\n")
 
-#TRAIN = 'conll2003-ner/train.txt'
-#VALIDATE = 'conll2003-ner/valid.txt'
-TRAIN = 'baseline-data/en_ewt-ud-train_CONV.iob2'
-VALIDATE = 'baseline-data/en_ewt-ud-dev_CONV.iob2'
-EMBEDDINGS = 'embeddings/glove.6B.50d.txt'
+TRAIN = 'conll2003-ner/train.txt'
+VALIDATE = 'conll2003-ner/valid.txt'
+#TRAIN = 'baseline-data/en_ewt-ud-train_CONV.iob2'
+#VALIDATE = 'baseline-data/en_ewt-ud-dev_CONV.iob2'
+EMBEDDINGS = 'embeddings/glove.6B.100d.txt'
 
-#Change here to use a different model
-from models.BiRNN_CNN import train, preprocessing
+from models.BiLSTM_CNN import preprocessing
+from models.BiLSTM_CNN_2 import train
 
 val_sentences, val_labels = preprocessing.get_lines(VALIDATE)
-predictions = train.train_model(TRAIN, VALIDATE, EMBEDDINGS)
-
-# Assuming `predictions` is the output from model.predict
-predicted_indices = np.argmax(predictions, axis=-1)  # Shape: (3248, 50)
+predictions = train.train_model(TRAIN, VALIDATE, EMBEDDINGS, 30)
 
 idx2label = {1:'B-ORG',
             2:'O',
@@ -63,7 +60,8 @@ idx2label = {1:'B-ORG',
 def indices_to_labels(indices, mapping):
     return [[mapping[idx] for idx in sequence] for sequence in indices]
 
-predicted_labels = indices_to_labels(predicted_indices, idx2label)
+predicted_labels = indices_to_labels(predictions[0], idx2label)
+
 val_labels, predicted_labels = adjust_predicted_padding(val_labels, predicted_labels)
 
 def debug_compare_list_lengths(list1, list2):

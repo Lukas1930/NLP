@@ -6,9 +6,8 @@ import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-def train_model(train_data_path, validation_data_path, emeddings_path):
+def train_model(train_data_path, validation_data_path, emeddings_path, epochs=10):
     lr = 0.0105
-    epochs = 10
     batch_size = 64
     droprate = 0.68
 
