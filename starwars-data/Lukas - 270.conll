@@ -1,0 +1,7706 @@
+# sent_id = 0
+# text = A sealer was a tool Rey used to fix the Millennium Falcon when the motivator went bad.
+# status = {"0":"accepted"}
+# time (ms) = 31079
+A	O
+sealer	O
+was	O
+a	O
+tool	O
+Rey	B-PER
+used	O
+to	O
+fix	O
+the	O
+Millennium	B-MISC
+Falcon	I-MISC
+when	O
+the	O
+motivator	O
+went	O
+bad	O
+.	O
+
+# sent_id = 1
+# text = It was hard for Finn to locate it, but with some aid from BB-8, he was able to find it and give it to Rey.
+# status = {"0":"accepted"}
+# time (ms) = 17966
+It	O
+was	O
+hard	O
+for	O
+Finn	B-PER
+to	O
+locate	O
+it	O
+,	O
+but	O
+with	O
+some	O
+aid	O
+from	O
+BB-8	B-MISC
+,	O
+he	O
+was	O
+able	O
+to	O
+find	O
+it	O
+and	O
+give	O
+it	O
+to	O
+Rey	B-PER
+.	O
+
+# sent_id = 2
+# text = A seallia sandwich was a toasted sandwich dish which could be served for breakfast.
+# status = {"0":"accepted"}
+# time (ms) = 59885
+A	O
+seallia	B-MISC
+sandwich	I-MISC
+was	O
+a	O
+toasted	O
+sandwich	O
+dish	O
+which	O
+could	O
+be	O
+served	O
+for	O
+breakfast	O
+.	O
+
+# sent_id = 3
+# text = The Devaronian chef Sama Macoy served a double-toasted seallia sandwich with a heavy and sweet blood syrup as her entry into the first round of a cooking competition meant to determine the next sous-chef of the castle of the pirate Maz Kanata on the planet Takodana.
+# status = {"0":"accepted"}
+# time (ms) = 47211
+The	O
+Devaronian	O
+chef	O
+Sama	B-PER
+Macoy	I-PER
+served	O
+a	O
+double-toasted	O
+seallia	B-MISC
+sandwich	I-MISC
+with	O
+a	O
+heavy	O
+and	O
+sweet	O
+blood	O
+syrup	O
+as	O
+her	O
+entry	O
+into	O
+the	O
+first	O
+round	O
+of	O
+a	O
+cooking	O
+competition	O
+meant	O
+to	O
+determine	O
+the	O
+next	O
+sous-chef	O
+of	O
+the	O
+castle	O
+of	O
+the	O
+pirate	O
+Maz	B-PER
+Kanata	I-PER
+on	O
+the	O
+planet	O
+Takodana	B-LOC
+.	O
+
+# sent_id = 4
+# text = The Artiodac Strono Tuggs who worked as head chef at the castle considered the sandwich his favourite entry in the first round, which had tasked the contestants with creating a breakfast platter.
+# status = {"0":"accepted"}
+# time (ms) = 3562831
+The	O
+Artiodac	O
+Strono	B-PER
+Tuggs	I-PER
+who	O
+worked	O
+as	O
+head	O
+chef	O
+at	O
+the	O
+castle	B-LOC
+considered	O
+the	O
+sandwich	O
+his	O
+favourite	O
+entry	O
+in	O
+the	O
+first	O
+round	O
+,	O
+which	O
+had	O
+tasked	O
+the	O
+contestants	O
+with	O
+creating	O
+a	O
+breakfast	O
+platter	O
+.	O
+
+# sent_id = 5
+# text = Sean was a human male Jedi Padawan who was active during the High Republic Era.
+# status = {"0":"accepted"}
+# time (ms) = 11885
+Sean	B-PER
+was	O
+a	O
+human	O
+male	O
+Jedi	O
+Padawan	O
+who	O
+was	O
+active	O
+during	O
+the	O
+High	O
+Republic	O
+Era	O
+.	O
+
+# sent_id = 6
+# text = Sean was brought to the Jedi Temple on Coruscant as a child.
+# status = {"0":"accepted"}
+# time (ms) = 61650
+Sean	B-PER
+was	O
+brought	O
+to	O
+the	O
+Jedi	B-LOC
+Temple	I-LOC
+on	O
+Coruscant	B-LOC
+as	O
+a	O
+child	O
+.	O
+
+# sent_id = 7
+# text = He and many other younglings were trained by Jedi Master Oslord.
+# status = {"0":"accepted"}
+# time (ms) = 20170
+He	O
+and	O
+many	O
+other	O
+younglings	O
+were	O
+trained	O
+by	O
+Jedi	B-PER
+Master	I-PER
+Oslord	I-PER
+.	O
+
+# sent_id = 8
+# text = There he began to train to be a Jedi, but his abilities in The Force always lacked behind his peers.
+# status = {"0":"accepted"}
+# time (ms) = 14742
+There	O
+he	O
+began	O
+to	O
+train	O
+to	O
+be	O
+a	O
+Jedi	O
+,	O
+but	O
+his	O
+abilities	O
+in	O
+The	O
+Force	O
+always	O
+lacked	O
+behind	O
+his	O
+peers	O
+.	O
+
+# sent_id = 9
+# text = In 85 BBY, at age fourteen, in what was seen as a somewhat controversial move in the Jedi Order, famed and talented Jedi Master Mostema took him on as a Padawan learner.
+# status = {"0":"accepted"}
+# time (ms) = 31592
+In	O
+85	O
+BBY	O
+,	O
+at	O
+age	O
+fourteen	O
+,	O
+in	O
+what	O
+was	O
+seen	O
+as	O
+a	O
+somewhat	O
+controversial	O
+move	O
+in	O
+the	O
+Jedi	B-ORG
+Order	I-ORG
+,	O
+famed	O
+and	O
+talented	O
+Jedi	B-PER
+Master	I-PER
+Mostema	I-PER
+took	O
+him	O
+on	O
+as	O
+a	O
+Padawan	O
+learner	O
+.	O
+
+# sent_id = 10
+# text = To justify this decision, she claimed she could best guide the Padawan's growth.
+# status = {"0":"accepted"}
+# time (ms) = 9577
+To	O
+justify	O
+this	O
+decision	O
+,	O
+she	O
+claimed	O
+she	O
+could	O
+best	O
+guide	O
+the	O
+Padawan	O
+'	O
+s	O
+growth	O
+.	O
+
+# sent_id = 11
+# text = Sean's lightsaber was a Jedi lightsaber constructed by Jedi Padawan Sean during the High Republic Era.
+# status = {"0":"accepted"}
+# time (ms) = 22172
+Sean	B-PER
+'	O
+s	O
+lightsaber	O
+was	O
+a	O
+Jedi	O
+lightsaber	O
+constructed	O
+by	O
+Jedi	O
+Padawan	O
+Sean	B-PER
+during	O
+the	O
+High	O
+Republic	O
+Era	O
+.	O
+
+# sent_id = 12
+# text = The search for Ezra was a voyage into the Unknown Regions undertaken by the Mandalorian Spectre Sabine Wren and former Jedi Padawan Ahsoka Tano to find Ezra Bridger, a Padawan and friend of theirs.
+# status = {"0":"accepted"}
+# time (ms) = 108509
+The	O
+search	O
+for	O
+Ezra	B-PER
+was	O
+a	O
+voyage	O
+into	O
+the	O
+Unknown	B-LOC
+Regions	I-LOC
+undertaken	O
+by	O
+the	O
+Mandalorian	O
+Spectre	O
+Sabine	B-PER
+Wren	I-PER
+and	O
+former	O
+Jedi	O
+Padawan	O
+Ahsoka	B-PER
+Tano	I-PER
+to	O
+find	O
+Ezra	B-PER
+Bridger	I-PER
+,	O
+a	O
+Padawan	O
+and	O
+friend	O
+of	O
+theirs	O
+.	O
+
+# sent_id = 13
+# text = Years earlier during the Liberation of Lothal, Bridger had summoned a pod of purrgil to defeat the Seventh Fleet, and, after those starships were dealt with, the animals attacked the Star Destroyer Chimaera, pulling it, Grand Admiral Thrawn, and Bridger away into hyperspace to deep space.
+# status = {"0":"accepted"}
+# time (ms) = 58296
+Years	O
+earlier	O
+during	O
+the	O
+Liberation	O
+of	O
+Lothal	B-LOC
+,	O
+Bridger	B-PER
+had	O
+summoned	O
+a	O
+pod	O
+of	O
+purrgil	O
+to	O
+defeat	O
+the	O
+Seventh	O
+Fleet	O
+,	O
+and	O
+,	O
+after	O
+those	O
+starships	O
+were	O
+dealt	O
+with	O
+,	O
+the	O
+animals	O
+attacked	O
+the	O
+Star	B-MISC
+Destroyer	I-MISC
+Chimaera	I-MISC
+,	O
+pulling	O
+it	O
+,	O
+Grand	B-PER
+Admiral	I-PER
+Thrawn	I-PER
+,	O
+and	O
+Bridger	B-PER
+away	O
+into	O
+hyperspace	O
+to	O
+deep	O
+space	O
+.	O
+
+# sent_id = 14
+# text = In 3 ABY, the Freemakers, a family of scavengers embarked on a quest to search for the legendary Kyber Saber, a lightsaber forged completely from Kyber crystals.
+# status = {"0":"accepted"}
+# time (ms) = 20213
+In	O
+3	O
+ABY	O
+,	O
+the	O
+Freemakers	O
+,	O
+a	O
+family	O
+of	O
+scavengers	O
+embarked	O
+on	O
+a	O
+quest	O
+to	O
+search	O
+for	O
+the	O
+legendary	O
+Kyber	O
+Saber	O
+,	O
+a	O
+lightsaber	O
+forged	O
+completely	O
+from	O
+Kyber	O
+crystals	O
+.	O
+
+# sent_id = 15
+# text = The Freemakers were egged on and assisted by Naare, a secret Sith agent of Emperor Palpatine, who wanted to exploit the powers of the Kyber Saber for himself.
+# status = {"0":"accepted"}
+# time (ms) = 31304
+The	O
+Freemakers	O
+were	O
+egged	O
+on	O
+and	O
+assisted	O
+by	O
+Naare	B-PER
+,	O
+a	O
+secret	O
+Sith	O
+agent	O
+of	O
+Emperor	B-PER
+Palpatine	I-PER
+,	O
+who	O
+wanted	O
+to	O
+exploit	O
+the	O
+powers	O
+of	O
+the	O
+Kyber	O
+Saber	O
+for	O
+himself	O
+.	O
+
+# sent_id = 16
+# text = After the Freemakers learnt of Naare's true identity, the Freemakers at the urging of the youngest member Rowan Freemaker took part in a race against Naare and the Hutt crime lord Graballa to find the pieces of the Kyber Saber.
+# status = {"0":"accepted"}
+# time (ms) = 51836
+After	O
+the	O
+Freemakers	B-ORG
+learnt	O
+of	O
+Naare	B-PER
+'	O
+s	O
+true	O
+identity	O
+,	O
+the	O
+Freemakers	B-ORG
+at	O
+the	O
+urging	O
+of	O
+the	O
+youngest	O
+member	O
+Rowan	B-PER
+Freemaker	O
+took	O
+part	O
+in	O
+a	O
+race	O
+against	O
+Naare	B-PER
+and	O
+the	O
+Hutt	O
+crime	O
+lord	O
+Graballa	B-PER
+to	O
+find	O
+the	O
+pieces	O
+of	O
+the	O
+Kyber	O
+Saber	O
+.	O
+
+# sent_id = 17
+# text = Though Naare managed to reforge the Kyber Saber, the Freemakers managed to steal it from her following a skirmish on Coruscant.
+# status = {"0":"accepted"}
+# time (ms) = 13637
+Though	O
+Naare	B-PER
+managed	O
+to	O
+reforge	O
+the	O
+Kyber	O
+Saber	O
+,	O
+the	O
+Freemakers	B-ORG
+managed	O
+to	O
+steal	O
+it	O
+from	O
+her	O
+following	O
+a	O
+skirmish	O
+on	O
+Coruscant	B-LOC
+.	O
+
+# sent_id = 18
+# text = After Rowan destroyed the Kyber Saber, the Freemakers joined the Rebel Alliance.
+# status = {"0":"accepted"}
+# time (ms) = 14690
+After	O
+Rowan	B-PER
+destroyed	O
+the	O
+Kyber	O
+Saber	O
+,	O
+the	O
+Freemakers	B-ORG
+joined	O
+the	O
+Rebel	B-ORG
+Alliance	I-ORG
+.	O
+
+# sent_id = 19
+# text = A search for a Tusken totem was undertaken on the planet Tatooine.
+# status = {"0":"accepted"}
+# time (ms) = 10103
+A	O
+search	O
+for	O
+a	O
+Tusken	O
+totem	O
+was	O
+undertaken	O
+on	O
+the	O
+planet	O
+Tatooine	B-LOC
+.	O
+
+# sent_id = 20
+# text = The search for Yiprukk was a search by a mother looking for her Force-sensitive son Yiprukk during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 19407
+The	O
+search	O
+for	O
+Yiprukk	B-PER
+was	O
+a	O
+search	O
+by	O
+a	O
+mother	O
+looking	O
+for	O
+her	O
+Force-sensitive	O
+son	O
+Yiprukk	B-PER
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 21
+# text = Seastone was a green substance.
+# status = {"0":"accepted"}
+# time (ms) = 3314
+Seastone	O
+was	O
+a	O
+green	O
+substance	O
+.	O
+
+# sent_id = 22
+# text = The carved grip of Jedi Master Avar Kriss' lightsaber was inlaid with it.
+# status = {"0":"accepted"}
+# time (ms) = 93797
+The	O
+carved	O
+grip	O
+of	O
+Jedi	B-PER
+Master	I-PER
+Avar	I-PER
+Kriss	I-PER
+'	O
+lightsaber	O
+was	O
+inlaid	O
+with	O
+it	O
+.	O
+
+# sent_id = 23
+# text = Seatroopers were stormtroopers in the Stormtrooper Corps of the Galactic Empire that specialized in aquatic environments.
+# status = {"0":"accepted"}
+# time (ms) = 29391
+Seatroopers	O
+were	O
+stormtroopers	O
+in	O
+the	O
+Stormtrooper	B-ORG
+Corps	I-ORG
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+that	O
+specialized	O
+in	O
+aquatic	O
+environments	O
+.	O
+
+# sent_id = 24
+# text = They were equipped with various aquatic equipment including scuba backpacks, underwater propulsion jets, and flippers.
+# status = {"0":"accepted"}
+# time (ms) = 690241
+They	O
+were	O
+equipped	O
+with	O
+various	O
+aquatic	O
+equipment	O
+including	O
+scuba	O
+backpacks	O
+,	O
+underwater	O
+propulsion	O
+jets	O
+,	O
+and	O
+flippers	O
+.	O
+
+# sent_id = 25
+# text = Seatroopers saw action on the planet Mon Cala in 18 BBY.
+# status = {"0":"accepted"}
+# time (ms) = 15110
+Seatroopers	O
+saw	O
+action	O
+on	O
+the	O
+planet	O
+Mon	B-LOC
+Cala	I-LOC
+in	O
+18	O
+BBY	O
+.	O
+
+# sent_id = 26
+# text = Other seatroopers were also stationed on the planet Lothal.
+# status = {"0":"accepted"}
+# time (ms) = 12437
+Other	O
+seatroopers	O
+were	O
+also	O
+stationed	O
+on	O
+the	O
+planet	O
+Lothal	B-LOC
+.	O
+
+# sent_id = 27
+# text = Seaweed came from the ocean and could be a type of foodstuff.
+# status = {"0":"accepted"}
+# time (ms) = 10390
+Seaweed	O
+came	O
+from	O
+the	O
+ocean	O
+and	O
+could	O
+be	O
+a	O
+type	O
+of	O
+foodstuff	O
+.	O
+
+# sent_id = 28
+# text = The Lanai served spiced seaweed at the Festival of Return on Ahch-To.
+# status = {"0":"accepted"}
+# time (ms) = 42642
+The	O
+Lanai	O
+served	O
+spiced	O
+seaweed	O
+at	O
+the	O
+Festival	B-MISC
+of	O
+Return	I-MISC
+on	O
+Ahch-To	B-LOC
+.	O
+
+# sent_id = 29
+# text = When Poe Dameron and Finn attended Nifera Shu's birthday party, a variety of seafoods were displayed on beds of multicolored seaweed in keeping with the ocean theme.
+# status = {"0":"accepted"}
+# time (ms) = 124712
+When	O
+Poe	B-PER
+Dameron	I-PER
+and	O
+Finn	B-PER
+attended	O
+Nifera	B-PER
+Shu	I-PER
+'	O
+s	O
+birthday	O
+party	O
+,	O
+a	O
+variety	O
+of	O
+seafoods	O
+were	O
+displayed	O
+on	O
+beds	O
+of	O
+multicolored	O
+seaweed	O
+in	O
+keeping	O
+with	O
+the	O
+ocean	O
+theme	O
+.	O
+
+# sent_id = 30
+# text = Seaweed clung to Luke Skywalker's T-65B X-wing starfighter when he raised it from the waters of Ahch-To after its years of submersion.
+# status = {"0":"accepted"}
+# time (ms) = 31695
+Seaweed	O
+clung	O
+to	O
+Luke	B-PER
+Skywalker	I-PER
+'	O
+s	O
+T-65B	B-MISC
+X-wing	I-MISC
+starfighter	O
+when	O
+he	O
+raised	O
+it	O
+from	O
+the	O
+waters	O
+of	O
+Ahch-To	B-LOC
+after	O
+its	O
+years	O
+of	O
+submersion	O
+.	O
+
+# sent_id = 31
+# text = Seb Astro is a human male Bespin Wing Guard at Cloud City working under Lando Calrissian as his top guard.
+# status = {"0":"accepted"}
+# time (ms) = 34822
+Seb	B-PER
+Astro	I-PER
+is	O
+a	O
+human	O
+male	O
+Bespin	O
+Wing	O
+Guard	O
+at	O
+Cloud	B-LOC
+City	I-LOC
+working	O
+under	O
+Lando	B-PER
+Calrissian	I-PER
+as	O
+his	O
+top	O
+guard	O
+.	O
+
+# sent_id = 32
+# text = Sebla Sarobia was a human female who attended the Aki-Aki Festival of the Ancestors in the Forbidden Valley of the planet Pasaana in 35 ABY.
+# status = {"0":"accepted"}
+# time (ms) = 146789
+Sebla	B-PER
+Sarobia	I-PER
+was	O
+a	O
+human	O
+female	O
+who	O
+attended	O
+the	O
+Aki-Aki	B-MISC
+Festival	I-MISC
+of	O
+the	O
+Ancestors	O
+in	O
+the	O
+Forbidden	B-LOC
+Valley	I-LOC
+of	O
+the	O
+planet	B-LOC
+Pasaana	I-LOC
+in	O
+35	O
+ABY	O
+.	O
+
+# sent_id = 33
+# text = She danced with a group of humans while the hermit Lando Calrissian led several Resistance agents through the festival to safety after the agents were spotted by the First Order.
+# status = {"0":"accepted"}
+# time (ms) = 30990
+She	O
+danced	O
+with	O
+a	O
+group	O
+of	O
+humans	O
+while	O
+the	O
+hermit	O
+Lando	B-PER
+Calrissian	I-PER
+led	O
+several	O
+Resistance	O
+agents	O
+through	O
+the	O
+festival	O
+to	O
+safety	O
+after	O
+the	O
+agents	O
+were	O
+spotted	O
+by	O
+the	O
+First	B-ORG
+Order	I-ORG
+.	O
+
+# sent_id = 34
+# text = Seboca was a Dug holovid star.
+# status = {"0":"accepted"}
+# time (ms) = 89834
+Seboca	B-PER
+was	O
+a	O
+Dug	O
+holovid	O
+star	O
+.	O
+
+# sent_id = 35
+# text = In 22 BBY, shortly before the beginning of the Clone Wars, Seboca was entertaining Senator Bogg Tyrell on an airspeeder when Jedi Knight Obi-Wan Kenobi nearly crashed against them while trying to capture the Clawdite bounty hunter Zam Wesell, leading Seboca to insult the Jedi for nearly hitting them.
+# status = {"0":"accepted"}
+# time (ms) = 69589
+In	O
+22	O
+BBY	O
+,	O
+shortly	O
+before	O
+the	O
+beginning	O
+of	O
+the	O
+Clone	O
+Wars	O
+,	O
+Seboca	B-PER
+was	O
+entertaining	O
+Senator	B-PER
+Bogg	I-PER
+Tyrell	I-PER
+on	O
+an	O
+airspeeder	O
+when	O
+Jedi	B-PER
+Knight	I-PER
+Obi-Wan	I-PER
+Kenobi	I-PER
+nearly	O
+crashed	O
+against	O
+them	O
+while	O
+trying	O
+to	O
+capture	O
+the	O
+Clawdite	O
+bounty	O
+hunter	O
+Zam	B-PER
+Wesell	I-PER
+,	O
+leading	O
+Seboca	B-PER
+to	O
+insult	O
+the	O
+Jedi	O
+for	O
+nearly	O
+hitting	O
+them	O
+.	O
+
+# sent_id = 36
+# text = Seboca was later present at Dex's Diner conversing with two patrons as Kenobi talked with Dexter Jettster about a Kamino saberdart.
+# status = {"0":"accepted"}
+# time (ms) = 19109
+Seboca	B-PER
+was	O
+later	O
+present	O
+at	O
+Dex	B-PER
+'	O
+s	O
+Diner	O
+conversing	O
+with	O
+two	O
+patrons	O
+as	O
+Kenobi	B-PER
+talked	O
+with	O
+Dexter	B-PER
+Jettster	I-PER
+about	O
+a	O
+Kamino	O
+saberdart	O
+.	O
+
+# sent_id = 37
+# text = He wore a brown pants and a red jacket and that was the latest fashion on Coruscant.
+# status = {"0":"accepted"}
+# time (ms) = 9317
+He	O
+wore	O
+a	O
+brown	O
+pants	O
+and	O
+a	O
+red	O
+jacket	O
+and	O
+that	O
+was	O
+the	O
+latest	O
+fashion	O
+on	O
+Coruscant	B-LOC
+.	O
+
+# sent_id = 38
+# text = Sebris Alpha was a location on Hays Minor.
+# status = {"0":"accepted"}
+# time (ms) = 17917
+Sebris	B-LOC
+Alpha	I-LOC
+was	O
+a	O
+location	O
+on	O
+Hays	B-LOC
+Minor	I-LOC
+.	O
+
+# sent_id = 39
+# text = Sebris Beta was a location on Hays Minor.
+# status = {"0":"accepted"}
+# time (ms) = 17890
+Sebris	B-LOC
+Beta	I-LOC
+was	O
+a	O
+location	O
+on	O
+Hays	B-LOC
+Minor	I-LOC
+.	O
+
+# sent_id = 40
+# text = Sebris Gamma was a village on the planet Hays Minor.
+# status = {"0":"accepted"}
+# time (ms) = 16427
+Sebris	B-LOC
+Gamma	I-LOC
+was	O
+a	O
+village	O
+on	O
+the	O
+planet	O
+Hays	B-LOC
+Minor	I-LOC
+.	O
+
+# sent_id = 41
+# text = It was destroyed by ground-penetrating incendiary bombs dropped by First Order bombers when the residents refused to follow the First Order's orders.
+# status = {"0":"accepted"}
+# time (ms) = 54449
+It	O
+was	O
+destroyed	O
+by	O
+ground-penetrating	O
+incendiary	O
+bombs	O
+dropped	O
+by	O
+First	B-ORG
+Order	I-ORG
+bombers	O
+when	O
+the	O
+residents	O
+refused	O
+to	O
+follow	O
+the	O
+First	B-ORG
+Order	I-ORG
+'	O
+s	O
+orders	O
+.	O
+
+# sent_id = 42
+# text = Sebulba was a male Dug who hailed from the planet of Malastare.
+# status = {"0":"accepted"}
+# time (ms) = 13781
+Sebulba	B-PER
+was	O
+a	O
+male	O
+Dug	O
+who	O
+hailed	O
+from	O
+the	O
+planet	O
+of	O
+Malastare	B-LOC
+.	O
+
+# sent_id = 43
+# text = A vicious podracer pilot who flew a massive orange podracer with a split-x configuration, Sebulba would often bump and smash his way through the competition.
+# status = {"0":"accepted"}
+# time (ms) = 17611
+A	O
+vicious	O
+podracer	O
+pilot	O
+who	O
+flew	O
+a	O
+massive	O
+orange	O
+podracer	O
+with	O
+a	O
+split-x	O
+configuration	O
+,	O
+Sebulba	B-PER
+would	O
+often	O
+bump	O
+and	O
+smash	O
+his	O
+way	O
+through	O
+the	O
+competition	O
+.	O
+
+# sent_id = 44
+# text = A skilled pilot in his own right, he nonetheless opted to install various illegal weapons on his podracer, such as a flamethrower built into the left engine, to ensure his victories on the track.
+# status = {"0":"accepted"}
+# time (ms) = 11615
+A	O
+skilled	O
+pilot	O
+in	O
+his	O
+own	O
+right	O
+,	O
+he	O
+nonetheless	O
+opted	O
+to	O
+install	O
+various	O
+illegal	O
+weapons	O
+on	O
+his	O
+podracer	O
+,	O
+such	O
+as	O
+a	O
+flamethrower	O
+built	O
+into	O
+the	O
+left	O
+engine	O
+,	O
+to	O
+ensure	O
+his	O
+victories	O
+on	O
+the	O
+track	O
+.	O
+
+# sent_id = 45
+# text = The crowd favorite of a course known as the Boonta Eve Classic, located on the Outer Rim planet of Tatooine, Sebulba maintained a strong rivalry with one of podracings few human participants, a young boy named Anakin Skywalker.
+# status = {"0":"accepted"}
+# time (ms) = 35466
+The	O
+crowd	O
+favorite	O
+of	O
+a	O
+course	O
+known	O
+as	O
+the	O
+Boonta	B-MISC
+Eve	I-MISC
+Classic	I-MISC
+,	O
+located	O
+on	O
+the	O
+Outer	B-LOC
+Rim	I-LOC
+planet	O
+of	O
+Tatooine	B-LOC
+,	O
+Sebulba	B-PER
+maintained	O
+a	O
+strong	O
+rivalry	O
+with	O
+one	O
+of	O
+podracings	O
+few	O
+human	O
+participants	O
+,	O
+a	O
+young	O
+boy	O
+named	O
+Anakin	B-PER
+Skywalker	I-PER
+.	O
+
+# sent_id = 46
+# text = A short while after the Invasion of Naboo, Sebulba and Skywalker competed in a Boonta race together.
+# status = {"0":"accepted"}
+# time (ms) = 44580
+A	O
+short	O
+while	O
+after	O
+the	O
+Invasion	O
+of	O
+Naboo	B-LOC
+,	O
+Sebulba	B-PER
+and	O
+Skywalker	B-PER
+competed	O
+in	O
+a	O
+Boonta	B-MISC
+race	O
+together	O
+.	O
+
+# sent_id = 47
+# text = The Dug Sebulba owned a massive orange podracer, which he used to podrace with.
+# status = {"0":"accepted"}
+# time (ms) = 8616
+The	O
+Dug	O
+Sebulba	B-PER
+owned	O
+a	O
+massive	O
+orange	O
+podracer	O
+,	O
+which	O
+he	O
+used	O
+to	O
+podrace	O
+with	O
+.	O
+
+# sent_id = 48
+# text = Sebulba was an ambitious cheater, and had secretly installed not only ion disrupters and magna spikes, but two illegal flamethrowers into each engine.
+# status = {"0":"accepted"}
+# time (ms) = 9877
+Sebulba	B-PER
+was	O
+an	O
+ambitious	O
+cheater	O
+,	O
+and	O
+had	O
+secretly	O
+installed	O
+not	O
+only	O
+ion	O
+disrupters	O
+and	O
+magna	O
+spikes	O
+,	O
+but	O
+two	O
+illegal	O
+flamethrowers	O
+into	O
+each	O
+engine	O
+.	O
+
+# sent_id = 49
+# text = Sebulba could control the flamethrowers from his cockpit, and used them to torch other pilots.
+# status = {"0":"accepted"}
+# time (ms) = 6406
+Sebulba	B-PER
+could	O
+control	O
+the	O
+flamethrowers	O
+from	O
+his	O
+cockpit	O
+,	O
+and	O
+used	O
+them	O
+to	O
+torch	O
+other	O
+pilots	O
+.	O
+
+# sent_id = 50
+# text = The Secessionist Faction, more simply known as the Secessionists, was an extreme political wing of the Pacifist Faction of the senate of the Galactic Republic.
+# status = {"0":"accepted"}
+# time (ms) = 32168
+The	O
+Secessionist	B-ORG
+Faction	I-ORG
+,	O
+more	O
+simply	O
+known	O
+as	O
+the	O
+Secessionists	B-ORG
+,	O
+was	O
+an	O
+extreme	O
+political	O
+wing	O
+of	O
+the	O
+Pacifist	B-ORG
+Faction	I-ORG
+of	O
+the	O
+senate	O
+of	O
+the	O
+Galactic	B-ORG
+Republic	I-ORG
+.	O
+
+# sent_id = 51
+# text = The Secessionists represented star systems that were considering leaving the Republic, and although the body was small as a voting bloc, it was vital as systems could increase their influence by threatening to secede.
+# status = {"0":"accepted"}
+# time (ms) = 20922
+The	O
+Secessionists	B-ORG
+represented	O
+star	O
+systems	O
+that	O
+were	O
+considering	O
+leaving	O
+the	O
+Republic	B-ORG
+,	O
+and	O
+although	O
+the	O
+body	O
+was	O
+small	O
+as	O
+a	O
+voting	O
+bloc	O
+,	O
+it	O
+was	O
+vital	O
+as	O
+systems	O
+could	O
+increase	O
+their	O
+influence	O
+by	O
+threatening	O
+to	O
+secede	O
+.	O
+
+# sent_id = 52
+# text = Despite this, most systems sought diplomatic solutions.
+# status = {"0":"accepted"}
+# time (ms) = 24479
+Despite	O
+this	O
+,	O
+most	O
+systems	O
+sought	O
+diplomatic	O
+solutions	O
+.	O
+
+# sent_id = 53
+# text = Secon Daree was a Lutrillian who piloted an X-wing starfighter in the Rebel Alliance's Starfighter Corps during the ill-fated attack on Lothal.
+# status = {"0":"accepted"}
+# time (ms) = 32065
+Secon	B-PER
+Daree	I-PER
+was	O
+a	O
+Lutrillian	O
+who	O
+piloted	O
+an	O
+X-wing	B-MISC
+starfighter	O
+in	O
+the	O
+Rebel	B-ORG
+Alliance	I-ORG
+'	O
+s	O
+Starfighter	O
+Corps	O
+during	O
+the	O
+ill-fated	O
+attack	O
+on	O
+Lothal	B-LOC
+.	O
+
+# sent_id = 54
+# text = Daree was captured by the Noghri assassin Rukh, who handed the pilot to Imperial custody.
+# status = {"0":"accepted"}
+# time (ms) = 18993
+Daree	B-PER
+was	O
+captured	O
+by	O
+the	O
+Noghri	O
+assassin	O
+Rukh	B-PER
+,	O
+who	O
+handed	O
+the	O
+pilot	O
+to	O
+Imperial	O
+custody	O
+.	O
+
+# sent_id = 55
+# text = A second was a short unit of time measurement.
+# status = {"0":"accepted"}
+# time (ms) = 7280
+A	O
+second	O
+was	O
+a	O
+short	O
+unit	O
+of	O
+time	O
+measurement	O
+.	O
+
+# sent_id = 56
+# text = Shortly after the infiltration of Hivebase-1, the Galactic Empire launched an attack on the Son-tuul Pride, led by Lieutenant-Inspector Magna Tolvan.
+# status = {"0":"accepted"}
+# time (ms) = 42539
+Shortly	O
+after	O
+the	O
+infiltration	O
+of	O
+Hivebase-1	B-LOC
+,	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+launched	O
+an	O
+attack	O
+on	O
+the	O
+Son-tuul	B-ORG
+Pride	I-ORG
+,	O
+led	O
+by	O
+Lieutenant-Inspector	O
+Magna	B-PER
+Tolvan	I-PER
+.	O
+
+# sent_id = 57
+# text = The entirety of the mercenaries there were either killed or captured except for their leader 0-0-0 and his assailant BT-1 who pretended to be innocent droids caught in the crossfire.
+# status = {"0":"accepted"}
+# time (ms) = 22317
+The	O
+entirety	O
+of	O
+the	O
+mercenaries	O
+there	O
+were	O
+either	O
+killed	O
+or	O
+captured	O
+except	O
+for	O
+their	O
+leader	O
+0-0	B-PER
+-	I-PER
+0	I-PER
+and	O
+his	O
+assailant	O
+BT-1	B-PER
+who	O
+pretended	O
+to	O
+be	O
+innocent	O
+droids	O
+caught	O
+in	O
+the	O
+crossfire	O
+.	O
+
+# sent_id = 58
+# text = Tolvan then had Chelli Lona Aphra and Dek-Nil taken away to Accresker Jail.
+# status = {"0":"accepted"}
+# time (ms) = 23838
+Tolvan	B-PER
+then	O
+had	O
+Chelli	B-PER
+Lona	I-PER
+Aphra	I-PER
+and	O
+Dek-Nil	B-PER
+taken	O
+away	O
+to	O
+Accresker	B-LOC
+Jail	I-LOC
+.	O
+
+# sent_id = 59
+# text = At least two years after the Battle of Christophsis, a second battle took place on the planet Christophsis during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 24243
+At	O
+least	O
+two	O
+years	O
+after	O
+the	O
+Battle	O
+of	O
+Christophsis	O
+,	O
+a	O
+second	O
+battle	O
+took	O
+place	O
+on	O
+the	O
+planet	O
+Christophsis	B-LOC
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 60
+# text = After deducing that the Jedi Master Quinlan Vos had fallen to the dark side of the Force, the Jedi Council sent him on a mission to kill the Separatist leader Count Dooku in order to test his loyalty.
+# status = {"0":"accepted"}
+# time (ms) = 49431
+After	O
+deducing	O
+that	O
+the	O
+Jedi	B-PER
+Master	I-PER
+Quinlan	I-PER
+Vos	I-PER
+had	O
+fallen	O
+to	O
+the	O
+dark	O
+side	O
+of	O
+the	O
+Force	O
+,	O
+the	O
+Jedi	B-ORG
+Council	I-ORG
+sent	O
+him	O
+on	O
+a	O
+mission	O
+to	O
+kill	O
+the	O
+Separatist	B-ORG
+leader	O
+Count	B-PER
+Dooku	I-PER
+in	O
+order	O
+to	O
+test	O
+his	O
+loyalty	O
+.	O
+
+# sent_id = 61
+# text = From Vos' lover Asajj Ventress, the Jedi learned that Dooku's dreadnought would be visiting Christophsis.
+# status = {"0":"accepted"}
+# time (ms) = 25424
+From	O
+Vos	B-PER
+'	O
+lover	O
+Asajj	B-PER
+Ventress	I-PER
+,	O
+the	O
+Jedi	O
+learned	O
+that	O
+Dooku	B-PER
+'	O
+s	O
+dreadnought	O
+would	O
+be	O
+visiting	O
+Christophsis	B-LOC
+.	O
+
+# sent_id = 62
+# text = Together, Vos and Ventress traveled to Dooku's flagship where Vos managed to engage in a lightsaber duel.
+# status = {"0":"accepted"}
+# time (ms) = 18265
+Together	O
+,	O
+Vos	B-PER
+and	O
+Ventress	B-PER
+traveled	O
+to	O
+Dooku	B-PER
+'	O
+s	O
+flagship	O
+where	O
+Vos	O
+managed	O
+to	O
+engage	O
+in	O
+a	O
+lightsaber	O
+duel	O
+.	O
+
+# sent_id = 63
+# text = Unknown to Vos, the Jedi Obi-Wan Kenobi and Anakin Skywalker tailed along.
+# status = {"0":"accepted"}
+# time (ms) = 14519
+Unknown	O
+to	O
+Vos	B-PER
+,	O
+the	O
+Jedi	O
+Obi-Wan	B-PER
+Kenobi	I-PER
+and	O
+Anakin	B-PER
+Skywalker	I-PER
+tailed	O
+along	O
+.	O
+
+# sent_id = 64
+# text = The Second Battle of Dathomir was a battle fought during the Clone Wars on Dathomir  between the combined forces of the Sith and the Confederacy of Independent Systems; and the renegade Sith Lord Maul and Mother Talzin.
+# status = {"0":"accepted"}
+# time (ms) = 115078
+The	O
+Second	O
+Battle	O
+of	O
+Dathomir	B-LOC
+was	O
+a	O
+battle	O
+fought	O
+during	O
+the	O
+Clone	O
+Wars	O
+on	O
+Dathomir	B-LOC
+between	O
+the	O
+combined	O
+forces	O
+of	O
+the	O
+Sith	B-ORG
+and	O
+the	O
+Confederacy	B-ORG
+of	I-ORG
+Independent	I-ORG
+Systems	I-ORG
+;	O
+and	O
+the	O
+renegade	O
+Sith	O
+Lord	O
+Maul	B-PER
+and	O
+Mother	O
+Talzin	B-PER
+.	O
+
+# sent_id = 65
+# text = The battle began after Maul brought the captive Sith Lord Count Dooku to Dathomir, so Talzin could drain the Count's life force and use it to return her previously-destroyed physical form.
+# status = {"0":"accepted"}
+# time (ms) = 32749
+The	O
+battle	O
+began	O
+after	O
+Maul	B-PER
+brought	O
+the	O
+captive	O
+Sith	O
+Lord	O
+Count	B-PER
+Dooku	I-PER
+to	O
+Dathomir	B-LOC
+,	O
+so	O
+Talzin	B-PER
+could	O
+drain	O
+the	O
+Count	B-PER
+'	O
+s	O
+life	O
+force	O
+and	O
+use	O
+it	O
+to	O
+return	O
+her	O
+previously-destroyed	O
+physical	O
+form	O
+.	O
+
+# sent_id = 66
+# text = Darth Sidious was able to trace the location of Dooku, his apprentice, and traveled with General Grievous to Dathomir to rescue Dooku and defeat their enemies.
+# status = {"0":"accepted"}
+# time (ms) = 29888
+Darth	B-PER
+Sidious	I-PER
+was	O
+able	O
+to	O
+trace	O
+the	O
+location	O
+of	O
+Dooku	B-PER
+,	O
+his	O
+apprentice	O
+,	O
+and	O
+traveled	O
+with	O
+General	B-PER
+Grievous	I-PER
+to	O
+Dathomir	B-LOC
+to	O
+rescue	O
+Dooku	B-PER
+and	O
+defeat	O
+their	O
+enemies	O
+.	O
+
+# sent_id = 67
+# text = The Second Battle of Felucia saw a clash between Galactic Republic and the Separatist Alliance for control of the planet Felucia during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 30082
+The	O
+Second	O
+Battle	O
+of	O
+Felucia	B-LOC
+saw	O
+a	O
+clash	O
+between	O
+Galactic	B-ORG
+Republic	I-ORG
+and	O
+the	O
+Separatist	B-ORG
+Alliance	I-ORG
+for	O
+control	O
+of	O
+the	O
+planet	O
+Felucia	B-LOC
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 68
+# text = Having been forced into a retreat at the first battle of Felucia, the Republic re-established a presence there thanks to the efforts of Jedi General Anakin Skywalker and his Padawan, Ahsoka Tano, who led their clone troopers on an offensive into Separatist-held territory.
+# status = {"0":"accepted"}
+# time (ms) = 34146
+Having	O
+been	O
+forced	O
+into	O
+a	O
+retreat	O
+at	O
+the	O
+first	O
+battle	O
+of	O
+Felucia	B-LOC
+,	O
+the	O
+Republic	B-ORG
+re-established	O
+a	O
+presence	O
+there	O
+thanks	O
+to	O
+the	O
+efforts	O
+of	O
+Jedi	O
+General	O
+Anakin	B-PER
+Skywalker	I-PER
+and	O
+his	O
+Padawan	O
+,	O
+Ahsoka	B-PER
+Tano	I-PER
+,	O
+who	O
+led	O
+their	O
+clone	O
+troopers	O
+on	O
+an	O
+offensive	O
+into	O
+Separatist-held	B-ORG
+territory	O
+.	O
+
+# sent_id = 69
+# text = In retaliation, General Grievous supplied one of his outposts on Felucia with reinforcements to secure the system for the Confederacy.
+# status = {"0":"accepted"}
+# time (ms) = 33709
+In	O
+retaliation	O
+,	O
+General	B-PER
+Grievous	I-PER
+supplied	O
+one	O
+of	O
+his	O
+outposts	O
+on	O
+Felucia	B-LOC
+with	O
+reinforcements	O
+to	O
+secure	O
+the	O
+system	O
+for	O
+the	O
+Confederacy	B-ORG
+.	O
+
+# sent_id = 70
+# text = Responding to the arrival of the battle droid detachment, Skywalker, Tano, and Jedi Master Plo Koon targeted the enemy outpost with a three-pronged assault, each leading a squad to divide the Separatist defenses.
+# status = {"0":"accepted"}
+# time (ms) = 21698
+Responding	O
+to	O
+the	O
+arrival	O
+of	O
+the	O
+battle	O
+droid	O
+detachment	O
+,	O
+Skywalker	B-PER
+,	O
+Tano	B-PER
+,	O
+and	O
+Jedi	O
+Master	O
+Plo	B-PER
+Koon	I-PER
+targeted	O
+the	O
+enemy	O
+outpost	O
+with	O
+a	O
+three-pronged	O
+assault	O
+,	O
+each	O
+leading	O
+a	O
+squad	O
+to	O
+divide	O
+the	O
+Separatist	B-ORG
+defenses	O
+.	O
+
+# sent_id = 71
+# text = The Second Battle of Geonosis, also known as the battle of Geonosis, took place during the Clone Wars on the planet Geonosis, the site of the conflict's opening battle.
+# status = {"0":"accepted"}
+# time (ms) = 15903
+The	O
+Second	O
+Battle	O
+of	O
+Geonosis	B-LOC
+,	O
+also	O
+known	O
+as	O
+the	O
+battle	O
+of	O
+Geonosis	B-LOC
+,	O
+took	O
+place	O
+during	O
+the	O
+Clone	O
+Wars	O
+on	O
+the	O
+planet	O
+Geonosis	B-LOC
+,	O
+the	O
+site	O
+of	O
+the	O
+conflict	O
+'	O
+s	O
+opening	O
+battle	O
+.	O
+
+# sent_id = 72
+# text = Second class  droids were droids skilled in engineering and technical sciences.
+# status = {"0":"accepted"}
+# time (ms) = 6644
+Second	O
+class	O
+droids	O
+were	O
+droids	O
+skilled	O
+in	O
+engineering	O
+and	O
+technical	O
+sciences	O
+.	O
+
+# sent_id = 73
+# text = Astromech droids were second class droids.
+# status = {"0":"accepted"}
+# time (ms) = 6989
+Astromech	O
+droids	O
+were	O
+second	O
+class	O
+droids	O
+.	O
+
+# sent_id = 74
+# text = The second coronation of Réillata as monarch of Naboo took place on the steps of Theed Royal Palace in 28 BBY.
+# status = {"0":"accepted"}
+# time (ms) = 76452
+The	O
+second	O
+coronation	O
+of	O
+R	B-PER
+é	I-PER
+illata	I-PER
+as	O
+monarch	O
+of	O
+Naboo	B-LOC
+took	O
+place	O
+on	O
+the	O
+steps	O
+of	O
+Theed	B-LOC
+Royal	I-LOC
+Palace	I-LOC
+in	O
+28	O
+BBY	O
+.	O
+
+# sent_id = 75
+# text = Réillata was re-elected to the throne of the Royal House of Naboo to serve a second and final term as Queen following the stepping down of Padmé Amidala.
+# status = {"0":"accepted"}
+# time (ms) = 31272
+R	B-PER
+é	I-PER
+illata	I-PER
+was	O
+re-elected	O
+to	O
+the	O
+throne	O
+of	O
+the	O
+Royal	B-ORG
+House	I-ORG
+of	O
+Naboo	B-LOC
+to	O
+serve	O
+a	O
+second	O
+and	O
+final	O
+term	O
+as	O
+Queen	O
+following	O
+the	O
+stepping	O
+down	O
+of	O
+Padm	B-PER
+é	I-PER
+Amidala	I-PER
+.	O
+
+# sent_id = 76
+# text = Second defense officer was a position within the starfleet of the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 10753
+Second	O
+defense	O
+officer	O
+was	O
+a	O
+position	O
+within	O
+the	O
+starfleet	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 77
+# text = Second Defense Overlord was a position in the Garwian Unity.
+# status = {"0":"accepted"}
+# time (ms) = 14712
+Second	O
+Defense	O
+Overlord	O
+was	O
+a	O
+position	O
+in	O
+the	O
+Garwian	B-ORG
+Unity	I-ORG
+.	O
+
+# sent_id = 78
+# text = Frangelic held the position at the time of the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 6674
+Frangelic	B-PER
+held	O
+the	O
+position	O
+at	O
+the	O
+time	O
+of	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 79
+# text = Second flight was a unit of T-65B X-wing starfighters within Red Squadron, a starfighter squadron that was part of the Alliance to Restore the Republic.
+# status = {"0":"accepted"}
+# time (ms) = 319122
+Second	O
+flight	O
+was	O
+a	O
+unit	O
+of	O
+T-65B	B-MISC
+X-wing	I-MISC
+starfighters	I-MISC
+within	O
+Red	B-ORG
+Squadron	I-ORG
+,	O
+a	O
+starfighter	O
+squadron	O
+that	O
+was	O
+part	O
+of	O
+the	O
+Alliance	B-ORG
+to	O
+Restore	I-ORG
+the	O
+Republic	I-ORG
+.	O
+
+# sent_id = 80
+# text = They took part in the Battle of Yavin and was led by Major Ralo Surrel, with Harb Binli and John D. Branon as his wingmen.
+# status = {"0":"accepted"}
+# time (ms) = 40397
+They	O
+took	O
+part	O
+in	O
+the	O
+Battle	O
+of	O
+Yavin	B-LOC
+and	O
+was	O
+led	O
+by	O
+Major	O
+Ralo	B-PER
+Surrel	I-PER
+,	O
+with	O
+Harb	B-PER
+Binli	I-PER
+and	O
+John	B-PER
+D	I-PER
+.	O
+Branon	B-PER
+as	O
+his	O
+wingmen	O
+.	O
+
+# sent_id = 81
+# text = Second Lieutenant was a rank used within the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 10494
+Second	O
+Lieutenant	O
+was	O
+a	O
+rank	O
+used	O
+within	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 82
+# text = The deck officer Frobb held the rank of second lieutenant in the year 0 BBY.
+# status = {"0":"accepted"}
+# time (ms) = 10846
+The	O
+deck	O
+officer	O
+Frobb	B-PER
+held	O
+the	O
+rank	O
+of	O
+second	O
+lieutenant	O
+in	O
+the	O
+year	O
+0	O
+BBY	O
+.	O
+
+# sent_id = 83
+# text = Second Lieutenant Commander was a military rank used by the Galactic Empire during the Galactic Civil War.
+# status = {"0":"accepted"}
+# time (ms) = 11408
+Second	O
+Lieutenant	O
+Commander	O
+was	O
+a	O
+military	O
+rank	O
+used	O
+by	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+during	O
+the	O
+Galactic	O
+Civil	O
+War	O
+.	O
+
+# sent_id = 84
+# text = Teso Broosh held the rank when he was part of the 204th Imperial Fighter Wing.
+# status = {"0":"accepted"}
+# time (ms) = 18700
+Teso	B-PER
+Broosh	I-PER
+held	O
+the	O
+rank	O
+when	O
+he	O
+was	O
+part	O
+of	O
+the	O
+204th	B-MISC
+Imperial	I-MISC
+Fighter	I-MISC
+Wing	I-MISC
+.	O
+
+# sent_id = 85
+# text = Second mate was a title used aboard a starships crew.
+# status = {"0":"accepted"}
+# time (ms) = 5266
+Second	O
+mate	O
+was	O
+a	O
+title	O
+used	O
+aboard	O
+a	O
+starships	O
+crew	O
+.	O
+
+# sent_id = 86
+# text = In 34 ABY, the smuggler Han Solo offered the scavenger Rey the opportunity to be the second mate on his ship, the Millennium Falcon, as he was looking for more crew to help himself and Chewbacca.
+# status = {"0":"accepted"}
+# time (ms) = 95906
+In	O
+34	O
+ABY	O
+,	O
+the	O
+smuggler	O
+Han	B-PER
+Solo	I-PER
+offered	O
+the	O
+scavenger	O
+Rey	B-PER
+the	O
+opportunity	O
+to	O
+be	O
+the	O
+second	O
+mate	O
+on	O
+his	O
+ship	O
+,	O
+the	O
+Millennium	B-MISC
+Falcon	I-MISC
+,	O
+as	O
+he	O
+was	O
+looking	O
+for	O
+more	O
+crew	O
+to	O
+help	O
+himself	O
+and	O
+Chewbacca	B-PER
+.	O
+
+# sent_id = 87
+# text = Rey, however, declined the offer as she felt she had to return to Jakku.
+# status = {"0":"accepted"}
+# time (ms) = 15445
+Rey	B-PER
+,	O
+however	O
+,	O
+declined	O
+the	O
+offer	O
+as	O
+she	O
+felt	O
+she	O
+had	O
+to	O
+return	O
+to	O
+Jakku	B-LOC
+.	O
+
+# sent_id = 88
+# text = Second Minister was a political rank on Clabron, directly under Grand Minister.
+# status = {"0":"accepted"}
+# time (ms) = 12606
+Second	O
+Minister	O
+was	O
+a	O
+political	O
+rank	O
+on	O
+Clabron	B-LOC
+,	O
+directly	O
+under	O
+Grand	O
+Minister	O
+.	O
+
+# sent_id = 89
+# text = The Clabronian Tarmin held the title during the Clone Wars, but replaced Stin as Grand Minister after he was assassinated.
+# status = {"0":"accepted"}
+# time (ms) = 16639
+The	O
+Clabronian	O
+Tarmin	B-PER
+held	O
+the	O
+title	O
+during	O
+the	O
+Clone	O
+Wars	O
+,	O
+but	O
+replaced	O
+Stin	B-PER
+as	O
+Grand	O
+Minister	O
+after	O
+he	O
+was	O
+assassinated	O
+.	O
+
+# sent_id = 90
+# text = During the reign of the Galactic Empire, Jedi Padawan Cal Kestis undertook a second mission to the planet Bogano to recover Eno Cordova's holocron.
+# status = {"0":"accepted"}
+# time (ms) = 26992
+During	O
+the	O
+reign	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+Jedi	O
+Padawan	O
+Cal	B-PER
+Kestis	I-PER
+undertook	O
+a	O
+second	O
+mission	O
+to	O
+the	O
+planet	O
+Bogano	B-LOC
+to	O
+recover	O
+Eno	B-PER
+Cordova	I-PER
+'	O
+s	O
+holocron	O
+.	O
+
+# sent_id = 91
+# text = After reaching the Bogano Vault, Cal was confronted by the Second Sister, who stole the holocron, though she lost her lightsaber to him.
+# status = {"0":"accepted"}
+# time (ms) = 21754
+After	O
+reaching	O
+the	O
+Bogano	B-MISC
+Vault	I-MISC
+,	O
+Cal	B-PER
+was	O
+confronted	O
+by	O
+the	O
+Second	B-PER
+Sister	I-PER
+,	O
+who	O
+stole	O
+the	O
+holocron	O
+,	O
+though	O
+she	O
+lost	O
+her	O
+lightsaber	O
+to	O
+him	O
+.	O
+
+# sent_id = 92
+# text = During the mission on the Colossus platform, Kazuda Xiono undertook a second mission into Doza Tower to try and find out how Captain Imanuel Doza might be colluding with the First Order.
+# status = {"0":"accepted"}
+# time (ms) = 54671
+During	O
+the	O
+mission	O
+on	O
+the	O
+Colossus	O
+platform	O
+,	O
+Kazuda	B-PER
+Xiono	I-PER
+undertook	O
+a	O
+second	O
+mission	O
+into	O
+Doza	B-MISC
+Tower	I-MISC
+to	O
+try	O
+and	O
+find	O
+out	O
+how	O
+Captain	O
+Imanuel	B-PER
+Doza	I-PER
+might	O
+be	O
+colluding	O
+with	O
+the	O
+First	B-ORG
+Order	I-ORG
+.	O
+
+# sent_id = 93
+# text = He was unwittingly assisted by Doza's daughter Torra, who had snuck out of the tower that day after her father had attempted to lock her in her room for her own protection while he had a meeting with the First Order's Commander Pyre.
+# status = {"0":"accepted"}
+# time (ms) = 25239
+He	O
+was	O
+unwittingly	O
+assisted	O
+by	O
+Doza	B-PER
+'	O
+s	O
+daughter	O
+Torra	B-PER
+,	O
+who	O
+had	O
+snuck	O
+out	O
+of	O
+the	O
+tower	O
+that	O
+day	O
+after	O
+her	O
+father	O
+had	O
+attempted	O
+to	O
+lock	O
+her	O
+in	O
+her	O
+room	O
+for	O
+her	O
+own	O
+protection	O
+while	O
+he	O
+had	O
+a	O
+meeting	O
+with	O
+the	O
+First	B-ORG
+Order	I-ORG
+'	O
+s	O
+Commander	O
+Pyre	B-PER
+.	O
+
+# sent_id = 94
+# text = Jedi Plo Koon and Ahsoka Tano conducted a mission to Florrum during the Clone Wars to confront Boba Fett, who had allied with bounty hunter Aurra
+# status = {"0":"accepted"}
+# time (ms) = 27498
+Jedi	O
+Plo	B-PER
+Koon	I-PER
+and	O
+Ahsoka	B-PER
+Tano	I-PER
+conducted	O
+a	O
+mission	O
+to	O
+Florrum	B-LOC
+during	O
+the	O
+Clone	O
+Wars	O
+to	O
+confront	O
+Boba	B-PER
+Fett	I-PER
+,	O
+who	O
+had	O
+allied	O
+with	O
+bounty	O
+hunter	O
+Aurra	B-PER
+
+# sent_id = 95
+# text = Sing to kill Jedi Master Mace Windu.
+# status = {"0":"accepted"}
+# time (ms) = 18830
+Sing	B-PER
+to	O
+kill	O
+Jedi	O
+Master	O
+Mace	B-PER
+Windu	I-PER
+.	O
+
+# sent_id = 96
+# text = The mission ended with the arrest of Fett and Bossk, while Sing was presumed dead.
+# status = {"0":"accepted"}
+# time (ms) = 8858
+The	O
+mission	O
+ended	O
+with	O
+the	O
+arrest	O
+of	O
+Fett	B-PER
+and	O
+Bossk	B-PER
+,	O
+while	O
+Sing	B-PER
+was	O
+presumed	O
+dead	O
+.	O
+
+# sent_id = 97
+# text = Jedi Master Obi-Wan Kenobi executed a mission to prevent bounty hunter Cad Bane from kidnapping Wee Dunn on Rodia during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 28335
+Jedi	O
+Master	O
+Obi-Wan	B-PER
+Kenobi	I-PER
+executed	O
+a	O
+mission	O
+to	O
+prevent	O
+bounty	O
+hunter	O
+Cad	B-PER
+Bane	I-PER
+from	O
+kidnapping	O
+Wee	B-PER
+Dunn	I-PER
+on	O
+Rodia	B-LOC
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 98
+# text = In 2 BBY, Phoenix Cell undertook a second mission to the planet Ryloth to recover the Kalikori artifact from the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 28273
+In	O
+2	O
+BBY	O
+,	O
+Phoenix	B-PER
+Cell	I-PER
+undertook	O
+a	O
+second	O
+mission	O
+to	O
+the	O
+planet	O
+Ryloth	B-LOC
+to	O
+recover	O
+the	O
+Kalikori	B-MISC
+artifact	O
+from	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 99
+# text = Hera Syndulla, Ezra Bridger, and Chopper infiltrated the Syndulla residence, which had become the new Imperial headquarters in the Tann Province.
+# status = {"0":"accepted"}
+# time (ms) = 45800
+Hera	B-PER
+Syndulla	I-PER
+,	O
+Ezra	B-PER
+Bridger	I-PER
+,	O
+and	O
+Chopper	B-PER
+infiltrated	O
+the	O
+Syndulla	B-LOC
+residence	I-LOC
+,	O
+which	O
+had	O
+become	O
+the	O
+new	O
+Imperial	O
+headquarters	O
+in	O
+the	O
+Tann	B-LOC
+Province	I-LOC
+.	O
+
+# sent_id = 100
+# text = Meanwhile, the Free Ryloth Movement leader Cham Syndulla, Gobi Glie, Numa, and the other Spectres staged a diversionary attack in the Tulara Ravine.
+# status = {"0":"accepted"}
+# time (ms) = 30186
+Meanwhile	O
+,	O
+the	O
+Free	O
+Ryloth	O
+Movement	O
+leader	O
+Cham	B-PER
+Syndulla	I-PER
+,	O
+Gobi	B-PER
+Glie	I-PER
+,	O
+Numa	B-PER
+,	O
+and	O
+the	O
+other	O
+Spectres	O
+staged	O
+a	O
+diversionary	O
+attack	O
+in	O
+the	O
+Tulara	B-LOC
+Ravine	I-LOC
+.	O
+
+# sent_id = 101
+# text = Hera and Ezra were captured by Grand Admiral Thrawn and his subordinate Captain Slavin.
+# status = {"0":"accepted"}
+# time (ms) = 10297
+Hera	B-PER
+and	O
+Ezra	B-PER
+were	O
+captured	O
+by	O
+Grand	O
+Admiral	O
+Thrawn	B-PER
+and	O
+his	O
+subordinate	O
+Captain	O
+Slavin	B-PER
+.	O
+
+# sent_id = 102
+# text = Thrawn added the Kalikori to his art collection and delegated the rest of the military operations to Slavin.
+# status = {"0":"accepted"}
+# time (ms) = 16052
+Thrawn	B-PER
+added	O
+the	O
+Kalikori	B-MISC
+to	O
+his	O
+art	O
+collection	O
+and	O
+delegated	O
+the	O
+rest	O
+of	O
+the	O
+military	O
+operations	O
+to	O
+Slavin	B-LOC
+.	O
+
+# sent_id = 103
+# text = Captain Slavin then used Hera and Ezra as hostages to force Cham to surrender himself.
+# status = {"0":"accepted"}
+# time (ms) = 23773
+Captain	O
+Slavin	B-PER
+then	O
+used	O
+Hera	B-PER
+and	O
+Ezra	B-PER
+as	O
+hostages	O
+to	O
+force	O
+Cham	B-PER
+to	O
+surrender	O
+himself	O
+.	O
+
+# sent_id = 104
+# text = However, Hera got Chopper to plant explosives throughout the building.
+# status = {"0":"accepted"}
+# time (ms) = 8039
+However	O
+,	O
+Hera	B-PER
+got	O
+Chopper	B-PER
+to	O
+plant	O
+explosives	O
+throughout	O
+the	O
+building	O
+.	O
+
+# sent_id = 105
+# text = This created an explosion which allowed the two rebel factions to escape.
+# status = {"0":"accepted"}
+# time (ms) = 5771
+This	O
+created	O
+an	O
+explosion	O
+which	O
+allowed	O
+the	O
+two	O
+rebel	O
+factions	O
+to	O
+escape	O
+.	O
+
+# sent_id = 106
+# text = In 2 BBY, members of Phoenix Cell undertook a mission to the third moon of Concord Dawn.
+# status = {"0":"accepted"}
+# time (ms) = 26149
+In	O
+2	O
+BBY	O
+,	O
+members	O
+of	O
+Phoenix	B-ORG
+Cell	I-ORG
+undertook	O
+a	O
+mission	O
+to	O
+the	O
+third	O
+moon	O
+of	O
+Concord	B-LOC
+Dawn	I-LOC
+.	O
+
+# sent_id = 107
+# text = After the Phoenix Cell lost contact with the Mandalorian Protectors, Fenn Rau, Sabine Wren, Ezra Bridger, and Chopper traveled to the third moon to investigate.
+# status = {"0":"accepted"}
+# time (ms) = 43717
+After	O
+the	O
+Phoenix	B-ORG
+Cell	I-ORG
+lost	O
+contact	O
+with	O
+the	O
+Mandalorian	B-ORG
+Protectors	I-ORG
+,	O
+Fenn	B-PER
+Rau	I-PER
+,	O
+Sabine	B-PER
+Wren	I-PER
+,	O
+Ezra	B-PER
+Bridger	I-PER
+,	O
+and	O
+Chopper	B-PER
+traveled	O
+to	O
+the	O
+third	O
+moon	O
+to	O
+investigate	O
+.	O
+
+# sent_id = 108
+# text = They discovered that Imperial Mandalorians under Viceroy Gar Saxon had attacked the encampment and massacred the Protectors.
+# status = {"0":"accepted"}
+# time (ms) = 23025
+They	O
+discovered	O
+that	O
+Imperial	O
+Mandalorians	O
+under	O
+Viceroy	B-PER
+Gar	I-PER
+Saxon	I-PER
+had	O
+attacked	O
+the	O
+encampment	O
+and	O
+massacred	O
+the	O
+Protectors	B-ORG
+.	O
+
+# sent_id = 109
+# text = Working together, they managed to escape the Protectors and flee offworld.
+# status = {"0":"accepted"}
+# time (ms) = 12745
+Working	O
+together	O
+,	O
+they	O
+managed	O
+to	O
+escape	O
+the	O
+Protectors	B-ORG
+and	O
+flee	O
+offworld	O
+.	O
+
+# sent_id = 110
+# text = Due to their shared experiences, Rau decided to join the rebellion.
+# status = {"0":"accepted"}
+# time (ms) = 8940
+Due	O
+to	O
+their	O
+shared	O
+experiences	O
+,	O
+Rau	B-PER
+decided	O
+to	O
+join	O
+the	O
+rebellion	O
+.	O
+
+# sent_id = 114
+# text = During the reign of the Galactic Empire, Jedi Padawan Cal Kestis undertook a second mission to the planet Zeffo to prevent the Galactic Empire from learning the secrets of the tomb of Miktrull.
+# status = {"0":"accepted"}
+# time (ms) = 31981
+During	O
+the	O
+reign	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+Jedi	O
+Padawan	O
+Cal	B-PER
+Kestis	I-PER
+undertook	O
+a	O
+second	O
+mission	O
+to	O
+the	O
+planet	O
+Zeffo	B-LOC
+to	O
+prevent	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+from	O
+learning	O
+the	O
+secrets	O
+of	O
+the	O
+tomb	O
+of	O
+Miktrull	B-LOC
+.	O
+
+# sent_id = 115
+# text = The Second Moon of Thrinittik was a rocky moon.
+# status = {"0":"accepted"}
+# time (ms) = 11866
+The	O
+Second	B-LOC
+Moon	I-LOC
+of	I-LOC
+Thrinittik	I-LOC
+was	O
+a	O
+rocky	O
+moon	O
+.	O
+
+# sent_id = 116
+# text = As a child, Chelli Aphra lived in a house in the University Quarter on the moon, along with her mother Lona Aphra and father Korin Aphra.
+# status = {"0":"accepted"}
+# time (ms) = 29818
+As	O
+a	O
+child	O
+,	O
+Chelli	B-PER
+Aphra	I-PER
+lived	O
+in	O
+a	O
+house	O
+in	O
+the	O
+University	B-LOC
+Quarter	I-LOC
+on	O
+the	O
+moon	O
+,	O
+along	O
+with	O
+her	O
+mother	O
+Lona	B-PER
+Aphra	I-PER
+and	O
+father	O
+Korin	B-PER
+Aphra	I-PER
+.	O
+
+# sent_id = 117
+# text = Second officer was a position held by an individual who served as third in command of a starship.
+# status = {"0":"accepted"}
+# time (ms) = 6883
+Second	O
+officer	O
+was	O
+a	O
+position	O
+held	O
+by	O
+an	O
+individual	O
+who	O
+served	O
+as	O
+third	O
+in	O
+command	O
+of	O
+a	O
+starship	O
+.	O
+
+# sent_id = 118
+# text = Toshma Jefkin served as the second officer aboard the Tantive IV.
+# status = {"0":"accepted"}
+# time (ms) = 83217
+Toshma	B-PER
+Jefkin	I-PER
+served	O
+as	O
+the	O
+second	O
+officer	O
+aboard	O
+the	O
+Tantive	B-MISC
+IV	I-MISC
+.	O
+
+# sent_id = 119
+# text = Second platoon was a platoon in the Rebel Alliance's army that was deployed during the Battle of Vrogas Vas.
+# status = {"0":"accepted"}
+# time (ms) = 52184
+Second	O
+platoon	O
+was	O
+a	O
+platoon	O
+in	O
+the	O
+Rebel	B-ORG
+Alliance	I-ORG
+'	O
+s	O
+army	O
+that	O
+was	O
+deployed	O
+during	O
+the	O
+Battle	O
+of	O
+Vrogas	B-LOC
+Vas	I-LOC
+.	O
+
+# sent_id = 120
+# text = During the battle, the platoon came across the Sith Lord Darth Vader who destroyed some of their tanks.
+# status = {"0":"accepted"}
+# time (ms) = 14291
+During	O
+the	O
+battle	O
+,	O
+the	O
+platoon	O
+came	O
+across	O
+the	O
+Sith	B-PER
+Lord	I-PER
+Darth	I-PER
+Vader	I-PER
+who	O
+destroyed	O
+some	O
+of	O
+their	O
+tanks	O
+.	O
+
+# sent_id = 121
+# text = Second platoon, also known as platoon two or as patrol two, was a platoon of BX-series droid commandos that were part of Sith Lord Darth Vader's and Chelli Lona Aphra's crew.
+# status = {"0":"accepted"}
+# time (ms) = 23610
+Second	O
+platoon	O
+,	O
+also	O
+known	O
+as	O
+platoon	O
+two	O
+or	O
+as	O
+patrol	O
+two	O
+,	O
+was	O
+a	O
+platoon	O
+of	O
+BX-series	O
+droid	O
+commandos	O
+that	O
+were	O
+part	O
+of	O
+Sith	B-PER
+Lord	I-PER
+Darth	I-PER
+Vader	I-PER
+'	O
+s	O
+and	O
+Chelli	B-PER
+Lona	I-PER
+Aphra	I-PER
+'	O
+s	O
+crew	O
+.	O
+
+# sent_id = 122
+# text = Shortly after the Battle of Yavin, second platoon was involved in a skirmish in Cylo's research base.
+# status = {"0":"accepted"}
+# time (ms) = 22481
+Shortly	O
+after	O
+the	O
+Battle	O
+of	O
+Yavin	B-LOC
+,	O
+second	O
+platoon	O
+was	O
+involved	O
+in	O
+a	O
+skirmish	O
+in	O
+Cylo	B-PER
+'	O
+s	O
+research	O
+base	O
+.	O
+
+# sent_id = 123
+# text = As part of the First Order's attempts to take over the Colossus platform, Kragan Gorr and his pirate gang launched a second raid on the platform, some time after their first attempt.
+# status = {"0":"accepted"}
+# time (ms) = 28308
+As	O
+part	O
+of	O
+the	O
+First	B-ORG
+Order	I-ORG
+'	O
+s	O
+attempts	O
+to	O
+take	O
+over	O
+the	O
+Colossus	O
+platform	O
+,	O
+Kragan	B-PER
+Gorr	I-PER
+and	O
+his	O
+pirate	O
+gang	O
+launched	O
+a	O
+second	O
+raid	O
+on	O
+the	O
+platform	O
+,	O
+some	O
+time	O
+after	O
+their	O
+first	O
+attempt	O
+.	O
+
+# sent_id = 124
+# text = Due to the gang's spy, Synara San, informing Gorr that the Ace Squadron was off-platform and the targeting computer for the platform's defense turbolasers was down, Gorr and his gang were able to do much more damage than in their first attack.
+# status = {"0":"accepted"}
+# time (ms) = 39463
+Due	O
+to	O
+the	O
+gang	O
+'	O
+s	O
+spy	O
+,	O
+Synara	B-PER
+San	I-PER
+,	O
+informing	O
+Gorr	B-PER
+that	O
+the	O
+Ace	O
+Squadron	O
+was	O
+off-platform	O
+and	O
+the	O
+targeting	O
+computer	O
+for	O
+the	O
+platform	O
+'	O
+s	O
+defense	O
+turbolasers	O
+was	O
+down	O
+,	O
+Gorr	B-PER
+and	O
+his	O
+gang	O
+were	O
+able	O
+to	O
+do	O
+much	O
+more	O
+damage	O
+than	O
+in	O
+their	O
+first	O
+attack	O
+.	O
+
+# sent_id = 125
+# text = Around 9 ABY, during the New Republic Era, the Mandalorian Din Djarin and his allies mounted a rescue of Grogu from a remnant of the fallen Galactic Empire led by Moff Gideon.
+# status = {"0":"accepted"}
+# time (ms) = 37111
+Around	O
+9	O
+ABY	O
+,	O
+during	O
+the	O
+New	B-ORG
+Republic	I-ORG
+Era	O
+,	O
+the	O
+Mandalorian	B-PER
+Din	I-PER
+Djarin	I-PER
+and	O
+his	O
+allies	O
+mounted	O
+a	O
+rescue	O
+of	O
+Grogu	B-PER
+from	O
+a	O
+remnant	O
+of	O
+the	O
+fallen	O
+Galactic	B-ORG
+Empire	I-ORG
+led	O
+by	O
+Moff	B-PER
+Gideon	I-PER
+.	O
+
+# sent_id = 126
+# text = The Second Sister, formerly known as Trilla Suduri, was a Force-sensitive human female who served in the Inquisitorius during the reign of the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 27143
+The	O
+Second	B-PER
+Sister	I-PER
+,	O
+formerly	O
+known	O
+as	O
+Trilla	B-PER
+Suduri	I-PER
+,	O
+was	O
+a	O
+Force-sensitive	O
+human	O
+female	O
+who	O
+served	O
+in	O
+the	O
+Inquisitorius	B-ORG
+during	O
+the	O
+reign	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 127
+# text = Trained in the Jedi arts, the Second Sister was an expert lightsaber duelist and one of the Empire's deadliest Jedi hunters.
+# status = {"0":"accepted"}
+# time (ms) = 32675
+Trained	O
+in	O
+the	O
+Jedi	O
+arts	O
+,	O
+the	O
+Second	B-PER
+Sister	I-PER
+was	O
+an	O
+expert	O
+lightsaber	O
+duelist	O
+and	O
+one	O
+of	O
+the	O
+Empire	B-ORG
+'	O
+s	O
+deadliest	O
+Jedi	O
+hunters	O
+.	O
+
+# sent_id = 128
+# text = However, Suduri's strongest asset was her brilliant intellect, being able to anticipate the behavior of her prey.
+# status = {"0":"accepted"}
+# time (ms) = 11799
+However	O
+,	O
+Suduri	B-PER
+'	O
+s	O
+strongest	O
+asset	O
+was	O
+her	O
+brilliant	O
+intellect	O
+,	O
+being	O
+able	O
+to	O
+anticipate	O
+the	O
+behavior	O
+of	O
+her	O
+prey	O
+.	O
+
+# sent_id = 129
+# text = A double-bladed spinning lightsaber was utilized by the Second Sister during her time as a member of the Inquisitorius.
+# status = {"0":"accepted"}
+# time (ms) = 12987
+A	O
+double-bladed	O
+spinning	O
+lightsaber	O
+was	O
+utilized	O
+by	O
+the	O
+Second	B-PER
+Sister	I-PER
+during	O
+her	O
+time	O
+as	O
+a	O
+member	O
+of	O
+the	O
+Inquisitorius	B-ORG
+.	O
+
+# sent_id = 130
+# text = After Trilla Suduri was captured by the Galactic Empire and turned to the dark side of the Force, Suduri became known as the Second Sister and used the lightsaber as her primary weapon.
+# status = {"0":"accepted"}
+# time (ms) = 27904
+After	O
+Trilla	B-PER
+Suduri	I-PER
+was	O
+captured	O
+by	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+and	O
+turned	O
+to	O
+the	O
+dark	O
+side	O
+of	O
+the	O
+Force	O
+,	O
+Suduri	B-PER
+became	O
+known	O
+as	O
+the	O
+Second	B-PER
+Sister	I-PER
+and	O
+used	O
+the	O
+lightsaber	O
+as	O
+her	O
+primary	O
+weapon	O
+.	O
+
+# sent_id = 131
+# text = She used it to hunt down Padawan Cal Kestis during the Great Jedi Purge.
+# status = {"0":"accepted"}
+# time (ms) = 12398
+She	O
+used	O
+it	O
+to	O
+hunt	O
+down	O
+Padawan	O
+Cal	B-PER
+Kestis	I-PER
+during	O
+the	O
+Great	O
+Jedi	O
+Purge	O
+.	O
+
+# sent_id = 132
+# text = During their third duel on Bogano, Kestis disarmed Suduri, grabbed the lightsaber, and was forced to relive Suduri's capture and conscription into the Inquisitorius through his psychometry, allowing her to steal a Jedi holocron and escape.
+# status = {"0":"accepted"}
+# time (ms) = 54107
+During	O
+their	O
+third	O
+duel	O
+on	O
+Bogano	B-LOC
+,	O
+Kestis	B-PER
+disarmed	O
+Suduri	B-PER
+,	O
+grabbed	O
+the	O
+lightsaber	O
+,	O
+and	O
+was	O
+forced	O
+to	O
+relive	O
+Suduri	B-PER
+'	O
+s	O
+capture	O
+and	O
+conscription	O
+into	O
+the	O
+Inquisitorius	O
+through	O
+his	O
+psychometry	O
+,	O
+allowing	O
+her	O
+to	O
+steal	O
+a	O
+Jedi	O
+holocron	O
+and	O
+escape	O
+.	O
+
+# sent_id = 133
+# text = Kestis gave the saber to his master, Cere Junda, the Second Sister's former Master, who knighted him with it.
+# status = {"0":"accepted"}
+# time (ms) = 17172
+Kestis	B-PER
+gave	O
+the	O
+saber	O
+to	O
+his	O
+master	O
+,	O
+Cere	B-PER
+Junda	I-PER
+,	O
+the	O
+Second	B-PER
+Sister	I-PER
+'	O
+s	O
+former	O
+Master	O
+,	O
+who	O
+knighted	O
+him	O
+with	O
+it	O
+.	O
+
+# sent_id = 134
+# text = Junda used the lightsaber as her primary weapon during the Mission to Nur.
+# status = {"0":"accepted"}
+# time (ms) = 12002
+Junda	B-PER
+used	O
+the	O
+lightsaber	O
+as	O
+her	O
+primary	O
+weapon	O
+during	O
+the	O
+Mission	O
+to	O
+Nur	B-LOC
+.	O
+
+# sent_id = 135
+# text = By the time Kestis faced the Second Sister in their fourth and final duel at Fortress Inquisitorius, she had replaced this lightsaber with a new one.
+# status = {"0":"accepted"}
+# time (ms) = 29773
+By	O
+the	O
+time	O
+Kestis	B-PER
+faced	O
+the	O
+Second	B-PER
+Sister	I-PER
+in	O
+their	O
+fourth	O
+and	O
+final	O
+duel	O
+at	O
+Fortress	B-LOC
+Inquisitorius	I-LOC
+,	O
+she	O
+had	O
+replaced	O
+this	O
+lightsaber	O
+with	O
+a	O
+new	O
+one	O
+.	O
+
+# sent_id = 136
+# text = A skirmish in the Mesulan Remnants Belt occurred after Fyzen Gor's escape from Substation Grimdock.
+# status = {"0":"accepted"}
+# time (ms) = 31842
+A	O
+skirmish	O
+in	O
+the	O
+Mesulan	B-LOC
+Remnants	I-LOC
+Belt	I-LOC
+occurred	O
+after	O
+Fyzen	B-PER
+Gor	I-PER
+'	O
+s	O
+escape	O
+from	O
+Substation	B-LOC
+Grimdock	I-LOC
+.	O
+
+# sent_id = 137
+# text = Attempting to prevent Gor from activating the Phylanx Redux Transmitter, Han Solo and Lando Calrissian's team tracked the transmitter to the Mesulan Remnants, but their starship, the Vermillion, was hijacked by Gor.
+# status = {"0":"accepted"}
+# time (ms) = 95169
+Attempting	O
+to	O
+prevent	O
+Gor	B-PER
+from	O
+activating	O
+the	O
+Phylanx	B-MISC
+Redux	I-MISC
+Transmitter	I-MISC
+,	O
+Han	B-PER
+Solo	I-PER
+and	O
+Lando	B-PER
+Calrissian	I-PER
+'	O
+s	O
+team	O
+tracked	O
+the	O
+transmitter	O
+to	O
+the	O
+Mesulan	B-LOC
+Remnants	I-LOC
+,	O
+but	O
+their	O
+starship	O
+,	O
+the	O
+Vermillion	B-MISC
+,	O
+was	O
+hijacked	O
+by	O
+Gor	B-PER
+.	O
+
+# sent_id = 138
+# text = Solo and Calrissian themselves later arrived in the Chevalier, having been visiting the asylum on Grava, finding the Remnants.
+# status = {"0":"accepted"}
+# time (ms) = 17897
+Solo	B-PER
+and	O
+Calrissian	B-PER
+themselves	O
+later	O
+arrived	O
+in	O
+the	O
+Chevalier	B-LOC
+,	O
+having	O
+been	O
+visiting	O
+the	O
+asylum	O
+on	O
+Grava	B-LOC
+,	O
+finding	O
+the	O
+Remnants	O
+.	O
+
+# sent_id = 139
+# text = During the skirmish, the Elthree Assault Team, founded years earlier by L3-37, entered the skirmish against Gor's Original Dozen.
+# status = {"0":"accepted"}
+# time (ms) = 23297
+During	O
+the	O
+skirmish	O
+,	O
+the	O
+Elthree	B-MISC
+Assault	I-MISC
+Team	I-MISC
+,	O
+founded	O
+years	O
+earlier	O
+by	O
+L3-37	B-PER
+,	O
+entered	O
+the	O
+skirmish	O
+against	O
+Gor	B-PER
+'	O
+s	O
+Original	O
+Dozen	O
+.	O
+
+# sent_id = 140
+# text = Calrissian managed to destroy the transmitter, and Solo killed Gor with the Chevalier's laser cannons.
+# status = {"0":"accepted"}
+# time (ms) = 21941
+Calrissian	B-PER
+managed	O
+to	O
+destroy	O
+the	O
+transmitter	O
+,	O
+and	O
+Solo	B-PER
+killed	O
+Gor	B-PER
+with	O
+the	O
+Chevalier	B-MISC
+'	O
+s	O
+laser	O
+cannons	O
+.	O
+
+# sent_id = 141
+# text = Around 9 ABY, an attack on an Imperial base was led by Magistrate Greef Karga.
+# status = {"0":"accepted"}
+# time (ms) = 13074
+Around	O
+9	O
+ABY	O
+,	O
+an	O
+attack	O
+on	O
+an	O
+Imperial	O
+base	O
+was	O
+led	O
+by	O
+Magistrate	B-PER
+Greef	I-PER
+Karga	I-PER
+.	O
+
+# sent_id = 142
+# text = He and his companions Din Djarin, Carasynthia Dune, and a Mythrol infiltrated the installation and destroyed it, stealing a Trexler 906 Armored Marauder to escape in.
+# status = {"0":"accepted"}
+# time (ms) = 39514
+He	O
+and	O
+his	O
+companions	O
+Din	B-PER
+Djarin	I-PER
+,	O
+Carasynthia	B-PER
+Dune	I-PER
+,	O
+and	O
+a	O
+Mythrol	B-PER
+infiltrated	O
+the	O
+installation	O
+and	O
+destroyed	O
+it	O
+,	O
+stealing	O
+a	O
+Trexler	B-MISC
+906	I-MISC
+Armored	I-MISC
+Marauder	I-MISC
+to	O
+escape	O
+in	O
+.	O
+
+# sent_id = 143
+# text = The confrontation effectively ended the Imperial presence on Nevarro.
+# status = {"0":"accepted"}
+# time (ms) = 11047
+The	O
+confrontation	O
+effectively	O
+ended	O
+the	O
+Imperial	O
+presence	O
+on	O
+Nevarro	B-LOC
+.	O
+
+# sent_id = 144
+# text = Second Squadron Commander was a rank in the First Order Navy during the First Order/Resistance War.
+# status = {"0":"accepted"}
+# time (ms) = 31101
+Second	O
+Squadron	O
+Commander	O
+was	O
+a	O
+rank	O
+in	O
+the	O
+First	B-ORG
+Order	I-ORG
+Navy	I-ORG
+during	O
+the	O
+First	B-ORG
+Order	I-ORG
+/	O
+Resistance	B-ORG
+War	I-ORG
+.	O
+
+# sent_id = 145
+# text = Due to her role in defending the bridge of Commander Pyre's Resurgent-class Star Destroyer during the Escape from Aeos Prime, First Order TIE Fighter Pilot cadet Tamara Ryvora was promoted to the position of Second Squadron Commander.
+# status = {"0":"accepted"}
+# time (ms) = 98900
+Due	O
+to	O
+her	O
+role	O
+in	O
+defending	O
+the	O
+bridge	O
+of	O
+Commander	O
+Pyre	B-PER
+'	O
+s	O
+Resurgent-class	O
+Star	O
+Destroyer	O
+during	O
+the	O
+Escape	O
+from	O
+Aeos	B-LOC
+Prime	I-LOC
+,	O
+First	O
+Order	O
+TIE	O
+Fighter	O
+Pilot	O
+cadet	O
+Tamara	B-PER
+Ryvora	I-PER
+was	O
+promoted	O
+to	O
+the	O
+position	O
+of	O
+Second	O
+Squadron	O
+Commander	O
+.	O
+
+# sent_id = 146
+# text = Second weapons officer was a position within the starfleet of the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 10136
+Second	O
+weapons	O
+officer	O
+was	O
+a	O
+position	O
+within	O
+the	O
+starfleet	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 147
+# text = Upon gaining the rank of junior lieutenant, Thrawn was assigned as the second weapons officer aboard the Gozanti-class cruiser Blood Crow.
+# status = {"0":"accepted"}
+# time (ms) = 30599
+Upon	O
+gaining	O
+the	O
+rank	O
+of	O
+junior	O
+lieutenant	O
+,	O
+Thrawn	B-PER
+was	O
+assigned	O
+as	O
+the	O
+second	O
+weapons	O
+officer	O
+aboard	O
+the	O
+Gozanti-class	O
+cruiser	O
+Blood	B-MISC
+Crow	I-MISC
+.	O
+
+# sent_id = 148
+# text = Long after the Galactic Civil War, a Whill talked to another Whill about recording the history of the galaxy.
+# status = {"0":"accepted"}
+# time (ms) = 1082600
+Long	O
+after	O
+the	O
+Galactic	O
+Civil	O
+War	O
+,	O
+a	O
+Whill	B-PER
+talked	O
+to	O
+another	O
+Whill	B-PER
+about	O
+recording	O
+the	O
+history	O
+of	O
+the	O
+galaxy	O
+.	O
+
+# sent_id = 149
+# text = Second-wave was a term used by the original settlers of the planet Jelucan to describe the settlers that arrived 350 years after the initial settlement of the planet.
+# status = {"0":"accepted"}
+# time (ms) = 15842
+Second-wave	O
+was	O
+a	O
+term	O
+used	O
+by	O
+the	O
+original	O
+settlers	O
+of	O
+the	O
+planet	O
+Jelucan	B-LOC
+to	O
+describe	O
+the	O
+settlers	O
+that	O
+arrived	O
+350	O
+years	O
+after	O
+the	O
+initial	O
+settlement	O
+of	O
+the	O
+planet	O
+.	O
+
+# sent_id = 150
+# text = Secondary sensor officer was a position within the starfleet of the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 27355
+Secondary	O
+sensor	O
+officer	O
+was	O
+a	O
+position	O
+within	O
+the	O
+starfleet	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 151
+# text = He or she was subordinate to the chief sensor officer.
+# status = {"0":"accepted"}
+# time (ms) = 5870
+He	O
+or	O
+she	O
+was	O
+subordinate	O
+to	O
+the	O
+chief	O
+sensor	O
+officer	O
+.	O
+
+# sent_id = 152
+# text = Secret agents were operatives who belonged to the Noble Court-in-exile of the Anoat sector.
+# status = {"0":"accepted"}
+# time (ms) = 34677
+Secret	O
+agents	O
+were	O
+operatives	O
+who	O
+belonged	O
+to	O
+the	O
+Noble	O
+Court-in	O
+-	O
+exile	O
+of	O
+the	O
+Anoat	B-LOC
+sector	I-LOC
+.	O
+
+# sent_id = 153
+# text = Although the Nobles frowned upon calling them assassins, those agents were trained to infiltrate Imperial bases, and they were just as deadly with a blaster than any gun-for-hire.
+# status = {"0":"accepted"}
+# time (ms) = 25214
+Although	O
+the	O
+Nobles	O
+frowned	O
+upon	O
+calling	O
+them	O
+assassins	O
+,	O
+those	O
+agents	O
+were	O
+trained	O
+to	O
+infiltrate	O
+Imperial	O
+bases	O
+,	O
+and	O
+they	O
+were	O
+just	O
+as	O
+deadly	O
+with	O
+a	O
+blaster	O
+than	O
+any	O
+gun-for	O
+-	O
+hire	O
+.	O
+
+# sent_id = 154
+# text = The secret mission to Geonosis was carried out by the Sith Lord Darth Vader not long after the Battle of Yavin.
+# status = {"0":"accepted"}
+# time (ms) = 18270
+The	O
+secret	O
+mission	O
+to	O
+Geonosis	B-LOC
+was	O
+carried	O
+out	O
+by	O
+the	O
+Sith	B-PER
+Lord	I-PER
+Darth	I-PER
+Vader	I-PER
+not	O
+long	O
+after	O
+the	O
+Battle	O
+of	O
+Yavin	B-LOC
+.	O
+
+# sent_id = 155
+# text = Having fallen out of favor with Emperor Palpatine, Vader had recruited the rogue archaeologist Doctor Chelli Aphra and the assassin droids BT-1 and 0-0-0 to assist him in building an army of unquestionably loyal battle droids.
+# status = {"0":"accepted"}
+# time (ms) = 31305
+Having	O
+fallen	O
+out	O
+of	O
+favor	O
+with	O
+Emperor	B-PER
+Palpatine	I-PER
+,	O
+Vader	B-PER
+had	O
+recruited	O
+the	O
+rogue	O
+archaeologist	O
+Doctor	O
+Chelli	B-PER
+Aphra	I-PER
+and	O
+the	O
+assassin	O
+droids	O
+BT-1	B-PER
+and	O
+0-0	B-PER
+-	I-PER
+0	I-PER
+to	O
+assist	O
+him	O
+in	O
+building	O
+an	O
+army	O
+of	O
+unquestionably	O
+loyal	O
+battle	O
+droids	O
+.	O
+
+# sent_id = 156
+# text = Vader soon arrived on the planet Geonosis and his team infiltrated the lair of Karina, a Geonosian queen who had utilized a droid factory to produce battle droids as her children after she was injured and left unable to produce offspring during the sterilization of Geonosis.
+# status = {"0":"accepted"}
+# time (ms) = 33213
+Vader	B-PER
+soon	O
+arrived	O
+on	O
+the	O
+planet	O
+Geonosis	B-LOC
+and	O
+his	O
+team	O
+infiltrated	O
+the	O
+lair	O
+of	O
+Karina	B-PER
+,	O
+a	O
+Geonosian	O
+queen	O
+who	O
+had	O
+utilized	O
+a	O
+droid	O
+factory	O
+to	O
+produce	O
+battle	O
+droids	O
+as	O
+her	O
+children	O
+after	O
+she	O
+was	O
+injured	O
+and	O
+left	O
+unable	O
+to	O
+produce	O
+offspring	O
+during	O
+the	O
+sterilization	O
+of	O
+Geonosis	B-LOC
+.	O
+
+# sent_id = 157
+# text = While BT-1 fired on the queen's B1-series battle droids, Vader and Aphra severed the queen from her factory, and Aphra used her starship, the Ark Angel, to blow a large hole in the roof of the lair so that Vader's own starship could then extract both the factory and Vader's team with a large crane.
+# status = {"0":"accepted"}
+# time (ms) = 40099
+While	O
+BT-1	B-MISC
+fired	O
+on	O
+the	O
+queen	O
+'	O
+s	O
+B1-series	O
+battle	O
+droids	O
+,	O
+Vader	B-PER
+and	O
+Aphra	B-PER
+severed	O
+the	O
+queen	O
+from	O
+her	O
+factory	O
+,	O
+and	O
+Aphra	B-PER
+used	O
+her	O
+starship	O
+,	O
+the	O
+Ark	B-MISC
+Angel	I-MISC
+,	O
+to	O
+blow	O
+a	O
+large	O
+hole	O
+in	O
+the	O
+roof	O
+of	O
+the	O
+lair	O
+so	O
+that	O
+Vader	B-PER
+'	O
+s	O
+own	O
+starship	O
+could	O
+then	O
+extract	O
+both	O
+the	O
+factory	O
+and	O
+Vader	B-PER
+'	O
+s	O
+team	O
+with	O
+a	O
+large	O
+crane	O
+.	O
+
+# sent_id = 158
+# text = The captured droid factory began producing BX-series droid commandos for Vader, which he used to assault the research base of a rival Imperial operative named Cylo.
+# status = {"0":"accepted"}
+# time (ms) = 88462
+The	O
+captured	O
+droid	O
+factory	O
+began	O
+producing	O
+BX-series	B-MISC
+droid	O
+commandos	O
+for	O
+Vader	B-PER
+,	O
+which	O
+he	O
+used	O
+to	O
+assault	O
+the	O
+research	O
+base	O
+of	O
+a	O
+rival	O
+Imperial	O
+operative	O
+named	O
+Cylo	B-PER
+.	O
+
+# sent_id = 159
+# text = The secret mission to rebuild the Jedi Order was carried out during the Great Jedi Purge by former Jedi Knight Cere Junda and Padawan Cal Kestis.
+# status = {"0":"accepted"}
+# time (ms) = 22442
+The	O
+secret	O
+mission	O
+to	O
+rebuild	O
+the	O
+Jedi	B-ORG
+Order	I-ORG
+was	O
+carried	O
+out	O
+during	O
+the	O
+Great	O
+Jedi	O
+Purge	O
+by	O
+former	O
+Jedi	O
+Knight	O
+Cere	B-PER
+Junda	I-PER
+and	O
+Padawan	O
+Cal	B-PER
+Kestis	I-PER
+.	O
+
+# sent_id = 160
+# text = It was their efforts to restore the destroyed Jedi Order that brought them into conflict with the Inquisitorius of the Galactic Empire.
+# status = {"0":"accepted"}
+# time (ms) = 16845
+It	O
+was	O
+their	O
+efforts	O
+to	O
+restore	O
+the	O
+destroyed	O
+Jedi	B-ORG
+Order	I-ORG
+that	O
+brought	O
+them	O
+into	O
+conflict	O
+with	O
+the	O
+Inquisitorius	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+.	O
+
+# sent_id = 161
+# text = The secret mission to Tatooine was an operation undertaken in 0 BBY by the Alliance to Restore the Republic during the Galactic Civil War.
+# status = {"0":"accepted"}
+# time (ms) = 15287
+The	O
+secret	O
+mission	O
+to	O
+Tatooine	B-LOC
+was	O
+an	O
+operation	O
+undertaken	O
+in	O
+0	O
+BBY	O
+by	O
+the	O
+Alliance	B-ORG
+to	O
+Restore	O
+the	O
+Republic	O
+during	O
+the	O
+Galactic	O
+Civil	O
+War	O
+.	O
+
+# sent_id = 162
+# text = The mission followed the Rebellion's theft of the plans to the Death Star, the Galactic Empire's planet-destroying deep space mobile battle station from the planet Scarif.
+# status = {"0":"accepted"}
+# time (ms) = 138235
+The	O
+mission	O
+followed	O
+the	O
+Rebellion	B-ORG
+'	O
+s	O
+theft	O
+of	O
+the	O
+plans	O
+to	O
+the	O
+Death	B-LOC
+Star	I-LOC
+,	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+'	O
+s	O
+planet-destroying	O
+deep	O
+space	O
+mobile	O
+battle	O
+station	O
+from	O
+the	O
+planet	O
+Scarif	B-LOC
+.	O
+
+# sent_id = 163
+# text = Rebel spies Jyn Erso and Cassian Andor transmitted the plans to Admiral Raddus aboard his flagship.
+# status = {"0":"accepted"}
+# time (ms) = 22977
+Rebel	O
+spies	O
+Jyn	B-PER
+Erso	I-PER
+and	O
+Cassian	B-PER
+Andor	I-PER
+transmitted	O
+the	O
+plans	O
+to	O
+Admiral	O
+Raddus	B-PER
+aboard	O
+his	O
+flagship	O
+.	O
+
+# sent_id = 164
+# text = As the battle concluded, the plans were nearly reclaimed by Darth Vader, but were successfully transferred to Princess Leia Organa of Alderaan aboard the Tantive IV.
+# status = {"0":"accepted"}
+# time (ms) = 29411
+As	O
+the	O
+battle	O
+concluded	O
+,	O
+the	O
+plans	O
+were	O
+nearly	O
+reclaimed	O
+by	O
+Darth	B-PER
+Vader	I-PER
+,	O
+but	O
+were	O
+successfully	O
+transferred	O
+to	O
+Princess	O
+Leia	B-PER
+Organa	I-PER
+of	O
+Alderaan	B-LOC
+aboard	O
+the	O
+Tantive	B-MISC
+IV	I-MISC
+.	O
+
+# sent_id = 165
+# text = The secret Phoenix Cell route was a secret hyperspace route created by the RA-7 protocol droid AP-5 when using both the Galactic Empire's databank and the data obtained by Phoenix Cell to reach Atollon.
+# status = {"0":"accepted"}
+# time (ms) = 52554
+The	O
+secret	O
+Phoenix	B-ORG
+Cell	I-ORG
+route	O
+was	O
+a	O
+secret	O
+hyperspace	O
+route	O
+created	O
+by	O
+the	O
+RA-7	O
+protocol	O
+droid	O
+AP-5	B-MISC
+when	O
+using	O
+both	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+'	O
+s	O
+databank	O
+and	O
+the	O
+data	O
+obtained	O
+by	O
+Phoenix	B-ORG
+Cell	I-ORG
+to	O
+reach	O
+Atollon	B-LOC
+.	O
+
+# sent_id = 166
+# text = The hyperspace route became a closely guarded secret and the rebels established Chopper Base on Atollon's surface.
+# status = {"0":"accepted"}
+# time (ms) = 103649
+The	O
+hyperspace	O
+route	O
+became	O
+a	O
+closely	O
+guarded	O
+secret	O
+and	O
+the	O
+rebels	O
+established	O
+Chopper	B-MISC
+Base	O
+on	O
+Atollon	B-LOC
+'	O
+s	O
+surface	O
+.	O
+
+# sent_id = 167
+# text = A secretary droid was a type of droid used to perform basic clerical work.
+# status = {"0":"accepted"}
+# time (ms) = 9644
+A	O
+secretary	O
+droid	O
+was	O
+a	O
+type	O
+of	O
+droid	O
+used	O
+to	O
+perform	O
+basic	O
+clerical	O
+work	O
+.	O
+
+# sent_id = 168
+# text = The CZ-series secretary/business communications droid was an example of this type of droid.
+# status = {"0":"accepted"}
+# time (ms) = 4361
+The	O
+CZ-series	O
+secretary	O
+/	O
+business	O
+communications	O
+droid	O
+was	O
+an	O
+example	O
+of	O
+this	O
+type	O
+of	O
+droid	O
+.	O
+
+# sent_id = 169
+# text = One of the most notable secretary droid was CZ-1G5, a CZ unit who was located at Niima Outpost for over three hundred years and helped the Kubaz banker Rikard Lovas carry out a devilish plan to help him make money.
+# status = {"0":"accepted"}
+# time (ms) = 30513
+One	O
+of	O
+the	O
+most	O
+notable	O
+secretary	O
+droid	O
+was	O
+CZ-1G5	B-MISC
+,	O
+a	O
+CZ	O
+unit	O
+who	O
+was	O
+located	O
+at	O
+Niima	B-LOC
+Outpost	I-LOC
+for	O
+over	O
+three	O
+hundred	O
+years	O
+and	O
+helped	O
+the	O
+Kubaz	O
+banker	O
+Rikard	B-PER
+Lovas	I-PER
+carry	O
+out	O
+a	O
+devilish	O
+plan	O
+to	O
+help	O
+him	O
+make	O
+money	O
+.	O
+
+# sent_id = 170
+# text = The Secretary of the Cabinet was an individual who led the Alliance Cabinet and its ministers, who were part of the civilian body of the Alliance to Restore the Republic, the Alliance Civil Government.
+# status = {"0":"accepted"}
+# time (ms) = 126470
+The	O
+Secretary	O
+of	O
+the	O
+Cabinet	O
+was	O
+an	O
+individual	O
+who	O
+led	O
+the	O
+Alliance	B-ORG
+Cabinet	I-ORG
+and	O
+its	O
+ministers	O
+,	O
+who	O
+were	O
+part	O
+of	O
+the	O
+civilian	O
+body	O
+of	O
+the	O
+Alliance	B-ORG
+to	O
+Restore	O
+the	O
+Republic	B-ORG
+,	O
+the	O
+Alliance	B-ORG
+Civil	I-ORG
+Government	I-ORG
+.	O
+
+# sent_id = 171
+# text = Viceroy and former Senator Bail Organa served as Secretary of the Cabinet until his death in 0 BBY.
+# status = {"0":"accepted"}
+# time (ms) = 17028
+Viceroy	B-PER
+and	O
+former	O
+Senator	O
+Bail	B-PER
+Organa	I-PER
+served	O
+as	O
+Secretary	O
+of	O
+the	O
+Cabinet	B-ORG
+until	O
+his	O
+death	O
+in	O
+0	O
+BBY	O
+.	O
+
+# sent_id = 172
+# text = The Secretary of Transportation was the leader of the Republic Transport Bureau and was responsible for maintaining safe and reliable travel across the Galactic Republic and reported directly to the incumbent Supreme Chancellor.
+# status = {"0":"accepted"}
+# time (ms) = 28358
+The	O
+Secretary	O
+of	O
+Transportation	O
+was	O
+the	O
+leader	O
+of	O
+the	O
+Republic	B-ORG
+Transport	I-ORG
+Bureau	I-ORG
+and	O
+was	O
+responsible	O
+for	O
+maintaining	O
+safe	O
+and	O
+reliable	O
+travel	O
+across	O
+the	O
+Galactic	B-ORG
+Republic	I-ORG
+and	O
+reported	O
+directly	O
+to	O
+the	O
+incumbent	O
+Supreme	O
+Chancellor	O
+.	O
+
+# sent_id = 173
+# text = The position was held by a Muun male named Jeffo Lorillia in 232 BBY, who worked under Chancellor Lina Soh.
+# status = {"0":"accepted"}
+# time (ms) = 478670
+The	O
+position	O
+was	O
+held	O
+by	O
+a	O
+Muun	O
+male	O
+named	O
+Jeffo	B-PER
+Lorillia	I-PER
+in	O
+232	O
+BBY	O
+,	O
+who	O
+worked	O
+under	O
+Chancellor	O
+Lina	B-PER
+Soh	I-PER
+.	O
+
+# sent_id = 174
+# text = Section A-five was a location on the space station Lansend Twenty-Six.
+# status = {"0":"accepted"}
+# time (ms) = 33599
+Section	B-LOC
+A-five	I-LOC
+was	O
+a	O
+location	O
+on	O
+the	O
+space	O
+station	O
+Lansend	B-LOC
+Twenty-Six	I-LOC
+.	O
+
+# sent_id = 175
+# text = Section A-four was a location on the space station Lansend Twenty-Six.
+# status = {"0":"accepted"}
+# time (ms) = 16763
+Section	B-LOC
+A-four	I-LOC
+was	O
+a	O
+location	O
+on	O
+the	O
+space	O
+station	O
+Lansend	B-LOC
+Twenty-Six	I-LOC
+.	O
+
+# sent_id = 176
+# text = Section B-eight was a location on the space station Lansend Twenty-Six, a facility the Galactic Empire used to hold slaves.
+# status = {"0":"accepted"}
+# time (ms) = 16092
+Section	B-LOC
+B-eight	I-LOC
+was	O
+a	O
+location	O
+on	O
+the	O
+space	O
+station	O
+Lansend	B-LOC
+Twenty-Six	I-LOC
+,	O
+a	O
+facility	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+used	O
+to	O
+hold	O
+slaves	O
+.	O
+
+# sent_id = 177
+# text = Section B-five was a location on the space station Lansend Twenty-Six.
+# status = {"0":"accepted"}
+# time (ms) = 107935
+Section	B-LOC
+B-five	I-LOC
+was	O
+a	O
+location	O
+on	O
+the	O
+space	O
+station	O
+Lansend	B-LOC
+Twenty-Six	I-LOC
+.	O
+
+# sent_id = 178
+# text = Section C-6 was a location in Tipoca City Military Complex on the planet Kamino.
+# status = {"0":"accepted"}
+# time (ms) = 15737
+Section	B-LOC
+C-6	I-LOC
+was	O
+a	O
+location	O
+in	O
+Tipoca	B-LOC
+City	I-LOC
+Military	I-LOC
+Complex	I-LOC
+on	O
+the	O
+planet	O
+Kamino	B-LOC
+.	O
+
+# sent_id = 179
+# text = Section IG44 was an area of the planet Coruscant.
+# status = {"0":"accepted"}
+# time (ms) = 8191
+Section	B-LOC
+IG44	I-LOC
+was	O
+an	O
+area	O
+of	O
+the	O
+planet	O
+Coruscant	B-LOC
+.	O
+
+# sent_id = 180
+# text = Coruscant Guard riot troopers believed Duchess Satine Kryze fled toward that section after the police identified her as a suspect in the murder of Davu Golec.
+# status = {"0":"accepted"}
+# time (ms) = 28977
+Coruscant	B-ORG
+Guard	I-ORG
+riot	O
+troopers	O
+believed	O
+Duchess	O
+Satine	B-PER
+Kryze	I-PER
+fled	O
+toward	O
+that	O
+section	O
+after	O
+the	O
+police	O
+identified	O
+her	O
+as	O
+a	O
+suspect	O
+in	O
+the	O
+murder	O
+of	O
+Davu	B-PER
+Golec	I-PER
+.	O
+
+# sent_id = 181
+# text = A sector was an area of space or land framed by an artificial, conventional boundary.
+# status = {"0":"accepted"}
+# time (ms) = 11037
+A	O
+sector	O
+was	O
+an	O
+area	O
+of	O
+space	O
+or	O
+land	O
+framed	O
+by	O
+an	O
+artificial	O
+,	O
+conventional	O
+boundary	O
+.	O
+
+# sent_id = 182
+# text = Sector 11 was a location within the city of Sundari on the planet Mandalore.
+# status = {"0":"accepted"}
+# time (ms) = 13875
+Sector	B-LOC
+11	I-LOC
+was	O
+a	O
+location	O
+within	O
+the	O
+city	O
+of	O
+Sundari	B-LOC
+on	O
+the	O
+planet	O
+Mandalore	B-LOC
+.	O
+
+# sent_id = 183
+# text = Some time into the Galactic Republic's siege against the forces of Maul, the assistance of the Republic clone troopers was able to keep most of the city under control, though fighting still occurred within sector 11.
+# status = {"0":"accepted"}
+# time (ms) = 46002
+Some	O
+time	O
+into	O
+the	O
+Galactic	B-ORG
+Republic	I-ORG
+'	O
+s	O
+siege	O
+against	O
+the	O
+forces	O
+of	O
+Maul	B-PER
+,	O
+the	O
+assistance	O
+of	O
+the	O
+Republic	O
+clone	O
+troopers	O
+was	O
+able	O
+to	O
+keep	O
+most	O
+of	O
+the	O
+city	O
+under	O
+control	O
+,	O
+though	O
+fighting	O
+still	O
+occurred	O
+within	O
+sector	B-LOC
+11	I-LOC
+.	O
+
+# sent_id = 184
+# text = Sector 11 was the designation for an area on the planet Rugosa.
+# status = {"0":"accepted"}
+# time (ms) = 26883
+Sector	B-LOC
+11	I-LOC
+was	O
+the	O
+designation	O
+for	O
+an	O
+area	O
+on	O
+the	O
+planet	O
+Rugosa	B-LOC
+.	O
+
+# sent_id = 185
+# text = When a group of battle droids were searching for Jedi Master Yoda during the Ambush on Rugosa in 22 BBY, a OOM command battle droid noticed the Jedi in sector 11 and ordered his troops to fire at the area.
+# status = {"0":"accepted"}
+# time (ms) = 34234
+When	O
+a	O
+group	O
+of	O
+battle	O
+droids	O
+were	O
+searching	O
+for	O
+Jedi	B-PER
+Master	I-PER
+Yoda	I-PER
+during	O
+the	O
+Ambush	O
+on	O
+Rugosa	B-LOC
+in	O
+22	O
+BBY	O
+,	O
+a	O
+OOM	O
+command	O
+battle	O
+droid	O
+noticed	O
+the	O
+Jedi	O
+in	O
+sector	B-LOC
+11	I-LOC
+and	O
+ordered	O
+his	O
+troops	O
+to	O
+fire	O
+at	O
+the	O
+area	O
+.	O
+
+# sent_id = 186
+# text = Sector 11374265 was the designation of an area of the planet Teth, outside the B'omarr Order Monastery.
+# status = {"0":"accepted"}
+# time (ms) = 63942
+Sector	B-LOC
+11374265	I-LOC
+was	O
+the	O
+designation	O
+of	O
+an	O
+area	O
+of	O
+the	O
+planet	O
+Teth	B-LOC
+,	O
+outside	O
+the	O
+B	B-ORG
+'	I-ORG
+omarr	I-ORG
+Order	I-ORG
+Monastery	I-ORG
+.	O
+
+# sent_id = 187
+# text = During the Battle of Teth, when Galactic Republic forces approached the Confederacy of Independent Systems–controlled monastery, an OOM command battle droid ordered a B1 battle droid sergeant to fire on Sector 11374265.
+# status = {"0":"accepted"}
+# time (ms) = 133127
+During	O
+the	O
+Battle	O
+of	O
+Teth	B-LOC
+,	O
+when	O
+Galactic	B-ORG
+Republic	I-ORG
+forces	O
+approached	O
+the	O
+Confederacy	B-ORG
+of	I-ORG
+Independent	I-ORG
+Systems	I-ORG
+–	O
+controlled	O
+monastery	O
+,	O
+an	O
+OOM	O
+command	O
+battle	O
+droid	O
+ordered	O
+a	O
+B1	O
+battle	O
+droid	O
+sergeant	O
+to	O
+fire	O
+on	O
+Sector	B-LOC
+11374265	I-LOC
+.	O
+
+# sent_id = 188
+# text = The sergeant was unsure where his commanding officer had ordered him to fire, leading the irate OOM command battle droid to point out the location.
+# status = {"0":"accepted"}
+# time (ms) = 7975
+The	O
+sergeant	O
+was	O
+unsure	O
+where	O
+his	O
+commanding	O
+officer	O
+had	O
+ordered	O
+him	O
+to	O
+fire	O
+,	O
+leading	O
+the	O
+irate	O
+OOM	O
+command	O
+battle	O
+droid	O
+to	O
+point	O
+out	O
+the	O
+location	O
+.	O
+
+# sent_id = 189
+# text = Sector 3263827 was a location that received refuse from Black Spire Outpost, a remote settlement on the planet Batuu in the Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 82400
+Sector	B-LOC
+3263827	I-LOC
+was	O
+a	O
+location	O
+that	O
+received	O
+refuse	O
+from	O
+Black	B-LOC
+Spire	I-LOC
+Outpost	I-LOC
+,	O
+a	O
+remote	O
+settlement	O
+on	O
+the	O
+planet	O
+Batuu	B-LOC
+in	O
+the	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 190
+# text = Garbage receptacles in the outpost were stamped with orders, written in Aurebesh, to transport trash to the sector.
+# status = {"0":"accepted"}
+# time (ms) = 9631
+Garbage	O
+receptacles	O
+in	O
+the	O
+outpost	O
+were	O
+stamped	O
+with	O
+orders	O
+,	O
+written	O
+in	O
+Aurebesh	O
+,	O
+to	O
+transport	O
+trash	O
+to	O
+the	O
+sector	O
+.	O
+
+# sent_id = 191
+# text = B-881 was a subsector located in the Lothal sector of the galaxy's Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 137541
+B-881	B-LOC
+was	O
+a	O
+subsector	O
+located	O
+in	O
+the	O
+Lothal	B-LOC
+sector	I-LOC
+of	O
+the	O
+galaxy	O
+'	O
+s	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 192
+# text = During the age of the Galactic Empire, the Lothal sector, including Sector 33.
+# status = {"0":"accepted"}
+# time (ms) = 25055
+During	O
+the	O
+age	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+the	O
+Lothal	B-LOC
+sector	I-LOC
+,	O
+including	O
+Sector	B-LOC
+33	I-LOC
+.	O
+
+# sent_id = 193
+# text = B-881, was ruled by the Empire and governed by Arihnda Pryce, a human female, a Lothal native, as well as Moff Stattata.
+# status = {"0":"accepted"}
+# time (ms) = 29336
+B-881	B-LOC
+,	O
+was	O
+ruled	O
+by	O
+the	O
+Empire	B-ORG
+and	O
+governed	O
+by	O
+Arihnda	B-PER
+Pryce	I-PER
+,	O
+a	O
+human	O
+female	O
+,	O
+a	O
+Lothal	O
+native	O
+,	O
+as	O
+well	O
+as	O
+Moff	B-PER
+Stattata	I-PER
+.	O
+
+# sent_id = 194
+# text = Sector 33G. 925 was a subsector located in the Lothal sector of the galaxy's Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 40392
+Sector	B-LOC
+33G	I-LOC
+.	I-LOC
+925	I-LOC
+was	O
+a	O
+subsector	O
+located	O
+in	O
+the	O
+Lothal	B-LOC
+sector	I-LOC
+of	O
+the	O
+galaxy	O
+'	O
+s	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 195
+# text = During the rule of the Galactic Empire, the Lothal sector and its subsectors, including Sector 33G. 925, was ruled by the Empire and controlled by Governor Arihnda Pryce, a human female from the planet Lothal, and Moff Stattata.
+# status = {"0":"accepted"}
+# time (ms) = 44651
+During	O
+the	O
+rule	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+the	O
+Lothal	B-LOC
+sector	I-LOC
+and	O
+its	O
+subsectors	O
+,	O
+including	O
+Sector	B-LOC
+33G	I-LOC
+.	I-LOC
+925	I-LOC
+,	O
+was	O
+ruled	O
+by	O
+the	O
+Empire	B-ORG
+and	O
+controlled	O
+by	O
+Governor	O
+Arihnda	B-PER
+Pryce	I-PER
+,	O
+a	O
+human	O
+female	O
+from	O
+the	O
+planet	O
+Lothal	B-LOC
+,	O
+and	O
+Moff	B-PER
+Stattata	I-PER
+.	O
+
+# sent_id = 196
+# text = Sector 47 was an area of space above the Forest Moon of Endor.
+# status = {"0":"accepted"}
+# time (ms) = 99731
+Sector	B-LOC
+47	I-LOC
+was	O
+an	O
+area	O
+of	O
+space	O
+above	O
+the	O
+Forest	O
+Moon	O
+of	O
+Endor	B-LOC
+.	O
+
+# sent_id = 197
+# text = During the Battle of Endor in the Galactic Civil War, the Galactic Empire's Star Destroyers were located in Sector 47 and ambushed the Alliance Fleet.
+# status = {"0":"accepted"}
+# time (ms) = 80104
+During	O
+the	O
+Battle	O
+of	O
+Endor	B-LOC
+in	O
+the	O
+Galactic	O
+Civil	O
+War	O
+,	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+'	O
+s	O
+Star	O
+Destroyers	O
+were	O
+located	O
+in	O
+Sector	B-LOC
+47	I-LOC
+and	O
+ambushed	O
+the	O
+Alliance	O
+Fleet	O
+.	O
+
+# sent_id = 198
+# text = A Rebel Alliance Mon Calamari controller informed Admiral Gial Ackbar about the location of the Imperial vessels.
+# status = {"0":"accepted"}
+# time (ms) = 459191
+A	O
+Rebel	O
+Alliance	O
+Mon	O
+Calamari	O
+controller	O
+informed	O
+Admiral	O
+Gial	B-PER
+Ackbar	I-PER
+about	O
+the	O
+location	O
+of	O
+the	O
+Imperial	O
+vessels	O
+.	O
+
+# sent_id = 199
+# text = Sector 5-1-5 was a sector in Capital City on the planet Lothal.
+# status = {"0":"accepted"}
+# time (ms) = 11474
+Sector	B-LOC
+5-1	I-LOC
+-	I-LOC
+5	I-LOC
+was	O
+a	O
+sector	O
+in	O
+Capital	O
+City	O
+on	O
+the	O
+planet	O
+Lothal	B-LOC
+.	O
+
+# sent_id = 200
+# text = Sector 5-1-5 was a sector on the desert planet of Geonosis.
+# status = {"0":"accepted"}
+# time (ms) = 12861
+Sector	B-LOC
+5-1	I-LOC
+-	I-LOC
+5	I-LOC
+was	O
+a	O
+sector	O
+on	O
+the	O
+desert	O
+planet	O
+of	O
+Geonosis	B-LOC
+.	O
+
+# sent_id = 201
+# text = During the First Battle of Geonosis, after Jedi Grand Master Yoda ordered all fire be focused on the nearest starship, a Clone Captain in the forward command center ordered all quadrants to the sector, allowing for the Republic's Self-Propelled Heavy Artillery Turbolasers to take down a core ship.
+# status = {"0":"accepted"}
+# time (ms) = 36838
+During	O
+the	O
+First	O
+Battle	O
+of	O
+Geonosis	B-LOC
+,	O
+after	O
+Jedi	B-PER
+Grand	I-PER
+Master	I-PER
+Yoda	I-PER
+ordered	O
+all	O
+fire	O
+be	O
+focused	O
+on	O
+the	O
+nearest	O
+starship	O
+,	O
+a	O
+Clone	O
+Captain	O
+in	O
+the	O
+forward	O
+command	O
+center	O
+ordered	O
+all	O
+quadrants	O
+to	O
+the	O
+sector	O
+,	O
+allowing	O
+for	O
+the	O
+Republic	O
+'	O
+s	O
+Self-Propelled	O
+Heavy	O
+Artillery	O
+Turbolasers	O
+to	O
+take	O
+down	O
+a	O
+core	O
+ship	O
+.	O
+
+# sent_id = 202
+# text = After the ship fell to the battlefield below, the battle continued and was ultimately won by the Republic.
+# status = {"0":"accepted"}
+# time (ms) = 11190
+After	O
+the	O
+ship	O
+fell	O
+to	O
+the	O
+battlefield	O
+below	O
+,	O
+the	O
+battle	O
+continued	O
+and	O
+was	O
+ultimately	O
+won	O
+by	O
+the	O
+Republic	B-ORG
+.	O
+
+# sent_id = 203
+# text = X48 was a subsector located in the Lothal sector of the galaxy's Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 18402
+X48	B-LOC
+was	O
+a	O
+subsector	O
+located	O
+in	O
+the	O
+Lothal	B-LOC
+sector	O
+of	O
+the	O
+galaxy	O
+'	O
+s	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 204
+# text = Following the establishment of the Galactic Empire, the Lothal sector and its subsectors, including Sector 6472.
+# status = {"0":"accepted"}
+# time (ms) = 23175
+Following	O
+the	O
+establishment	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+the	O
+Lothal	B-LOC
+sector	O
+and	O
+its	O
+subsectors	O
+,	O
+including	O
+Sector	B-LOC
+6472	I-LOC
+.	O
+
+# sent_id = 205
+# text = X48, was ruled by the Empire and controlled by Governor Arihnda Pryce, a human female, from the planet Lothal, and Moff Stattata.
+# status = {"0":"accepted"}
+# time (ms) = 37009
+X48	B-LOC
+,	O
+was	O
+ruled	O
+by	O
+the	O
+Empire	B-ORG
+and	O
+controlled	O
+by	O
+Governor	O
+Arihnda	B-PER
+Pryce	I-PER
+,	O
+a	O
+human	O
+female	O
+,	O
+from	O
+the	O
+planet	O
+Lothal	B-LOC
+,	O
+and	O
+Moff	B-PER
+Stattata	I-PER
+.	O
+
+# sent_id = 206
+# text = Sector 7-E was a location on the Colossus the station's residents were prohibited from entering.
+# status = {"0":"accepted"}
+# time (ms) = 23566
+Sector	B-LOC
+7-E	I-LOC
+was	O
+a	O
+location	O
+on	O
+the	O
+Colossus	B-LOC
+the	O
+station	O
+'	O
+s	O
+residents	O
+were	O
+prohibited	O
+from	O
+entering	O
+.	O
+
+# sent_id = 207
+# text = Kazuda Xiono and BB-8 encountered several pirates in sector 7-E, and managed to prevent them from stealing several crates of blasters.
+# status = {"0":"accepted"}
+# time (ms) = 76175
+Kazuda	B-PER
+Xiono	I-PER
+and	O
+BB-8	B-MISC
+encountered	O
+several	O
+pirates	O
+in	O
+sector	B-LOC
+7-E	I-LOC
+,	O
+and	O
+managed	O
+to	O
+prevent	O
+them	O
+from	O
+stealing	O
+several	O
+crates	O
+of	O
+blasters	O
+.	O
+
+# sent_id = 208
+# text = Sector 7732. 00122 was a subsector located in the Lothal sector of the galaxy's Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 30977
+Sector	B-LOC
+7732	I-LOC
+.	I-LOC
+00122	I-LOC
+was	O
+a	O
+subsector	O
+located	O
+in	O
+the	O
+Lothal	B-LOC
+sector	O
+of	O
+the	O
+galaxy	O
+'	O
+s	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 209
+# text = During the rule of the Galactic Empire, the Lothal sector and its subsectors, including Sector 7732. 00122, was ruled by the Empire and controlled by Moff Stattata and Governor Arihnda Pryce, a human female, from the planet Lothal.
+# status = {"0":"accepted"}
+# time (ms) = 37512
+During	O
+the	O
+rule	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+the	O
+Lothal	B-LOC
+sector	I-LOC
+and	O
+its	O
+subsectors	O
+,	O
+including	O
+Sector	B-LOC
+7732	I-LOC
+.	I-LOC
+00122	I-LOC
+,	O
+was	O
+ruled	O
+by	O
+the	O
+Empire	B-ORG
+and	O
+controlled	O
+by	O
+Moff	B-PER
+Stattata	I-PER
+and	O
+Governor	O
+Arihnda	B-PER
+Pryce	I-PER
+,	O
+a	O
+human	O
+female	O
+,	O
+from	O
+the	O
+planet	O
+Lothal	B-LOC
+.	O
+
+# sent_id = 210
+# text = 2J99 was a subsector located in the Lothal sector of the galaxy's Outer Rim Territories.
+# status = {"0":"accepted"}
+# time (ms) = 19170
+2J99	B-LOC
+was	O
+a	O
+subsector	O
+located	O
+in	O
+the	O
+Lothal	B-LOC
+sector	O
+of	O
+the	O
+galaxy	O
+'	O
+s	O
+Outer	B-LOC
+Rim	I-LOC
+Territories	I-LOC
+.	O
+
+# sent_id = 211
+# text = During the rule of the Galactic Empire, the Lothal sector and its subsectors, including Sector 885.
+# status = {"0":"accepted"}
+# time (ms) = 108467
+During	O
+the	O
+rule	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+,	O
+the	O
+Lothal	B-LOC
+sector	O
+and	O
+its	O
+subsectors	O
+,	O
+including	O
+Sector	B-LOC
+885	I-LOC
+.	O
+
+# sent_id = 212
+# text = 2J99, were ruled by the Empire and controlled by Moff Stattata and Governor Arihnda Pryce, a human female from the planet Lothal.
+# status = {"0":"accepted"}
+# time (ms) = 62294
+2J99	B-LOC
+,	O
+were	O
+ruled	O
+by	O
+the	O
+Empire	B-ORG
+and	O
+controlled	O
+by	O
+Moff	B-PER
+Stattata	I-PER
+and	O
+Governor	B-PER
+Arihnda	I-PER
+Pryce	I-PER
+,	O
+a	O
+human	O
+female	O
+from	O
+the	O
+planet	O
+Lothal	B-LOC
+.	O
+
+# sent_id = 213
+# text = RMS droids were a type of droid that had cylindrical bodies with two legs at the bottom and a domed top.
+# status = {"0":"accepted"}
+# time (ms) = 7577
+RMS	O
+droids	O
+were	O
+a	O
+type	O
+of	O
+droid	O
+that	O
+had	O
+cylindrical	O
+bodies	O
+with	O
+two	O
+legs	O
+at	O
+the	O
+bottom	O
+and	O
+a	O
+domed	O
+top	O
+.	O
+
+# sent_id = 214
+# text = A tube ran from the top of the droid down one side of its body, and an antenna protruded from the top of the droid on the same side as the tube.
+# status = {"0":"accepted"}
+# time (ms) = 68791
+A	O
+tube	O
+ran	O
+from	O
+the	O
+top	O
+of	O
+the	O
+droid	O
+down	O
+one	O
+side	O
+of	O
+its	O
+body	O
+,	O
+and	O
+an	O
+antenna	O
+protruded	O
+from	O
+the	O
+top	O
+of	O
+the	O
+droid	O
+on	O
+the	O
+same	O
+side	O
+as	O
+the	O
+tube	O
+.	O
+
+# sent_id = 215
+# text = RMS droids could have gray plating with a single band of red near the top of the droids body.
+# status = {"0":"accepted"}
+# time (ms) = 8491
+RMS	B-MISC
+droids	O
+could	O
+have	O
+gray	O
+plating	O
+with	O
+a	O
+single	O
+band	O
+of	O
+red	O
+near	O
+the	O
+top	O
+of	O
+the	O
+droids	O
+body	O
+.	O
+
+# sent_id = 216
+# text = RN-18 was an Imperial mining droid who was stolen by the pirate Fortombro and reprogrammed with numerous combat protocols.
+# status = {"0":"accepted"}
+# time (ms) = 14660
+RN-18	B-MISC
+was	O
+an	O
+Imperial	O
+mining	O
+droid	O
+who	O
+was	O
+stolen	O
+by	O
+the	O
+pirate	O
+Fortombro	B-PER
+and	O
+reprogrammed	O
+with	O
+numerous	O
+combat	O
+protocols	O
+.	O
+
+# sent_id = 217
+# text = During the Galactic Empire's Iron Blockade of the Anoat sector following the Imperial defeat at the Battle of Endor, Fortombro rented RN-18 to various customers, including a young smuggler, who sent the droid on various missions.
+# status = {"0":"accepted"}
+# time (ms) = 83278
+During	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+'	O
+s	O
+Iron	O
+Blockade	O
+of	O
+the	O
+Anoat	B-LOC
+sector	I-LOC
+following	O
+the	O
+Imperial	O
+defeat	O
+at	O
+the	O
+Battle	O
+of	O
+Endor	B-LOC
+,	O
+Fortombro	B-PER
+rented	O
+RN-18	B-MISC
+to	O
+various	O
+customers	O
+,	O
+including	O
+a	O
+young	O
+smuggler	O
+,	O
+who	O
+sent	O
+the	O
+droid	O
+on	O
+various	O
+missions	O
+.	O
+
+# sent_id = 218
+# text = Ro was an officer in the starfleet of the Galactic Empire who fought in the Galactic Civil War.
+# status = {"0":"accepted"}
+# time (ms) = 13398
+Ro	B-PER
+was	O
+an	O
+officer	O
+in	O
+the	O
+starfleet	O
+of	O
+the	O
+Galactic	B-ORG
+Empire	I-ORG
+who	O
+fought	O
+in	O
+the	O
+Galactic	O
+Civil	O
+War	O
+.	O
+
+# sent_id = 219
+# text = By the time of the First Order, Ro's prowesses had passed into history, and the commemorative armbands worn by sergeants of the First Order's military bore the officer's name in Aurebesh.
+# status = {"0":"accepted"}
+# time (ms) = 23214
+By	O
+the	O
+time	O
+of	O
+the	O
+First	B-ORG
+Order	I-ORG
+,	O
+Ro	B-PER
+'	O
+s	O
+prowesses	O
+had	O
+passed	O
+into	O
+history	O
+,	O
+and	O
+the	O
+commemorative	O
+armbands	O
+worn	O
+by	O
+sergeants	O
+of	O
+the	O
+First	B-ORG
+Order	I-ORG
+'	O
+s	O
+military	O
+bore	O
+the	O
+officer	O
+'	O
+s	O
+name	O
+in	O
+Aurebesh	O
+.	O
+
+# sent_id = 220
+# text = General Hux's monitor wore a uniform with the officer's name on it, designating her as a sergeant.
+# status = {"0":"accepted"}
+# time (ms) = 22701
+General	O
+Hux	B-PER
+'	O
+s	O
+monitor	O
+wore	O
+a	O
+uniform	O
+with	O
+the	O
+officer	O
+'	O
+s	O
+name	O
+on	O
+it	O
+,	O
+designating	O
+her	O
+as	O
+a	O
+sergeant	O
+.	O
+
+# sent_id = 221
+# text = The Ro family was a family of a humanoid species, members of which included the Eyes of the Nihil Asgar Ro and his son Marchion Ro.
+# status = {"0":"accepted"}
+# time (ms) = 26618
+The	O
+Ro	B-PER
+family	O
+was	O
+a	O
+family	O
+of	O
+a	O
+humanoid	O
+species	O
+,	O
+members	O
+of	O
+which	O
+included	O
+the	O
+Eyes	O
+of	O
+the	O
+Nihil	B-PER
+Asgar	I-PER
+Ro	I-PER
+and	O
+his	O
+son	O
+Marchion	B-PER
+Ro	I-PER
+.	O
+
+# sent_id = 222
+# text = Hailing from a homeworld, the family had a history entwined with the Jedi and a mysterious artifact, both of which Marchion believed to be connected to bad things which had befallen his ancestors.
+# status = {"0":"accepted"}
+# time (ms) = 16680
+Hailing	O
+from	O
+a	O
+homeworld	O
+,	O
+the	O
+family	O
+had	O
+a	O
+history	O
+entwined	O
+with	O
+the	O
+Jedi	O
+and	O
+a	O
+mysterious	O
+artifact	O
+,	O
+both	O
+of	O
+which	O
+Marchion	B-PER
+believed	O
+to	O
+be	O
+connected	O
+to	O
+bad	O
+things	O
+which	O
+had	O
+befallen	O
+his	O
+ancestors	O
+.	O
+
+# sent_id = 223
+# text = Several generations of the family had also held the hyperspace prospector Mari San Tekka prisoner to utilize her ability to discover the Paths, difficult-to-traverse hyperspace routes.
+# status = {"0":"accepted"}
+# time (ms) = 56162
+Several	O
+generations	O
+of	O
+the	O
+family	O
+had	O
+also	O
+held	O
+the	O
+hyperspace	O
+prospector	O
+Mari	B-PER
+San	I-PER
+Tekka	I-PER
+prisoner	O
+to	O
+utilize	O
+her	O
+ability	O
+to	O
+discover	O
+the	O
+Paths	O
+,	O
+difficult-to	O
+-	O
+traverse	O
+hyperspace	O
+routes	O
+.	O
+
+# sent_id = 224
+# text = Asgar and Marchion Ro hailed from a homeworld which they abandoned long before the Great Disaster, eventually joining the Nihil pirates.
+# status = {"0":"accepted"}
+# time (ms) = 71603
+Asgar	B-PER
+and	O
+Marchion	B-PER
+Ro	I-PER
+hailed	O
+from	O
+a	O
+homeworld	O
+which	O
+they	O
+abandoned	O
+long	O
+before	O
+the	O
+Great	O
+Disaster	O
+,	O
+eventually	O
+joining	O
+the	O
+Nihil	B-ORG
+pirates	O
+.	O
+
+# sent_id = 225
+# text = After leaving his homeworld, the closest thing Marchion had to a home was his flagship, the Gaze Electric.
+# status = {"0":"accepted"}
+# time (ms) = 18297
+After	O
+leaving	O
+his	O
+homeworld	O
+,	O
+the	O
+closest	O
+thing	O
+Marchion	B-PER
+had	O
+to	O
+a	O
+home	O
+was	O
+his	O
+flagship	O
+,	O
+the	O
+Gaze	B-MISC
+Electric	I-MISC
+.	O
+
+# sent_id = 226
+# text = The ro hypa was a serpentine creature native to the desert planet Mataou in the Anoat sector.
+# status = {"0":"accepted"}
+# time (ms) = 50554
+The	O
+ro	O
+hypa	O
+was	O
+a	O
+serpentine	O
+creature	O
+native	O
+to	O
+the	O
+desert	O
+planet	O
+Mataou	B-LOC
+in	O
+the	O
+Anoat	B-LOC
+sector	I-LOC
+.	O
+
+# sent_id = 227
+# text = They were red and purple in appearance and were highly venomous, capable of spewing potent poison at their prey.
+# status = {"0":"accepted"}
+# time (ms) = 5401
+They	O
+were	O
+red	O
+and	O
+purple	O
+in	O
+appearance	O
+and	O
+were	O
+highly	O
+venomous	O
+,	O
+capable	O
+of	O
+spewing	O
+potent	O
+poison	O
+at	O
+their	O
+prey	O
+.	O
+
+# sent_id = 228
+# text = Ro Thran was a Gran male who worked as a hunter for hire.
+# status = {"0":"accepted"}
+# time (ms) = 8486
+Ro	B-PER
+Thran	I-PER
+was	O
+a	O
+Gran	O
+male	O
+who	O
+worked	O
+as	O
+a	O
+hunter	O
+for	O
+hire	O
+.	O
+
+# sent_id = 229
+# text = At one point, he captured a bull krykna for the Tyn Syndicate.
+# status = {"0":"accepted"}
+# time (ms) = 11149
+At	O
+one	O
+point	O
+,	O
+he	O
+captured	O
+a	O
+bull	O
+krykna	O
+for	O
+the	O
+Tyn	B-ORG
+Syndicate	I-ORG
+.	O
+
+# sent_id = 230
+# text = He was later one of several hunters hired by the archeologist Doctor Chelli Aphra, who had been swallowed alive by the Shadowfang Beast guarding a temple on the world of X3-299-11.
+# status = {"0":"accepted"}
+# time (ms) = 95473
+He	O
+was	O
+later	O
+one	O
+of	O
+several	O
+hunters	O
+hired	O
+by	O
+the	O
+archeologist	O
+Doctor	O
+Chelli	B-PER
+Aphra	I-PER
+,	O
+who	O
+had	O
+been	O
+swallowed	O
+alive	O
+by	O
+the	O
+Shadowfang	O
+Beast	O
+guarding	O
+a	O
+temple	O
+on	O
+the	O
+world	O
+of	O
+X3-299	B-LOC
+-	I-LOC
+11	I-LOC
+.	O
+
+# sent_id = 231
+# text = Aphra wanted a hunter to subdue the beast then kill it so she could escape its stomach; however, Thran was killed when he activated one of the temple's traps that launched several spears into the Gran and pinned him to a wall.
+# status = {"0":"accepted"}
+# time (ms) = 63759
+Aphra	B-PER
+wanted	O
+a	O
+hunter	O
+to	O
+subdue	O
+the	O
+beast	O
+then	O
+kill	O
+it	O
+so	O
+she	O
+could	O
+escape	O
+its	O
+stomach	O
+;	O
+however	O
+,	O
+Thran	B-PER
+was	O
+killed	O
+when	O
+he	O
+activated	O
+one	O
+of	O
+the	O
+temple	O
+'	O
+s	O
+traps	O
+that	O
+launched	O
+several	O
+spears	O
+into	O
+the	O
+Gran	B-PER
+and	O
+pinned	O
+him	O
+to	O
+a	O
+wall	O
+.	O
+
+# sent_id = 232
+# text = The hunters Nokk and Winloss later discovered Thran's body, but Aphra claimed he must have been hired by someone else to capture the beast.
+# status = {"0":"accepted"}
+# time (ms) = 34133
+The	O
+hunters	O
+Nokk	B-PER
+and	O
+Winloss	B-PER
+later	O
+discovered	O
+Thran	B-PER
+'	O
+s	O
+body	O
+,	O
+but	O
+Aphra	B-PER
+claimed	O
+he	O
+must	O
+have	O
+been	O
+hired	O
+by	O
+someone	O
+else	O
+to	O
+capture	O
+the	O
+beast	O
+.	O
+
+# sent_id = 233
+# text = Thran had black eyes and pink skin.
+# status = {"0":"accepted"}
+# time (ms) = 6043
+Thran	B-PER
+had	O
+black	O
+eyes	O
+and	O
+pink	O
+skin	O
+.	O
+
+# sent_id = 234
+# text = He wore red armor over a black shirt and blue pants at the time of his death.
+# status = {"0":"accepted"}
+# time (ms) = 5634
+He	O
+wore	O
+red	O
+armor	O
+over	O
+a	O
+black	O
+shirt	O
+and	O
+blue	O
+pants	O
+at	O
+the	O
+time	O
+of	O
+his	O
+death	O
+.	O
+
+# sent_id = 235
+# text = The Ro-Loo Triangle was a nebula that portions of the Imperial fleet hid away in after the Battle of Endor.
+# status = {"0":"accepted"}
+# time (ms) = 70451
+The	O
+Ro-Loo	B-LOC
+Triangle	I-LOC
+was	O
+a	O
+nebula	O
+that	O
+portions	O
+of	O
+the	O
+Imperial	O
+fleet	O
+hid	O
+away	O
+in	O
+after	O
+the	O
+Battle	O
+of	O
+Endor	B-LOC
+.	O
+
+# sent_id = 236
+# text = The fleet there was not as big as the one residing in the Vulpinus Nebula, however there were still hundreds of Star Destroyers and thousands of smaller craft.
+# status = {"0":"accepted"}
+# time (ms) = 41206
+The	O
+fleet	O
+there	O
+was	O
+not	O
+as	O
+big	O
+as	O
+the	O
+one	O
+residing	O
+in	O
+the	O
+Vulpinus	B-LOC
+Nebula	I-LOC
+,	O
+however	O
+there	O
+were	O
+still	O
+hundreds	O
+of	O
+Star	O
+Destroyers	O
+and	O
+thousands	O
+of	O
+smaller	O
+craft	O
+.	O
+
+# sent_id = 237
+# text = Ro-roos were creatures that existed in the galaxy.
+# status = {"0":"accepted"}
+# time (ms) = 9116
+Ro-roos	O
+were	O
+creatures	O
+that	O
+existed	O
+in	O
+the	O
+galaxy	O
+.	O
+
+# sent_id = 238
+# text = The RO-series childcare and nanny droid was a model of nanny droid manufactured by a partnership of GoCorp and Utilitech.
+# status = {"0":"accepted"}
+# time (ms) = 15562
+The	O
+RO-series	B-MISC
+childcare	O
+and	O
+nanny	O
+droid	O
+was	O
+a	O
+model	O
+of	O
+nanny	O
+droid	O
+manufactured	O
+by	O
+a	O
+partnership	O
+of	O
+GoCorp	B-ORG
+and	O
+Utilitech	B-ORG
+.	O
+
+# sent_id = 239
+# text = The uni-wheel drive and chassis of the WA-7 waitress droid served as the basis for the model, which was equipped with soft glowing eyes, a soothing voice and many padded limbs to aid in caring for their infant charges.
+# status = {"0":"accepted"}
+# time (ms) = 78428
+The	O
+uni-wheel	O
+drive	O
+and	O
+chassis	O
+of	O
+the	O
+WA-7	B-MISC
+waitress	O
+droid	O
+served	O
+as	O
+the	O
+basis	O
+for	O
+the	O
+model	O
+,	O
+which	O
+was	O
+equipped	O
+with	O
+soft	O
+glowing	O
+eyes	O
+,	O
+a	O
+soothing	O
+voice	O
+and	O
+many	O
+padded	O
+limbs	O
+to	O
+aid	O
+in	O
+caring	O
+for	O
+their	O
+infant	O
+charges	O
+.	O
+
+# sent_id = 240
+# text = The droids were equipped with a database detailing the species of the child in their care and could perform minor medical operations in emergencies while also contacting the authorities.
+# status = {"0":"accepted"}
+# time (ms) = 7202
+The	O
+droids	O
+were	O
+equipped	O
+with	O
+a	O
+database	O
+detailing	O
+the	O
+species	O
+of	O
+the	O
+child	O
+in	O
+their	O
+care	O
+and	O
+could	O
+perform	O
+minor	O
+medical	O
+operations	O
+in	O
+emergencies	O
+while	O
+also	O
+contacting	O
+the	O
+authorities	O
+.	O
+
+# sent_id = 241
+# text = The Ro-ti-Mundi was a Venator-class Star Destroyer of the Open Circle Fleet, a major space fleet of the Republic Navy during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 53061
+The	O
+Ro-ti	B-MISC
+-	I-MISC
+Mundi	I-MISC
+was	O
+a	O
+Venator-class	O
+Star	O
+Destroyer	O
+of	O
+the	O
+Open	O
+Circle	O
+Fleet	O
+,	O
+a	O
+major	O
+space	O
+fleet	O
+of	O
+the	O
+Republic	B-ORG
+Navy	I-ORG
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 242
+# text = The Star Destroyer was notably involved in the defense of Coruscant, capital of the Galactic Republic, against the naval forces of the Confederacy of Independent Systems.
+# status = {"0":"accepted"}
+# time (ms) = 74370
+The	O
+Star	O
+Destroyer	O
+was	O
+notably	O
+involved	O
+in	O
+the	O
+defense	O
+of	O
+Coruscant	B-LOC
+,	O
+capital	O
+of	O
+the	O
+Galactic	B-ORG
+Republic	I-ORG
+,	O
+against	O
+the	O
+naval	O
+forces	O
+of	O
+the	O
+Confederacy	B-ORG
+of	I-ORG
+Independent	I-ORG
+Systems	I-ORG
+.	O
+
+# sent_id = 243
+# text = During the battle, the Ro-ti-Mundi served as a carrier for Clone Flight Squad Seven—a starfighter squadron led by Clone Commander CC-2237.
+# status = {"0":"accepted"}
+# time (ms) = 30754
+During	O
+the	O
+battle	O
+,	O
+the	O
+Ro-ti	B-MISC
+-	I-MISC
+Mundi	I-MISC
+served	O
+as	O
+a	O
+carrier	O
+for	O
+Clone	O
+Flight	O
+Squad	O
+Seven	O
+—	O
+a	O
+starfighter	O
+squadron	O
+led	O
+by	O
+Clone	O
+Commander	B-PER
+CC-2237	B-PER
+.	O
+
+# sent_id = 244
+# text = RO-Z67 was a heavily modified RO-series childcare and nanny droid employed by Darth Sidious, Dark Lord of the Sith, during the Clone Wars.
+# status = {"0":"accepted"}
+# time (ms) = 22577
+RO-Z67	B-MISC
+was	O
+a	O
+heavily	O
+modified	O
+RO-series	B-MISC
+childcare	O
+and	O
+nanny	O
+droid	O
+employed	O
+by	O
+Darth	B-PER
+Sidious	I-PER
+,	O
+Dark	O
+Lord	O
+of	O
+the	O
+Sith	O
+,	O
+during	O
+the	O
+Clone	O
+Wars	O
+.	O
+
+# sent_id = 245
+# text = Stationed at a secret facility on the planet Mustafar, RO-Z67 worked with several Force-sensitive children that were kidnapped by the bounty hunter Cad Bane on behalf of Sidious.
+# status = {"0":"accepted"}
+# time (ms) = 22549
+Stationed	O
+at	O
+a	O
+secret	O
+facility	O
+on	O
+the	O
+planet	O
+Mustafar	B-LOC
+,	O
+RO-Z67	B-MISC
+worked	O
+with	O
+several	O
+Force-sensitive	O
+children	O
+that	O
+were	O
+kidnapped	O
+by	O
+the	O
+bounty	O
+hunter	O
+Cad	B-PER
+Bane	I-PER
+on	O
+behalf	O
+of	O
+Sidious	B-PER
+.	O
+
+# sent_id = 246
+# text = Sidious planned to train the children to become dark side spies, but RO-Z67 was destroyed when Jedi Knight Anakin Skywalker and his Padawan apprentice Ahsoka Tano rescued the children.
+# status = {"0":"accepted"}
+# time (ms) = 25517
+Sidious	B-PER
+planned	O
+to	O
+train	O
+the	O
+children	O
+to	O
+become	O
+dark	O
+side	O
+spies	O
+,	O
+but	O
+RO-Z67	B-MISC
+was	O
+destroyed	O
+when	O
+Jedi	O
+Knight	O
+Anakin	B-PER
+Skywalker	I-PER
+and	O
+his	O
+Padawan	O
+apprentice	O
+Ahsoka	B-PER
+Tano	I-PER
+rescued	O
+the	O
+children	O
+.	O
+
+# sent_id = 247
+# text = Roach was a human female and a member of the Alliance to Restore the Republic's 61st Mobile Infantry, better known as Twilight Company.
+# status = {"0":"accepted"}
+# time (ms) = 33892
+Roach	B-PER
+was	O
+a	O
+human	O
+female	O
+and	O
+a	O
+member	O
+of	O
+the	O
+Alliance	B-ORG
+to	O
+Restore	O
+the	O
+Republic	O
+'	O
+s	O
+61st	O
+Mobile	O
+Infantry	O
+,	O
+better	O
+known	O
+as	O
+Twilight	O
+Company	O
+.	O
+
+# sent_id = 248
+# text = She was recruited by First Sergeant Hazram Namir and Quartermaster Hober on her home planet of Haidoral Prime in 3 ABY.
+# status = {"0":"accepted"}
+# time (ms) = 18699
+She	O
+was	O
+recruited	O
+by	O
+First	O
+Sergeant	O
+Hazram	B-PER
+Namir	I-PER
+and	O
+Quartermaster	O
+Hober	B-PER
+on	O
+her	O
+home	O
+planet	O
+of	O
+Haidoral	B-LOC
+Prime	I-LOC
+in	O
+3	O
+ABY	O
+.	O
+
+# sent_id = 249
+# text = Namir took a liking to her when she became part of the company and also was able to determine that Roach was a recovering spice addict.
+# status = {"0":"accepted"}
+# time (ms) = 41993
+Namir	B-PER
+took	O
+a	O
+liking	O
+to	O
+her	O
+when	O
+she	O
+became	O
+part	O
+of	O
+the	O
+company	O
+and	O
+also	O
+was	O
+able	O
+to	O
+determine	O
+that	O
+Roach	B-PER
+was	O
+a	O
+recovering	O
+spice	O
+addict	O
+.	O
+
+# sent_id = 250
+# text = She was ultimately killed during the Siege of Inyusu Tor on the planet Sullust.
+# status = {"0":"accepted"}
+# time (ms) = 14679
+She	O
+was	O
+ultimately	O
+killed	O
+during	O
+the	O
+Siege	O
+of	O
+Inyusu	B-LOC
+Tor	I-LOC
+on	O
+the	O
+planet	O
+Sullust	B-LOC
+.	O
+
+# sent_id = 251
+# text = A roach-rat was a type of rat.
+# status = {"0":"accepted"}
+# time (ms) = 5317
+A	O
+roach-rat	O
+was	O
+a	O
+type	O
+of	O
+rat	O
+.	O
+
+# sent_id = 252
+# text = They were known to hide and scuttle around in darkness.
+# status = {"0":"accepted"}
+# time (ms) = 4527
+They	O
+were	O
+known	O
+to	O
+hide	O
+and	O
+scuttle	O
+around	O
+in	O
+darkness	O
+.	O
+
+# sent_id = 253
+# text = Roachrats were a type of creature that scattered when they were exposed to sunlight.
+# status = {"0":"accepted"}
+# time (ms) = 4312
+Roachrats	O
+were	O
+a	O
+type	O
+of	O
+creature	O
+that	O
+scattered	O
+when	O
+they	O
+were	O
+exposed	O
+to	O
+sunlight	O
+.	O
+
+# sent_id = 254
+# text = The Roamer-6 breath mask was a model of breath mask produced by Gandorthral Atmospherics.
+# status = {"0":"accepted"}
+# time (ms) = 15320
+The	O
+Roamer-6	B-MISC
+breath	O
+mask	O
+was	O
+a	O
+model	O
+of	O
+breath	O
+mask	O
+produced	O
+by	O
+Gandorthral	O
+Atmospherics	O
+.	O
+
+# sent_id = 255
+# text = Roast nuna was a cooked meal made of roast nuna meat.
+# status = {"0":"accepted"}
+# time (ms) = 25528
+Roast	O
+nuna	O
+was	O
+a	O
+cooked	O
+meal	O
+made	O
+of	O
+roast	O
+nuna	O
+meat	O
+.	O
+
+# sent_id = 256
+# text = It could be found in a bar.
+# status = {"0":"accepted"}
+# time (ms) = 14168
+It	O
+could	O
+be	O
+found	O
+in	O
+a	O
+bar	O
+.	O
+
+# sent_id = 257
+# text = Roasted Chando Peppers was a dish that contained roasted strips of orange chando peppers, which were a sweet variety of pepper that originated from the planet Chandrila.
+# status = {"0":"accepted"}
+# time (ms) = 15344
+Roasted	O
+Chando	O
+Peppers	O
+was	O
+a	O
+dish	O
+that	O
+contained	O
+roasted	O
+strips	O
+of	O
+orange	O
+chando	O
+peppers	O
+,	O
+which	O
+were	O
+a	O
+sweet	O
+variety	O
+of	O
+pepper	O
+that	O
+originated	O
+from	O
+the	O
+planet	O
+Chandrila	B-LOC
+.	O
+
+# sent_id = 258
+# text = The dish also contained a smaller green vegetable.
+# status = {"0":"accepted"}
+# time (ms) = 4829
+The	O
+dish	O
+also	O
+contained	O
+a	O
+smaller	O
+green	O
+vegetable	O
+.	O
+
+# sent_id = 259
+# text = At some point following the Battle of Takodana in 34 ABY, the Artiodac chef Strono Tuggs included a recipe for Roasted Chando Peppers in his cookbook, The Official Black Spire Outpost Cookbook.
+# status = {"0":"accepted"}
+# time (ms) = 71002
+At	O
+some	O
+point	O
+following	O
+the	O
+Battle	O
+of	O
+Takodana	O
+in	O
+34	O
+ABY	O
+,	O
+the	O
+Artiodac	O
+chef	O
+Strono	B-PER
+Tuggs	I-PER
+included	O
+a	O
+recipe	O
+for	O
+Roasted	O
+Chando	O
+Peppers	O
+in	O
+his	O
+cookbook	O
+,	O
+The	O
+Official	O
+Black	O
+Spire	O
+Outpost	O
+Cookbook	O
+.	O
+
+# sent_id = 260
+# text = Roasted Endorian Tip-Yip Salad was a dish centered on the meat of Endor's Tip-yip.
+# status = {"0":"accepted"}
+# time (ms) = 30627
+Roasted	O
+Endorian	O
+Tip-Yip	O
+Salad	O
+was	O
+a	O
+dish	O
+centered	O
+on	O
+the	O
+meat	O
+of	O
+Endor	B-LOC
+'	O
+s	O
+Tip-yip	O
+.	O
+
+# sent_id = 261
+# text = Marinated, oven-roasted tip-yip was mixed with greens, roasted vegetables, and pumpkin seeds, then the salad was tossed together with a green-colored sauce.
+# status = {"0":"accepted"}
+# time (ms) = 7285
+Marinated	O
+,	O
+oven-roasted	O
+tip-yip	O
+was	O
+mixed	O
+with	O
+greens	O
+,	O
+roasted	O
+vegetables	O
+,	O
+and	O
+pumpkin	O
+seeds	O
+,	O
+then	O
+the	O
+salad	O
+was	O
+tossed	O
+together	O
+with	O
+a	O
+green-colored	O
+sauce	O
+.	O
+
+# sent_id = 262
+# text = In 34 ABY, the salad was available at Docking Bay 7 Food and Cargo at Black Spire Outpost.
+# status = {"0":"accepted"}
+# time (ms) = 15193
+In	O
+34	O
+ABY	O
+,	O
+the	O
+salad	O
+was	O
+available	O
+at	O
+Docking	O
+Bay	O
+7	O
+Food	O
+and	O
+Cargo	O
+at	O
+Black	O
+Spire	O
+Outpost	O
+.	O
+
+# sent_id = 263
+# text = Roasted Kajaka Root was a dish containing roasted discs of orange kajaka root topped with a blend of purple moof milk yogurt, honey, nut butter, and a cooking spice, along with other toppings.
+# status = {"0":"accepted"}
+# time (ms) = 25363
+Roasted	O
+Kajaka	O
+Root	O
+was	O
+a	O
+dish	O
+containing	O
+roasted	O
+discs	O
+of	O
+orange	O
+kajaka	O
+root	O
+topped	O
+with	O
+a	O
+blend	O
+of	O
+purple	O
+moof	O
+milk	O
+yogurt	O
+,	O
+honey	O
+,	O
+nut	O
+butter	O
+,	O
+and	O
+a	O
+cooking	O
+spice	O
+,	O
+along	O
+with	O
+other	O
+toppings	O
+.	O
+
+# sent_id = 264
+# text = At some point after the Battle of Takodana in 34 ABY, the Artiodac chef Strono Tuggs included a recipe for Roasted Kajaka Root in his cookbook, The Official Black Spire Outpost Cookbook.
+# status = {"0":"accepted"}
+# time (ms) = 16890
+At	O
+some	O
+point	O
+after	O
+the	O
+Battle	O
+of	O
+Takodana	O
+in	O
+34	O
+ABY	O
+,	O
+the	O
+Artiodac	O
+chef	O
+Strono	B-PER
+Tuggs	I-PER
+included	O
+a	O
+recipe	O
+for	O
+Roasted	O
+Kajaka	O
+Root	O
+in	O
+his	O
+cookbook	O
+,	O
+The	O
+Official	O
+Black	O
+Spire	O
+Outpost	O
+Cookbook	O
+.	O
+
+# sent_id = 265
+# text = In the book, he recommended roasting the root vegetable either by following his recipe or using skewers, not deep-frying it.
+# status = {"0":"accepted"}
+# time (ms) = 23347
+In	O
+the	O
+book	O
+,	O
+he	O
+recommended	O
+roasting	O
+the	O
+root	O
+vegetable	O
+either	O
+by	O
+following	O
+his	O
+recipe	O
+or	O
+using	O
+skewers	O
+,	O
+not	O
+deep-frying	O
+it	O
+.	O
+
+# sent_id = 266
+# text = He claimed that the root would lose its natural flavors when fried unless a good troogan oil was used, while roasting the root brought out its subtle sweetness.
+# status = {"0":"accepted"}
+# time (ms) = 96327
+He	O
+claimed	O
+that	O
+the	O
+root	O
+would	O
+lose	O
+its	O
+natural	O
+flavors	O
+when	O
+fried	O
+unless	O
+a	O
+good	O
+troogan	O
+oil	O
+was	O
+used	O
+,	O
+while	O
+roasting	O
+the	O
+root	O
+brought	O
+out	O
+its	O
+subtle	O
+sweetness	O
+.	O
+
+# sent_id = 267
+# text = Roasted Kowakian monkey-lizards were served as a delicacy on the volcanic planet of Nevarro.
+# status = {"0":"accepted"}
+# time (ms) = 51074
+Roasted	O
+Kowakian	O
+monkey-lizards	O
+were	O
+served	O
+as	O
+a	O
+delicacy	O
+on	O
+the	O
+volcanic	O
+planet	O
+of	O
+Nevarro	B-LOC
+.	O
+
+# sent_id = 268
+# text = They were prepared by roasting a dead Kowakian monkey-lizard on a spit, and were edible by humans.
+# status = {"0":"accepted"}
+# time (ms) = 12339
+They	O
+were	O
+prepared	O
+by	O
+roasting	O
+a	O
+dead	O
+Kowakian	O
+monkey-lizard	O
+on	O
+a	O
+spit	O
+,	O
+and	O
+were	O
+edible	O
+by	O
+humans	O
+.	O
+
+# sent_id = 269
+# text = Roasted sidi was a cooked meal made of roasted sidi gourd.
+# status = {"0":"accepted"}
+# time (ms) = 4958
+Roasted	O
+sidi	O
+was	O
+a	O
+cooked	O
+meal	O
+made	O
+of	O
+roasted	O
+sidi	O
+gourd	O
+.	O
+
+# sent_id = 270
+# text = It could be found in a bar.
+# status = {"0":"accepted"}
+# time (ms) = 2585
+It	O
+could	O
+be	O
+found	O
+in	O
+a	O
+bar	O
+.	O
+
+# sent_id = 271
+# text = Roadted skycorn was a type of corn.
+# status = {"0":"accepted"}
+# time (ms) = 6050
+Roadted	O
+skycorn	O
+was	O
+a	O
+type	O
+of	O
+corn	O
+.	O
