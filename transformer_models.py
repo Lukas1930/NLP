@@ -88,11 +88,18 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
 TEST = r"conll2003-ner\test.txt"
 MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
 
+### Initialise model
+
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForTokenClassification.from_pretrained(MODEL)
 
+### Convert data into proper format
+
 sentences, true_labels = get_lines(TEST)
 sentences, true_labels = separate_special_characters_with_labels(sentences, true_labels)
+
+### Make predictions
+
 encodings = []
 predicted_labels = []
 
@@ -105,6 +112,8 @@ for i in tqdm(range(len(sentences))):
 
     predictions = torch.argmax(outputs.logits, dim=-1)
     predicted_labels.append([model.config.id2label[t.item()] for t in predictions[0]])
+
+### Convert and detokenise predictions
 
 condensed_labels = []
 debug_sentences = []
@@ -143,6 +152,8 @@ for i in tqdm(range(len(predicted_labels))):
     condensed_labels.append(final_labels)
     debug_sentences.append(final_words)
 
+### Check if the predictions are the same length as the true labels
+
 def compare_nested_list_lengths(list1, list2):
     if len(list1) != len(list2):
         print("Warning: The outer lists do not have the same length.")
@@ -155,7 +166,8 @@ def compare_nested_list_lengths(list1, list2):
 
 compare_nested_list_lengths(true_labels, condensed_labels)
 
-# Calculate precision, recall, and F1 score
+### Calculate precision, recall, and F1 score
+
 precision = precision_score(true_labels, condensed_labels)
 recall = recall_score(true_labels, condensed_labels)
 f1 = f1_score(true_labels, condensed_labels)
