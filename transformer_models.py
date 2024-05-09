@@ -86,9 +86,10 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
     return result_sentences, result_sentence_labels
 
 TEST = r"conll2003-ner\test.txt"
+MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
 
-tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
-model = AutoModelForTokenClassification.from_pretrained("dslim/bert-base-NER")
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model = AutoModelForTokenClassification.from_pretrained(MODEL)
 
 sentences, true_labels = get_lines(TEST)
 sentences, true_labels = separate_special_characters_with_labels(sentences, true_labels)
