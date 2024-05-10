@@ -138,18 +138,19 @@ if FINETUNE:
             tokenized_inputs['labels'] = label_ids
             return tokenized_inputs
 
-    # Split the data into training and test sets
+    # Split the data into training and evaluation sets
     train_sentences, eval_sentences, train_labels, eval_labels = train_test_split(
         train_sentences, train_labels, test_size=0.2, random_state=42
     )
 
+    # Convert into the Dataset class
     train_dataset = TokenClassificationDataset(train_sentences, train_labels, model.config.label2id, tokenizer)
     eval_dataset = TokenClassificationDataset(eval_sentences, eval_labels, model.config.label2id, tokenizer)
 
     # Define training arguments
     training_args = TrainingArguments(
         output_dir='./results',
-        num_train_epochs=10,
+        num_train_epochs=30,
         per_device_train_batch_size=16,
         gradient_accumulation_steps=2,
         learning_rate=2e-5,
@@ -172,7 +173,8 @@ if FINETUNE:
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer  # Add this line to provide the tokenizer to the Trainer
+        tokenizer=tokenizer,  # Add this line to provide the tokenizer to the Trainer
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
     )
 
     trainer.train()
