@@ -1,8 +1,9 @@
-# Load model directly
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+from transformers import AutoTokenizer, AutoModelForTokenClassification, Trainer, TrainingArguments, DataCollatorForTokenClassification, EarlyStoppingCallback
 import torch
 from seqeval.metrics import precision_score, recall_score, f1_score
 from tqdm.auto import tqdm
+from sklearn.model_selection import train_test_split
+from torch.utils.data import Dataset
 
 def get_lines(file_path):
     """
@@ -85,27 +86,99 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
 
     return result_sentences, result_sentence_labels
 
-TEST = r"conll2003-ner\test.txt"
+TEST = r"starwars-data\Jakub_converted.conll"
 MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
+FINETUNE = True
 
 ### Initialise model
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForTokenClassification.from_pretrained(MODEL)
 
-### Convert data into proper format
-
+# Convert data into proper format
 sentences, true_labels = get_lines(TEST)
 sentences, true_labels = separate_special_characters_with_labels(sentences, true_labels)
+
+# Split the data into training and test sets
+train_sentences, test_sentences, train_labels, test_labels = train_test_split(
+    sentences, true_labels, test_size=0.2, random_state=42
+)
+
+### Finetune model
+if FINETUNE:
+    # Create a custom dataset
+    class TokenClassificationDataset(Dataset):
+        def __init__(self, sentences, labels, tokenizer, max_length=128):
+            self.sentences = sentences
+            self.labels = labels
+            self.tokenizer = tokenizer
+            self.max_length = max_length
+
+        def __len__(self):
+            return len(self.sentences)
+
+        def __getitem__(self, idx):
+            sentence = ' '.join(self.sentences[idx])
+            inputs = self.tokenizer(sentence, padding='max_length', max_length=self.max_length, truncation=True, return_tensors='pt')
+            label_ids = [model.config.label2id[label] for label in self.labels[idx]]
+            label_ids.extend([model.config.label2id['O']] * (len(inputs['input_ids'][0]) - len(label_ids)))
+            inputs['labels'] = torch.tensor(label_ids[:self.max_length])
+            
+            # Return a tuple of tensors
+            return {key: tensor.squeeze(0) for key, tensor in inputs.items()}
+
+    train_sentences, val_sentences, train_labels, val_labels = train_test_split(
+        train_sentences, train_labels, test_size=0.2, random_state=42
+    )
+
+    # Create the dataset and data collator
+    train_dataset = TokenClassificationDataset(train_sentences, train_labels, tokenizer)
+    val_dataset = TokenClassificationDataset(val_sentences, val_labels, tokenizer)
+    data_collator = DataCollatorForTokenClassification(tokenizer)
+
+    # Define training arguments
+    training_args = TrainingArguments(
+        output_dir='./results',
+        num_train_epochs=10,  # Reduced number of epochs
+        per_device_train_batch_size=16,
+        gradient_accumulation_steps=2,
+        learning_rate=5e-5,  # Slightly increased learning rate
+        weight_decay=0.01,
+        logging_dir='./logs',
+        logging_steps=10,
+        save_steps=100,
+        save_total_limit=2,
+        evaluation_strategy='steps',  # Evaluate every 'logging_steps'
+        eval_steps=10,  # Same as logging for consistent feedback
+        load_best_model_at_end=True
+    )
+
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_dataset,
+        eval_dataset=val_dataset,
+        data_collator=data_collator,
+        tokenizer=tokenizer,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]  # Stop training when validation score degrades for 3 evaluation checks
+    )
+
+    # Fine-tune the model
+    trainer.train()
 
 ### Make predictions
 
 encodings = []
 predicted_labels = []
 
-for i in tqdm(range(len(sentences))):
-    sentence = ' '.join(sentences[i])
+# Get the device model is currently on
+device = next(model.parameters()).device
+
+for i in tqdm(range(len(test_sentences))):
+    sentence = ' '.join(test_sentences[i])
     encoding = tokenizer(sentence, return_tensors="pt")
+    # Move encoding to the same device as model
+    encoding = {k: v.to(device) for k, v in encoding.items()}
     encodings.append(encoding)
     with torch.no_grad():
         outputs = model(**encoding)
@@ -124,16 +197,29 @@ for i in tqdm(range(len(predicted_labels))):
     current_word = ""
     current_label = None
 
-    for id, label in zip(encodings[i].input_ids.squeeze().tolist(), predicted_labels[i]):
-        subtoken = tokenizer.decode([id])
-        if subtoken.startswith("##"):
-            current_word += subtoken[2:]  # Remove '##' and continue the current word
-        else:
-            if current_word:
-                words.append(current_word)
-                word_labels.append(current_label)
-            current_word = subtoken
-            current_label = label
+    if isinstance(encodings[0], dict):
+        for id, label in zip(encodings[i]["input_ids"].squeeze().tolist(), predicted_labels[i]):
+            subtoken = tokenizer.decode([id])
+            if subtoken.startswith("##"):
+                current_word += subtoken[2:]  # Remove '##' and continue the current word
+            else:
+                if current_word:
+                    words.append(current_word)
+                    word_labels.append(current_label)
+                current_word = subtoken
+                current_label = label
+
+    else:
+        for id, label in zip(encodings[i].input_ids.squeeze().tolist(), predicted_labels[i]):
+            subtoken = tokenizer.decode([id])
+            if subtoken.startswith("##"):
+                current_word += subtoken[2:]  # Remove '##' and continue the current word
+            else:
+                if current_word:
+                    words.append(current_word)
+                    word_labels.append(current_label)
+                current_word = subtoken
+                current_label = label
 
     # Don't forget to add the last accumulated word if it's not a special token
     if current_word and current_word not in [tokenizer.cls_token, tokenizer.sep_token]:
@@ -145,7 +231,7 @@ for i in tqdm(range(len(predicted_labels))):
     final_labels = [label for word, label in zip(words, word_labels) if word not in [tokenizer.cls_token, tokenizer.sep_token]]
 
     # Output the results
-    #print(sentences[i])
+    #print(test_sentences[i])
     #print("Words:", final_words)
     #print("Labels:", final_labels)
 
@@ -164,13 +250,13 @@ def compare_nested_list_lengths(list1, list2):
             print(sentences[index])
             print(debug_sentences[index])
 
-compare_nested_list_lengths(true_labels, condensed_labels)
+compare_nested_list_lengths(test_labels, condensed_labels)
 
 ### Calculate precision, recall, and F1 score
 
-precision = precision_score(true_labels, condensed_labels)
-recall = recall_score(true_labels, condensed_labels)
-f1 = f1_score(true_labels, condensed_labels)
+precision = precision_score(test_labels, condensed_labels)
+recall = recall_score(test_labels, condensed_labels)
+f1 = f1_score(test_labels, condensed_labels)
 
 print("Precision:", precision)
 print("Recall:", recall)
