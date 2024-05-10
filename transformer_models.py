@@ -108,64 +108,75 @@ train_sentences, test_sentences, train_labels, test_labels = train_test_split(
 if FINETUNE:
     # Create a custom dataset
     class TokenClassificationDataset(Dataset):
-        def __init__(self, sentences, labels, tokenizer, max_length=128):
+        def __init__(self, sentences, labels, label2id, tokenizer):
             self.sentences = sentences
             self.labels = labels
+            self.label2id = label2id
             self.tokenizer = tokenizer
-            self.max_length = max_length
 
         def __len__(self):
             return len(self.sentences)
 
         def __getitem__(self, idx):
-            sentence = ' '.join(self.sentences[idx])
-            inputs = self.tokenizer(sentence, padding='max_length', max_length=self.max_length, truncation=True, return_tensors='pt')
-            label_ids = [model.config.label2id[label] for label in self.labels[idx]]
-            label_ids.extend([model.config.label2id['O']] * (len(inputs['input_ids'][0]) - len(label_ids)))
-            inputs['labels'] = torch.tensor(label_ids[:self.max_length])
-            
-            # Return a tuple of tensors
-            return {key: tensor.squeeze(0) for key, tensor in inputs.items()}
+            sentence = self.sentences[idx]
+            labels = [self.label2id[label] for label in self.labels[idx]]
 
-    train_sentences, val_sentences, train_labels, val_labels = train_test_split(
+            tokenized_inputs = self.tokenizer(sentence, truncation=True, is_split_into_words=True)
+            word_ids = tokenized_inputs.word_ids()  # Map tokens to their respective words.
+
+            label_ids = []
+            previous_word_idx = None
+            for word_idx in word_ids:
+                if word_idx is None:
+                    label_ids.append(-100)  # Special tokens
+                elif word_idx != previous_word_idx:
+                    label_ids.append(labels[word_idx])  # Label only the first token of each word
+                else:
+                    label_ids.append(-100)  # Subsequent tokens of a word
+                previous_word_idx = word_idx
+            
+            tokenized_inputs['labels'] = label_ids
+            return tokenized_inputs
+
+    # Split the data into training and test sets
+    train_sentences, eval_sentences, train_labels, eval_labels = train_test_split(
         train_sentences, train_labels, test_size=0.2, random_state=42
     )
 
-    # Create the dataset and data collator
-    train_dataset = TokenClassificationDataset(train_sentences, train_labels, tokenizer)
-    val_dataset = TokenClassificationDataset(val_sentences, val_labels, tokenizer)
-    data_collator = DataCollatorForTokenClassification(tokenizer)
+    train_dataset = TokenClassificationDataset(train_sentences, train_labels, model.config.label2id, tokenizer)
+    eval_dataset = TokenClassificationDataset(eval_sentences, eval_labels, model.config.label2id, tokenizer)
 
     # Define training arguments
     training_args = TrainingArguments(
         output_dir='./results',
-        num_train_epochs=10,  # Reduced number of epochs
+        num_train_epochs=10,
         per_device_train_batch_size=16,
         gradient_accumulation_steps=2,
-        learning_rate=5e-5,  # Slightly increased learning rate
+        learning_rate=2e-5,
         weight_decay=0.01,
         logging_dir='./logs',
         logging_steps=10,
         save_steps=100,
         save_total_limit=2,
-        evaluation_strategy='steps',  # Evaluate every 'logging_steps'
-        eval_steps=10,  # Same as logging for consistent feedback
-        load_best_model_at_end=True
+        load_best_model_at_end=True,
+        evaluation_strategy="epoch",
+        save_strategy="epoch"
     )
 
+    data_collator = DataCollatorForTokenClassification(tokenizer)
+
+    # Create the trainer
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
-        eval_dataset=val_dataset,
+        eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]  # Stop training when validation score degrades for 3 evaluation checks
+        tokenizer=tokenizer  # Add this line to provide the tokenizer to the Trainer
     )
 
-    # Fine-tune the model
     trainer.train()
-
+    
 ### Make predictions
 
 encodings = []
