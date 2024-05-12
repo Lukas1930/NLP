@@ -53,7 +53,7 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
         
         for word, label in zip(words, labels):
             # Check if the word contains '-' or '\''
-            if '-' in word or '\'' in word or '.' in word or ',' in word or ':' in word or '/' in word or '$' in word or ')' in word or '(' in word or '=' in word or '*' in word or '+' in word or '#' in word or '&' in word:
+            if '-' in word or '\'' in word or '.' in word or (MODEL != "geckos/deberta-base-fine-tuned-ner" and ',' in word) or ':' in word or '/' in word or '$' in word or ')' in word or '(' in word or '=' in word or '*' in word or '+' in word or '#' in word or '&' in word:
                 # Split the word by both '-' and '\'' and preserve the separators
                 parts = []
                 temp = [word]
@@ -87,8 +87,8 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
     return result_sentences, result_sentence_labels
 
 TEST = r"starwars-data\StarWars_Full.conll"
-MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
-FINETUNE = False
+MODEL = "geckos/deberta-base-fine-tuned-ner"
+FINETUNE = True
 
 ### Initialise model
 
@@ -210,23 +210,24 @@ for i in tqdm(range(len(predicted_labels))):
     current_word = ""
     current_label = None
 
-    if isinstance(encodings[0], dict):
-        for id, label in zip(encodings[i]["input_ids"].squeeze().tolist(), predicted_labels[i]):
-            subtoken = tokenizer.decode([id])
-            if subtoken.startswith("##"):
-                current_word += subtoken[2:]  # Remove '##' and continue the current word
-            else:
+    tokens = encodings[i]["input_ids"].squeeze().tolist() if isinstance(encodings[i], dict) else encodings[i].input_ids.squeeze().tolist()
+
+    for id, label in zip(tokens, predicted_labels[i]):
+        subtoken = tokenizer.decode([id])
+
+        if MODEL == 'geckos/deberta-base-fine-tuned-ner':
+            if subtoken.startswith(" "):
                 if current_word:
                     words.append(current_word)
                     word_labels.append(current_label)
-                current_word = subtoken
+                current_word = subtoken.strip()  # Remove leading space for DeBERTa
                 current_label = label
-
-    else:
-        for id, label in zip(encodings[i].input_ids.squeeze().tolist(), predicted_labels[i]):
-            subtoken = tokenizer.decode([id])
+            else:
+                if subtoken != tokenizer.sep_token:
+                    current_word += subtoken  # Continue building the word for DeBERTa
+        else: #BERTlike
             if subtoken.startswith("##"):
-                current_word += subtoken[2:]  # Remove '##' and continue the current word
+                current_word += subtoken[2:]  # Remove '##' for BERT and continue the current word
             else:
                 if current_word:
                     words.append(current_word)
@@ -262,6 +263,29 @@ def compare_nested_list_lengths(list1, list2):
             print(f"Length mismatch at index {index}: Length of list1 is {len(sublist1)}, Length of list2 is {len(sublist2)}.")
             print(test_sentences[index])
             print(debug_sentences[index])
+
+if MODEL == "geckos/deberta-base-fine-tuned-ner":
+    new_test_sentences = []
+    new_test_labels = []
+    
+    # Iterate over each sentence and its corresponding labels
+    for sentence, labels in zip(test_sentences, test_labels):
+        filtered_sentence = []
+        filtered_labels = []
+        
+        # Iterate over each token and label in the sentence
+        for token, label in zip(sentence, labels):
+            if token not in [',', '.', '!']:  # Filter out specific unwanted tokens
+                filtered_sentence.append(token)
+                filtered_labels.append(label)
+        
+        # Append the filtered sentence and labels to the new lists
+        new_test_sentences.append(filtered_sentence)
+        new_test_labels.append(filtered_labels)
+
+    # Replace the old lists with the new filtered lists
+    test_sentences = new_test_sentences
+    test_labels = new_test_labels
 
 compare_nested_list_lengths(test_labels, condensed_labels)
 
