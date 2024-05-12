@@ -86,7 +86,7 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
 
     return result_sentences, result_sentence_labels
 
-TEST = r"starwars-data\Jakub_converted.conll"
+TEST = r"starwars-data\StarWars_Full.conll"
 MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
 FINETUNE = True
 
@@ -174,7 +174,7 @@ if FINETUNE:
         eval_dataset=eval_dataset,
         data_collator=data_collator,
         tokenizer=tokenizer,  # Add this line to provide the tokenizer to the Trainer
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
+        #callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
     )
 
     trainer.train()
@@ -260,7 +260,7 @@ def compare_nested_list_lengths(list1, list2):
     for index, (sublist1, sublist2) in enumerate(zip(list1, list2)):
         if len(sublist1) != len(sublist2):
             print(f"Length mismatch at index {index}: Length of list1 is {len(sublist1)}, Length of list2 is {len(sublist2)}.")
-            print(sentences[index])
+            print(test_sentences[index])
             print(debug_sentences[index])
 
 compare_nested_list_lengths(test_labels, condensed_labels)

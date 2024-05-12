@@ -480,9 +480,9 @@ Inc -X- -X- I-ORG
 . -X- -X- I-ORG
 ' -X- -X- O
 s -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 Firecaller -X- -X- B-MISC
-"" -X- -X- O
+" -X- -X- O
 light -X- -X- O
 flame -X- -X- O
 projector -X- -X- O
@@ -1201,9 +1201,9 @@ Paly -X- -X- I-ORG
 . -X- -X- O
 
 Laze -X- -X- B-PER
-"" -X- -X- I-PER
+" -X- -X- I-PER
 Fixer -X- -X- I-PER
-"" -X- -X- I-PER
+" -X- -X- I-PER
 Loneozner -X- -X- I-PER
 kept -X- -X- O
 a -X- -X- O
@@ -6508,9 +6508,9 @@ Inc -X- -X- I-ORG
 . -X- -X- I-ORG
 ' -X- -X- O
 s -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 Firecaller -X- -X- B-MISC
-"" -X- -X- O
+" -X- -X- O
 light -X- -X- O
 flame -X- -X- O
 projector -X- -X- O
@@ -7229,9 +7229,9 @@ Paly -X- -X- I-ORG
 . -X- -X- O
 
 Laze -X- -X- B-PER
-"" -X- -X- I-PER
+" -X- -X- I-PER
 Fixer -X- -X- I-PER
-"" -X- -X- I-PER
+" -X- -X- I-PER
 Loneozner -X- -X- I-PER
 kept -X- -X- O
 a -X- -X- O
@@ -18785,7 +18785,7 @@ equipment -X- -X- O
 . -X- -X- O
 
 Queen -X- -X- B-PER
-PadmĂ© -X- -X- I-PER
+Padme -X- -X- I-PER
 Amidala -X- -X- I-PER
 of -X- -X- I-PER
 Naboo -X- -X- I-PER
@@ -18800,8 +18800,8 @@ guest -X- -X- O
 during -X- -X- O
 the -X- -X- O
 Invasion -X- -X- B-MISC
-of -X- -X- O-MISC
-Naboo -X- -X- O-MISC
+of -X- -X- I-MISC
+Naboo -X- -X- I-MISC
 . -X- -X- O
 
 The -X- -X- O
@@ -21025,9 +21025,9 @@ arrests -X- -X- O
 , -X- -X- O
 Tophen -X- -X- B-LOC
 was -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 pacified -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 due -X- -X- O
 to -X- -X- O
 it -X- -X- O
@@ -23560,9 +23560,9 @@ that -X- -X- O
 their -X- -X- O
 parents -X- -X- O
 had -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 split -X- -X- O
-,"" -X- -X- O
+," -X- -X- O
 leaving -X- -X- O
 them -X- -X- O
 the -X- -X- O
@@ -23594,10 +23594,10 @@ she -X- -X- O
 remembered -X- -X- O
 as -X- -X- O
 a -X- -X- O
-"" -X- -X- O
+" -X- -X- O
 red-eyed -X- -X- O
 alien -X- -X- O
-,"" -X- -X- O
+," -X- -X- O
 had -X- -X- O
 shot -X- -X- O
 down -X- -X- O
