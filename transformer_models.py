@@ -87,8 +87,8 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
     return result_sentences, result_sentence_labels
 
 TEST = r"starwars-data\StarWars_Full.conll"
-MODEL = "geckos/deberta-base-fine-tuned-ner"
-FINETUNE = True
+MODEL = "julian-schelb/roberta-ner-multilingual"
+FINETUNE = False
 
 ### Initialise model
 

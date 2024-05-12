@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from seqeval.metrics import f1_score
+from seqeval.metrics import precision_score, recall_score, f1_score
 
 def adjust_predicted_padding(original_labels, predicted_labels, padding_token='PADDING', replace_with='O'):
     adjusted_original_labels = []
@@ -34,7 +34,7 @@ def save_predictions_IOB2(sentences, pred_labels):
                 f.write(f"{j+1}\t{sentences[i][j]}\t{pred_labels[i][j]}\t-\t-\n")
 
 TRAIN = 'conll2003-ner/train.txt'
-VALIDATE = 'conll2003-ner/valid.txt'
+VALIDATE = 'starwars-data\StarWars_Full.conll'
 #TRAIN = 'baseline-data/en_ewt-ud-train_CONV.iob2'
 #VALIDATE = 'baseline-data/en_ewt-ud-dev_CONV.iob2'
 EMBEDDINGS = 'embeddings/glove.6B.100d.txt'
@@ -75,4 +75,10 @@ def debug_compare_list_lengths(list1, list2):
 debug_compare_list_lengths(val_labels, predicted_labels)
 save_predictions_IOB2(val_sentences, predicted_labels)
 
-print(f1_score(val_labels, predicted_labels))
+precision = precision_score(val_labels, predicted_labels)
+recall = recall_score(val_labels, predicted_labels)
+f1 = f1_score(val_labels, predicted_labels)
+
+print("Precision:", precision)
+print("Recall:", recall)
+print("F1 Score:", f1)

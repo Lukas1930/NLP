@@ -8,7 +8,7 @@ def readfile(filename):
     return format :
     [ ['EU', 'B-ORG'], ['rejects', 'O'], ['German', 'B-MISC'], ['call', 'O'], ['to', 'O'], ['boycott', 'O'], ['British', 'B-MISC'], ['lamb', 'O'], ['.', 'O'] ]
     '''
-    f = open(filename)
+    f = open(filename, encoding='utf-8')
     sentences = []
     sentence = []
     for line in f:

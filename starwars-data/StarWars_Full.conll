@@ -1838,9 +1838,8 @@ Anakin -X- -X- B-PER
 Skywalker -X- -X- I-PER
 , -X- -X- O
 and -X- -X- O
-Padm -X- -X- B-PER
-é -X- -X- I-ORG
-Amidala -X- -X- I-ORG
+Padme -X- -X- B-PER
+Amidala -X- -X- I-PER
 in -X- -X- O
 the -X- -X- O
 Petranaki -X- -X- B-LOC
@@ -4619,7 +4618,7 @@ course -X- -X- O
 of -X- -X- O
 the -X- -X- O
 Republic -X- -X- B-ORG
-– -X- -X- I-ORG
+- -X- -X- I-ORG
 Separatist -X- -X- I-ORG
 conflict -X- -X- O
 . -X- -X- O
@@ -7866,9 +7865,8 @@ Anakin -X- -X- B-PER
 Skywalker -X- -X- I-PER
 , -X- -X- O
 and -X- -X- O
-Padm -X- -X- B-PER
-é -X- -X- I-ORG
-Amidala -X- -X- I-ORG
+Padme -X- -X- B-PER
+Amidala -X- -X- I-PER
 in -X- -X- O
 the -X- -X- O
 Petranaki -X- -X- B-LOC
@@ -10647,7 +10645,7 @@ course -X- -X- O
 of -X- -X- O
 the -X- -X- O
 Republic -X- -X- B-ORG
-– -X- -X- I-ORG
+- -X- -X- I-ORG
 Separatist -X- -X- I-ORG
 conflict -X- -X- O
 . -X- -X- O
@@ -13876,9 +13874,7 @@ The -X- -X- O
 second -X- -X- O
 coronation -X- -X- O
 of -X- -X- O
-R -X- -X- B-PER
-é -X- -X- I-PER
-illata -X- -X- I-PER
+Reillata -X- -X- B-PER
 as -X- -X- O
 monarch -X- -X- O
 of -X- -X- O
@@ -13897,9 +13893,7 @@ in -X- -X- O
 BBY -X- -X- O
 . -X- -X- O
 
-R -X- -X- B-PER
-é -X- -X- I-PER
-illata -X- -X- I-PER
+Reillata -X- -X- B-PER
 was -X- -X- O
 re-elected -X- -X- O
 to -X- -X- O
@@ -13925,8 +13919,7 @@ the -X- -X- O
 stepping -X- -X- O
 down -X- -X- O
 of -X- -X- O
-Padm -X- -X- B-PER
-é -X- -X- I-PER
+Padme -X- -X- B-PER
 Amidala -X- -X- I-PER
 . -X- -X- O
 
@@ -16613,7 +16606,7 @@ Confederacy -X- -X- B-ORG
 of -X- -X- I-ORG
 Independent -X- -X- I-ORG
 Systems -X- -X- I-ORG
-– -X- -X- O
+- -X- -X- O
 controlled -X- -X- O
 monastery -X- -X- O
 , -X- -X- O
@@ -18076,7 +18069,7 @@ Clone -X- -X- O
 Flight -X- -X- O
 Squad -X- -X- O
 Seven -X- -X- O
-— -X- -X- O
+- -X- -X- O
 a -X- -X- O
 starfighter -X- -X- O
 squadron -X- -X- O
@@ -22415,7 +22408,6 @@ device -X- -X- O
 use -X- -X- O
 by -X- -X- O
 Vane -X- -X- B-PER
-Ă© -X- -X- I-PER
 on -X- -X- O
 the -X- -X- O
 planet -X- -X- O
@@ -23189,7 +23181,6 @@ side -X- -X- O
 of -X- -X- O
 the -X- -X- O
 Separatists -X- -X- B-ORG
-â€” -X- -X- O
 along -X- -X- O
 with -X- -X- O
 support -X- -X- O
@@ -23204,7 +23195,6 @@ bodyguards -X- -X- O
 by -X- -X- O
 the -X- -X- O
 Confederacy -X- -X- B-ORG
-â€” -X- -X- O
 and -X- -X- O
 protected -X- -X- O
 a -X- -X- O
@@ -24737,8 +24727,7 @@ was -X- -X- O
 thwarted -X- -X- O
 by -X- -X- O
 Queen -X- -X- B-PER
-Padm -X- -X- I-PER
-Ă© -X- -X- I-PER
+Padme -X- -X- I-PER
 Amidala -X- -X- I-PER
 and -X- -X- O
 her -X- -X- O
