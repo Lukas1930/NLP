@@ -88,7 +88,7 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
 
 TEST = r"starwars-data\StarWars_Full.conll"
 MODEL = "elastic/distilbert-base-uncased-finetuned-conll03-english"
-FINETUNE = True
+FINETUNE = False
 
 ### Initialise model
 
@@ -174,7 +174,7 @@ if FINETUNE:
         eval_dataset=eval_dataset,
         data_collator=data_collator,
         tokenizer=tokenizer,  # Add this line to provide the tokenizer to the Trainer
-        #callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
     )
 
     trainer.train()

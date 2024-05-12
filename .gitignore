@@ -2,3 +2,4 @@ embeddings/*.txt
 mlruns
 results
 logs
+~$Model Results.xlsx
