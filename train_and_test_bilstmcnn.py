@@ -1,6 +1,5 @@
-import numpy as np
-import tensorflow as tf
-from seqeval.metrics import precision_score, recall_score, f1_score
+from seqeval.metrics import precision_score, recall_score, f1_score, accuracy_score
+from sklearn.model_selection import train_test_split
 
 def adjust_predicted_padding(original_labels, predicted_labels, padding_token='PADDING', replace_with='O'):
     adjusted_original_labels = []
@@ -32,9 +31,21 @@ def save_predictions_IOB2(sentences, pred_labels):
 
             for j in range(len(sentences[i])):
                 f.write(f"{j+1}\t{sentences[i][j]}\t{pred_labels[i][j]}\t-\t-\n")
+                if j == len(sentences[i])-1:
+                    f.write("\n")
+
+def save_predictions_CONLL(sentences, pred_labels):
+    with open('Predictions_BiLSTM.txt', 'w', encoding='utf-8') as f:
+        f.write("-DOCSTART- -X- -X- O\n\n")
+        for i in range(len(sentences)):
+            for j in range(len(sentences[i])):
+                f.write(f"{sentences[i][j]} -X- -X- {pred_labels[i][j]}\n")
+                if j == len(sentences[i])-1:
+                    f.write("\n")
 
 TRAIN = 'conll2003-ner/train.txt'
-VALIDATE = 'starwars-data\StarWars_Full.conll'
+VALIDATE = 'conll2003-ner/valid.txt'
+STARWARS = 'starwars-data/StarWars_Full.conll'
 #TRAIN = 'baseline-data/en_ewt-ud-train_CONV.iob2'
 #VALIDATE = 'baseline-data/en_ewt-ud-dev_CONV.iob2'
 EMBEDDINGS = 'embeddings/glove.6B.100d.txt'
@@ -42,8 +53,12 @@ EMBEDDINGS = 'embeddings/glove.6B.100d.txt'
 from models.BiLSTM_CNN import preprocessing
 from models.BiLSTM_CNN_2 import train
 
-val_sentences, val_labels = preprocessing.get_lines(VALIDATE)
-predictions = train.train_model(TRAIN, VALIDATE, EMBEDDINGS, 30)
+sw_sentences, sw_labels = preprocessing.get_lines(STARWARS)
+_, test_sentences, _, test_labels = train_test_split(
+    sw_sentences, sw_labels, test_size=0.2, random_state=42
+)
+
+predictions = train.train_model(TRAIN, VALIDATE, STARWARS, EMBEDDINGS, epochs=30, finetune=True)
 
 idx2label = {1:'B-ORG',
             2:'O',
@@ -62,7 +77,7 @@ def indices_to_labels(indices, mapping):
 
 predicted_labels = indices_to_labels(predictions[0], idx2label)
 
-val_labels, predicted_labels = adjust_predicted_padding(val_labels, predicted_labels)
+test_labels, predicted_labels = adjust_predicted_padding(test_labels, predicted_labels)
 
 def debug_compare_list_lengths(list1, list2):
     if len(list1) != len(list2):
@@ -72,13 +87,15 @@ def debug_compare_list_lengths(list1, list2):
         if len(list1[i]) != len(list2[i]):
             print(f"Mismatch at index {i}: List 1 has length {len(list1[i])}, List 2 has length {len(list2[i])}")
 
-debug_compare_list_lengths(val_labels, predicted_labels)
-save_predictions_IOB2(val_sentences, predicted_labels)
+debug_compare_list_lengths(test_labels, predicted_labels)
+save_predictions_CONLL(test_sentences, predicted_labels)
 
-precision = precision_score(val_labels, predicted_labels)
-recall = recall_score(val_labels, predicted_labels)
-f1 = f1_score(val_labels, predicted_labels)
+accuracy = accuracy_score(test_labels, predicted_labels) 
+precision = precision_score(test_labels, predicted_labels)
+recall = recall_score(test_labels, predicted_labels)
+f1 = f1_score(test_labels, predicted_labels)
 
+print("Accuracy:", accuracy)
 print("Precision:", precision)
 print("Recall:", recall)
 print("F1 Score:", f1)

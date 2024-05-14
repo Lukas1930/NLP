@@ -5,6 +5,8 @@ from models.BiLSTM_CNN_2.prepro import readfile,createBatches,createMatrices,ite
 from keras.utils import Progbar
 from keras.preprocessing.sequence import pad_sequences
 from keras.initializers import RandomUniform
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
 
 def tag_dataset(dataset, model):
     correctLabels = []
@@ -23,19 +25,19 @@ def tag_dataset(dataset, model):
     b.update(i+1)
     return predLabels, correctLabels
 
-def train_model(train_data_path, validation_data_path, emeddings_path, epochs=10):
+def train_model(train_data_path, validation_data_path, statwars_data_path, emeddings_path, epochs=10, finetune=False):
     trainSentences = readfile(train_data_path)
     devSentences = readfile(validation_data_path)
-    #testSentences = readfile("data/test.txt")
+    starwarsSentences = readfile(statwars_data_path)
 
     trainSentences = addCharInformatioin(trainSentences)
     devSentences = addCharInformatioin(devSentences)
-    #testSentences = addCharInformatioin(testSentences)
+    starwarsSentences = addCharInformatioin(starwarsSentences)
 
     labelSet = set()
     words = {}
 
-    for dataset in [trainSentences, devSentences]:#, testSentences]:
+    for dataset in [trainSentences, devSentences, starwarsSentences]:
         for sentence in dataset:
             for token,char,label in sentence:
                 labelSet.add(label)
@@ -90,17 +92,19 @@ def train_model(train_data_path, validation_data_path, emeddings_path, epochs=10
 
     train_set = padding(createMatrices(trainSentences,word2Idx,  label2Idx, case2Idx,char2Idx))
     dev_set = padding(createMatrices(devSentences,word2Idx, label2Idx, case2Idx,char2Idx))
-    #test_set = padding(createMatrices(testSentences, word2Idx, label2Idx, case2Idx,char2Idx))
+    starwars_set = padding(createMatrices(starwarsSentences, word2Idx, label2Idx, case2Idx,char2Idx))
 
     idx2Label = {v: k for k, v in label2Idx.items()}
     np.save("models/idx2Label.npy",idx2Label)
     np.save("models/word2Idx.npy",word2Idx)
 
     train_batch,train_batch_len = createBatches(train_set)
-    #dev_batch,dev_batch_len = createBatches(dev_set)
-    #test_batch,test_batch_len = createBatches(test_set)
+    dev_batch,dev_batch_len = createBatches(dev_set)
 
-
+    finetune_sw_set, test_sw_set = train_test_split(
+        starwars_set, test_size=0.2, random_state=42
+    )
+    
     words_input = Input(shape=(None,),dtype='int32',name='words_input')
     words = Embedding(input_dim=wordEmbeddings.shape[0], output_dim=wordEmbeddings.shape[1],  weights=[wordEmbeddings], trainable=False)(words_input)
     casing_input = Input(shape=(None,), dtype='int32', name='casing_input')
@@ -118,8 +122,9 @@ def train_model(train_data_path, validation_data_path, emeddings_path, epochs=10
     model = Model(inputs=[words_input, casing_input,character_input], outputs=[output])
     model.compile(loss='sparse_categorical_crossentropy', optimizer='nadam')
     model.summary()
-    # plot_model(model, to_file='model.png')
 
+    train_losses = []
+    val_losses = []
 
     for epoch in range(epochs):    
         print("Epoch %d/%d"%(epoch,epochs))
@@ -131,4 +136,100 @@ def train_model(train_data_path, validation_data_path, emeddings_path, epochs=10
         a.update(i+1)
         print(' ')
 
-    return tag_dataset(dev_set, model)
+        # Calculate training loss for the epoch
+        train_epoch_loss = 0
+        train_batches = 0
+        for batch in iterate_minibatches(train_batch, train_batch_len):
+            labels, tokens, casing, char = batch
+            loss = model.test_on_batch([tokens, casing, char], labels)
+            train_epoch_loss += loss
+            train_batches += 1
+        train_epoch_loss /= train_batches
+        train_losses.append(train_epoch_loss)
+        
+        # Calculate validation loss for the epoch
+        val_epoch_loss = 0
+        val_batches = 0
+        for batch in iterate_minibatches(dev_batch, dev_batch_len):
+            labels, tokens, casing, char = batch
+            loss = model.test_on_batch([tokens, casing, char], labels)
+            val_epoch_loss += loss
+            val_batches += 1
+        val_epoch_loss /= val_batches
+        val_losses.append(val_epoch_loss)
+
+    # Create the learning curve graph
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(train_losses) + 1), train_losses, label='Training Loss')
+    plt.plot(range(1, len(val_losses) + 1), val_losses, label='Validation Loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.title('Learning Curve')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+    if finetune:
+        # Fine-tuning on the finetune_train_batch
+        finetune_epochs = 5  # Number of epochs for fine-tuning
+        finetune_train_losses = []
+        finetune_val_losses = []
+
+        finetune_sw_train_set, finetune_sw_dev_set = train_test_split(
+            finetune_sw_set, test_size=0.2, random_state=42
+        )
+
+        finetune_train_batch,finetune_train_batch_len = createBatches(finetune_sw_train_set)
+        finetune_dev_batch,finetune_dev_batch_len = createBatches(finetune_sw_dev_set)
+
+        for epoch in range(finetune_epochs):
+            print("Fine-tuning Epoch %d/%d" % (epoch, finetune_epochs))
+            a = Progbar(len(finetune_train_batch_len))
+            
+            for i, batch in enumerate(iterate_minibatches(finetune_train_batch, finetune_train_batch_len)):
+                labels, tokens, casing, char = batch
+                model.train_on_batch([tokens, casing, char], labels)
+                a.update(i)
+            
+            a.update(i + 1)
+            print(' ')
+            
+            # Calculate fine-tuning train loss for the epoch
+            finetune_train_epoch_loss = 0
+            finetune_train_batches = 0
+            
+            for batch in iterate_minibatches(finetune_train_batch, finetune_train_batch_len):
+                labels, tokens, casing, char = batch
+                loss = model.test_on_batch([tokens, casing, char], labels)
+                finetune_train_epoch_loss += loss
+                finetune_train_batches += 1
+            
+            finetune_train_epoch_loss /= finetune_train_batches
+            finetune_train_losses.append(finetune_train_epoch_loss)
+            
+            # Calculate fine-tuning validation loss for the epoch
+            finetune_val_epoch_loss = 0
+            finetune_val_batches = 0
+            
+            for batch in iterate_minibatches(finetune_dev_batch, finetune_dev_batch_len):
+                labels, tokens, casing, char = batch
+                loss = model.test_on_batch([tokens, casing, char], labels)
+                finetune_val_epoch_loss += loss
+                finetune_val_batches += 1
+            
+            finetune_val_epoch_loss /= finetune_val_batches
+            finetune_val_losses.append(finetune_val_epoch_loss)
+
+        # Create the learning curve graph
+        plt.figure(figsize=(10, 6))
+        plt.plot(range(1, len(finetune_train_losses) + 1), finetune_train_losses, label='Finetune Training Loss')
+        plt.plot(range(1, len(finetune_val_losses) + 1), finetune_val_losses, label='Finetune Validation Loss')
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.title('Learning Curve')
+        plt.legend()
+        plt.grid(True)
+        plt.show()
+
+
+    return tag_dataset(test_sw_set, model)

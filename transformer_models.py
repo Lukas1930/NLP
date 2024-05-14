@@ -99,7 +99,7 @@ model = AutoModelForTokenClassification.from_pretrained(MODEL)
 sentences, true_labels = get_lines(TEST)
 sentences, true_labels = separate_special_characters_with_labels(sentences, true_labels)
 
-# Split the data into training and test sets
+# Split the data into training and test sets (remove if we ever need to test on conll again or wrap in an if statement)
 train_sentences, test_sentences, train_labels, test_labels = train_test_split(
     sentences, true_labels, test_size=0.2, random_state=42
 )
