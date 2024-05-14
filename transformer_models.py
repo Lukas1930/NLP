@@ -1,9 +1,10 @@
-from transformers import AutoTokenizer, AutoModelForTokenClassification, Trainer, TrainingArguments, DataCollatorForTokenClassification, EarlyStoppingCallback
+from transformers import AutoTokenizer, AutoModelForTokenClassification, Trainer, TrainingArguments, DataCollatorForTokenClassification, EarlyStoppingCallback, TrainerCallback
 import torch
 from seqeval.metrics import precision_score, recall_score, f1_score
 from tqdm.auto import tqdm
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset
+import matplotlib.pyplot as plt
 
 def get_lines(file_path):
     """
@@ -86,9 +87,18 @@ def separate_special_characters_with_labels(sentences, sentence_labels):
 
     return result_sentences, result_sentence_labels
 
+def save_predictions_CONLL(sentences, pred_labels):
+    with open(f'Predictions_BERT.conll', 'w', encoding='utf-8') as f:
+        f.write("-DOCSTART- -X- -X- O\n\n")
+        for i in range(len(sentences)):
+            for j in range(len(sentences[i])):
+                f.write(f"{sentences[i][j]} -X- -X- {pred_labels[i][j]}\n")
+                if j == len(sentences[i])-1:
+                    f.write("\n")
+
 TEST = r"starwars-data\StarWars_Full.conll"
-MODEL = "julian-schelb/roberta-ner-multilingual"
-FINETUNE = False
+MODEL = "dslim/bert-base-NER"
+FINETUNE = True
 
 ### Initialise model
 
@@ -138,6 +148,17 @@ if FINETUNE:
             tokenized_inputs['labels'] = label_ids
             return tokenized_inputs
 
+    class LossCurveCallback(TrainerCallback):
+        def __init__(self):
+            self.train_losses = []
+            self.eval_losses = []
+
+        def on_log(self, args, state, control, logs=None, **kwargs):
+            if 'loss' in logs:
+                self.train_losses.append(logs['loss'])
+            if 'eval_loss' in logs:
+                self.eval_losses.append(logs['eval_loss'])
+
     # Split the data into training and evaluation sets
     train_sentences, eval_sentences, train_labels, eval_labels = train_test_split(
         train_sentences, train_labels, test_size=0.2, random_state=42
@@ -165,6 +186,7 @@ if FINETUNE:
     )
 
     data_collator = DataCollatorForTokenClassification(tokenizer)
+    loss_curve_callback = LossCurveCallback()
 
     # Create the trainer
     trainer = Trainer(
@@ -173,11 +195,25 @@ if FINETUNE:
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer,  # Add this line to provide the tokenizer to the Trainer
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
+        tokenizer=tokenizer,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3), loss_curve_callback] 
     )
 
     trainer.train()
+
+    train_losses = loss_curve_callback.train_losses
+    eval_losses = loss_curve_callback.eval_losses
+
+    # Plot the learning curve
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(train_losses) + 1), train_losses, label='Training Loss')
+    plt.plot(range(1, len(eval_losses) + 1), eval_losses, label='Evaluation Loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.title('Learning Curve')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
     
 ### Make predictions
 
@@ -294,6 +330,8 @@ compare_nested_list_lengths(test_labels, condensed_labels)
 precision = precision_score(test_labels, condensed_labels)
 recall = recall_score(test_labels, condensed_labels)
 f1 = f1_score(test_labels, condensed_labels)
+
+save_predictions_CONLL(test_sentences, condensed_labels)
 
 print("Precision:", precision)
 print("Recall:", recall)

@@ -35,7 +35,7 @@ def save_predictions_IOB2(sentences, pred_labels):
                     f.write("\n")
 
 def save_predictions_CONLL(sentences, pred_labels):
-    with open('Predictions_BiLSTM.txt', 'w', encoding='utf-8') as f:
+    with open('Predictions_BiLSTM.conll', 'w', encoding='utf-8') as f:
         f.write("-DOCSTART- -X- -X- O\n\n")
         for i in range(len(sentences)):
             for j in range(len(sentences[i])):
