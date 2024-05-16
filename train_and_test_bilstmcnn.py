@@ -90,6 +90,20 @@ def debug_compare_list_lengths(list1, list2):
 debug_compare_list_lengths(test_labels, predicted_labels)
 save_predictions_CONLL(test_sentences, predicted_labels)
 
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+from itertools import chain
+import matplotlib.pyplot as plt
+
+true=list(chain(*test_labels))
+tested=list(chain(*predicted_labels))
+classes=sorted(set(true))
+
+conf_matrix = confusion_matrix(true, tested)
+cm_display = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=classes)
+cm_display.plot()
+
+plt.show()
+
 accuracy = accuracy_score(test_labels, predicted_labels) 
 precision = precision_score(test_labels, predicted_labels)
 recall = recall_score(test_labels, predicted_labels)
