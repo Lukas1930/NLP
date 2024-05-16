@@ -5,6 +5,8 @@ from tqdm.auto import tqdm
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset
 import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+from itertools import chain
 
 def get_lines(file_path):
     """
@@ -330,6 +332,19 @@ compare_nested_list_lengths(test_labels, condensed_labels)
 precision = precision_score(test_labels, condensed_labels)
 recall = recall_score(test_labels, condensed_labels)
 f1 = f1_score(test_labels, condensed_labels)
+
+true=list(chain(*test_labels))
+tested=list(chain(*condensed_labels))
+
+#Confusion matrix
+classes=sorted(set(true))
+conf_matrix = confusion_matrix(true, tested)
+cm_display = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=classes)
+cm_display.plot()
+import matplotlib.pyplot as plt
+plt.xticks(rotation=45)
+plt.savefig("test")
+plt.show()
 
 save_predictions_CONLL(test_sentences, condensed_labels)
 
