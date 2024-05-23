@@ -93,15 +93,25 @@ save_predictions_CONLL(test_sentences, predicted_labels)
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from itertools import chain
 import matplotlib.pyplot as plt
+import numpy as np
 
 true=list(chain(*test_labels))
 tested=list(chain(*predicted_labels))
+
+#Confusion matrix
 classes=sorted(set(true))
-
 conf_matrix = confusion_matrix(true, tested)
-cm_display = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=classes)
-cm_display.plot()
 
+sorted_values = np.sort(conf_matrix.flatten())
+second_highest = sorted_values[-2]+20
+
+fig, ax = plt.subplots()
+cm_display = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=classes)
+im = cm_display.plot(ax=ax, cmap='viridis', values_format='d')
+
+im.im_.set_clim(0, second_highest)
+plt.xticks(rotation=45)
+plt.savefig("test.png")
 plt.show()
 
 accuracy = accuracy_score(test_labels, predicted_labels) 
